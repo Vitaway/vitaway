@@ -1,0 +1,102 @@
+/*
+---------------------------------------------
+eating-health-section Style
+---------------------------------------------
+*/
+
+.eating-health-section {
+    padding-top: 120px;
+    position: relative;
+    padding-bottom: 50px;
+    background-color: #172238;
+}
+
+.eating-health-section .section-heading h4 {
+    color: white;
+}
+
+.eating-health-section .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.eating-health-section:after {
+    content: "";
+    background-image: url(../images/eating-health-section-left-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+}
+
+.eating-health-section:before {
+    content: "";
+    background-image: url(../images/eating-health-section-right-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+}
+
+.eating-health-section .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.eating-health-section .section-heading .line-dec {
+    margin: 0 auto;
+}
+
+.eating-health-section .service-item {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s;
+    align-items: center;
+    text-align: center;
+}
+
+.eating-health-section .service-item .icon {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    transition: all 0.3s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.eating-health-section .service-item .icon img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.eating-health-section .service-item h4 {
+    transition: all 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.eating-health-section .service-item p {
+    transition: all 0.3s;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
+}
