@@ -1,0 +1,89 @@
+/*
+---------------------------------------------
+Banner Style
+---------------------------------------------
+*/
+
+.better-you {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 120px 10px 120px;
+    position: relative;
+    overflow: hidden;
+    background-color: #D9D9D9;
+}
+
+.better-you:after {
+    content: "";
+    background-image: url(../images/slider-left-dec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.better-you .left-content {
+    margin-right: 15px;
+}
+
+.better-you .left-content h2 {
+    z-index: 2;
+    position: relative;
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.better-you .left-content p {
+    margin-bottom: 45px;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+
+.better-you .left-content .first-button {
+    margin-right: 15px;
+}
+
+.better-you .left-content .white-button {
+    display: inline-block;
+}
+
+.better-you .right-image {
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+.better-you .right-image img {
+    max-width: 710px;
+}
+
+.better-you .left-content .more-detail-buttons{
+    display: flex;
+}
+
+.better-you .left-content .white-button a {
+    background-color: #4b8ef1;
+    color: #fff !important;
+}
+
+.aligible-button a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: #4b8ef1 !important;
+    border: 1px solid #4b8ef1;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+}
