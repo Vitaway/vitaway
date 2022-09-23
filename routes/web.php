@@ -1,7 +1,8 @@
 <?php
 
     use App\Http\Controllers\ForIndivitualController;
-    use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HealthResourceController;
+use App\Http\Controllers\HomeController;
     use Illuminate\Support\Facades\Auth;
     use Illuminate\Support\Facades\Route;
 
@@ -19,5 +20,12 @@
     Route::get('/', [HomeController::class, 'index'])->name('home');
     Route::get('/indivitual', [ForIndivitualController::class, 'index'])->name('indivitual')->name('indivitual');
     Route::get('/about', [HomeController::class, 'about'])->name('about');
+
+    Route::prefix('/resource')->group(function() {
+        Route::get('/home', [HealthResourceController::class, 'index'])->name('resource.index');
+        Route::get('/role', [HealthResourceController::class, 'role'])->name('resource.role');
+        Route::get('/types', [HealthResourceController::class, 'types'])->name('resource.types');
+        Route::get('/condition', [HealthResourceController::class, 'condition'])->name('resource.condition');
+    });
 
     Auth::routes();
