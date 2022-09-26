@@ -1,6 +1,7 @@
 <?php
 
-    use App\Http\Controllers\ForIndivitualController;
+use App\Http\Controllers\ConditionController;
+use App\Http\Controllers\ForIndivitualController;
 use App\Http\Controllers\HealthResourceController;
 use App\Http\Controllers\HomeController;
     use Illuminate\Support\Facades\Auth;
@@ -26,6 +27,13 @@ use App\Http\Controllers\HomeController;
         Route::get('/role', [HealthResourceController::class, 'role'])->name('resource.role');
         Route::get('/types', [HealthResourceController::class, 'types'])->name('resource.types');
         Route::get('/condition', [HealthResourceController::class, 'condition'])->name('resource.condition');
+    });
+
+    Route::prefix('/condition')->group(function() {
+        Route::get('/diabetes', [ConditionController::class, 'diabetes'])->name('condition.diabetes');
+        Route::get('/pre-diabetes', [ConditionController::class, 'preDiabetes'])->name('condition.pre-diabetes');
+        Route::get('/hypertension', [ConditionController::class, 'hypertension'])->name('condition.hypertension');
+        Route::get('/mental-health', [ConditionController::class, 'mentalHealth'])->name('condition.mental-health');
     });
 
     Auth::routes();

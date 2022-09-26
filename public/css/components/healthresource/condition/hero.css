@@ -1,0 +1,103 @@
+/* home section */
+.tm-home {
+    background: url("https://images.unsplash.com/photo-1439923274069-a6f070db0c99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1927&q=80")
+        no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.tm-home .left-content h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.tm-home .left-content p {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tm-home-logo {
+    font-size: 64px;
+    color: #9c0;
+}
+.tm-home-header {
+    font-size: 36px;
+    font-style: normal;
+    text-transform: none;
+}
+.tm-home .btn {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    width: 140px;
+    height: 60px;
+    margin-top: 60px;
+    padding: 20px 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.tm-home .btn:hover {
+    background: #a4c639;
+}
+/* social icons section */
+.tm-icons .media .media-heading {
+    padding-bottom: 10px;
+}
+
+.tm-icons .tm-icon-1 {
+    background: #003e48;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    cursor: pointer;
+    padding: 60px 20px 60px 20px !important;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.tm-icons .tm-icon-1 .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-icons .tm-icon-1 .media .media-body {
+    max-width: 50%;
+}
+
+.tm-icons .tm-icon-1 .media .media-body p {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.tm-icons .tm-icon-1 .media .readmore-btn a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background: rgb(19, 175, 240);
+    background: linear-gradient(
+        105deg,
+        rgba(91, 104, 235, 1) 0%,
+        rgba(40, 225, 253, 1) 100%
+    );
+    border-radius: 23px;
+    font-weight: 900 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+    text-align: center;
+}
