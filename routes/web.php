@@ -1,9 +1,10 @@
 <?php
 
-use App\Http\Controllers\ConditionController;
-use App\Http\Controllers\ForIndivitualController;
-use App\Http\Controllers\HealthResourceController;
-use App\Http\Controllers\HomeController;
+    use App\Http\Controllers\ConditionController;
+    use App\Http\Controllers\FAQsController;
+    use App\Http\Controllers\ForIndivitualController;
+    use App\Http\Controllers\HealthResourceController;
+    use App\Http\Controllers\HomeController;
     use Illuminate\Support\Facades\Auth;
     use Illuminate\Support\Facades\Route;
 
@@ -21,6 +22,7 @@ use App\Http\Controllers\HomeController;
     Route::get('/', [HomeController::class, 'index'])->name('home');
     Route::get('/indivitual', [ForIndivitualController::class, 'index'])->name('indivitual')->name('indivitual');
     Route::get('/about', [HomeController::class, 'about'])->name('about');
+    Route::get('/faqs', [FAQsController::class, 'index'])->name('faqs.home');
 
     Route::prefix('/resource')->group(function() {
         Route::get('/home', [HealthResourceController::class, 'index'])->name('resource.index');
