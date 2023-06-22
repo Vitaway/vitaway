@@ -62,7 +62,7 @@
          * @return \Illuminate\Http\Response
          */
         public function show(Blog $blog) {
-            return view('Pages.single-blog', compact('blog'));
+            return view('pages.single-blog', compact('blog'));
         }
 
         /**
