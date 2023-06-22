@@ -1,0 +1,402 @@
+/* home section */
+.tm-home {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533556/vite-guest-imgs/allgo-an-app-for-plus-size-people-eqlRthvN188-unsplash_mjb1s7.jpg")
+        no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.tm-home .left-content h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.tm-home .left-content p {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 700 !important;
+}
+
+.tm-home-logo {
+    font-size: 64px;
+    color: #9c0;
+}
+.tm-home-header {
+    font-size: 36px;
+    font-style: normal;
+    text-transform: none;
+}
+.tm-home .btn {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    width: 140px;
+    height: 60px;
+    margin-top: 60px;
+    padding: 20px 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.tm-home .btn:hover {
+    background: #a4c639;
+}
+/* social icons section */
+.tm-icons .media .media-heading {
+    padding-bottom: 10px;
+}
+
+.tm-icons .tm-icon-1 {
+    background: #003e48;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    cursor: pointer;
+    padding: 60px 20px 60px 20px !important;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.tm-icons .tm-icon-1 .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-icons .tm-icon-1 .media .media-body {
+    max-width: 50%;
+}
+
+.tm-icons .tm-icon-1 .media .media-body p {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.tm-icons .tm-icon-1 .media .media-body img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.tm-icons .tm-icon-1 .media .readmore-btn a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background: rgb(19, 175, 240);
+    background: linear-gradient(
+        105deg,
+        rgba(91, 104, 235, 1) 0%,
+        rgba(40, 225, 253, 1) 100%
+    );
+    border-radius: 23px;
+    font-weight: 900 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+/*
+---------------------------------------------
+Programs
+---------------------------------------------
+*/
+
+.services {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.services .section-heading p {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: black;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 700 !important;
+    font-size: 18px;
+}
+
+.services .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.services:after {
+    content: "";
+    background-image: url(../images/services-left-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+}
+
+.services:before {
+    content: "";
+    background-image: url(../images/services-right-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+}
+
+.services .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.services .section-heading .line-dec {
+    margin: 0 auto;
+}
+
+.service-item {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    transition: all 0.3s;
+    align-items: center;
+    text-align: center;
+}
+
+.service-item .icon {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+.service-item .icon img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    transition: all 0.3s;
+}
+
+.service-item h4 {
+    transition: all 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.service-item p {
+    transition: all 0.3s;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.first-service .icon {
+    background-image: url(../images/service-icon-01.png);
+}
+
+.first-service:hover .icon {
+    background-image: url(../images/service-icon-hover-01.png);
+}
+
+.second-service .icon {
+    background-image: url(../images/service-icon-02.png);
+}
+
+.second-service:hover .icon {
+    background-image: url(../images/service-icon-hover-02.png);
+}
+
+.third-service .icon {
+    background-image: url(../images/service-icon-03.png);
+}
+
+.third-service:hover .icon {
+    background-image: url(../images/service-icon-hover-03.png);
+}
+
+.fourth-service .icon {
+    background-image: url(../images/service-icon-04.png);
+}
+
+.fourth-service:hover .icon {
+    background-image: url(../images/service-icon-hover-04.png);
+}
+
+/* featurese solution */
+.features {
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.features .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.features:after {
+    content: "";
+    background-image: url(../images/services-left-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+}
+
+.features:before {
+    content: "";
+    background-image: url(../images/services-right-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+}
+
+.features .section-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features .section-heading h4 {
+    text-align: center;
+}
+
+.timeline-goal {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.timeline-goal .li{
+    transition: all 200ms ease-in;
+    margin: 0px 5px;
+    padding: 0;
+}
+.timeline-goal .timestamp {
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+}
+.timeline-goal h4 {
+    font-weight: 600
+}
+.timeline-goal .li.complete  .status{
+    text-align: center;
+    padding: 50px 40px 0px 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid white;
+    position: relative;
+    transition: all 200ms ease-in;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+}
+.timeline-goal .li.complete  .status:before {
+    background-color: #66DC71;
+    border: none;
+    transition: all 200ms ease-in ;
+}
+.timeline-goal .li.complete .status h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.timeline-goal .li.complete .status p {
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 700px){
+    .timeline-goal{
+        list-style-type: none;
+        display: block;
+    }
+    .timeline-goal .li {
+        transition: all 200ms ease-in;
+        display: flex;
+        width: inherit;
+    }
+    .timeline-goal .timestamp {
+        width: 100px
+    }
+    .timeline-goal .status:before {
+        left: -8%;
+        top: 30%;
+        transition: all 200ms ease-in ;
+    }
+}
+
+.features-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.left-content .features-set {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+
+.left-content .features-set .icon {
+    width: 50px;
+    color: #E85A2E;
+}
+
+.left-content .features-set .detail {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
