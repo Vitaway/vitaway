@@ -28,7 +28,7 @@
                                     <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" class="w-full h-full">
                                 </div>
                             </div>
-                            <div class="content">
+                            <div class="post-content">
                                 <div class="post-meta mb-1">
                                     <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="category">Business</a>, <a href="{{ route('single.blog', ['blog' => $blog->id]) }}"
                                         class="category">Travel</a> —
