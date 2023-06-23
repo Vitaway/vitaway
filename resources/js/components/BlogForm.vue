@@ -18,7 +18,7 @@
                         </div>
                         <div class="mb-4">
                             <label for="helper-text" class="block mb-2 text-md font-bold text-gray-900 dark:text-white">Add Title</label>
-                            <input v-model="data.title" type="text" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com">
+                            <input v-model="data.title" type="text" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Hospitality in the crisis world">
                             <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’ll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
                         </div>
 
@@ -35,7 +35,7 @@
                         </div>
                         <div class="mb-4 bg-white rounded-t-lg w-full dark:bg-gray-800">
                             <label for="comment" class="sr-only">Write you content here</label>
-                            <textarea v-model="data.contents" id="tinymce" rows="4" name="contents"
+                            <textarea id="tinymce" rows="4" name="contents"
                                 class="form-inputs px-0 w-full h-80 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary bg-indigo-800 text-white hover:bg-indigo-800/75 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Save
@@ -62,7 +62,6 @@
                 data: {
                     title: "",
                     caption: "",
-                    contents: "## Start writing",
                     image: '',
                     category: ''
                 },
@@ -95,7 +94,7 @@
                         formData.append('title', this.data.title);
                         formData.append('image', this.data.image);
                         formData.append('caption', this.data.caption);
-                        formData.append('contents', this.data.contents);
+                        formData.append('contents', window.parent.tinymce.get('tinymce').getContent());
                         formData.append('blog_category_id', this.data.category);
 
                     let response = await axios.post("/api/blogs", formData);

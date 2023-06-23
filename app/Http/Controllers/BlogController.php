@@ -45,7 +45,7 @@
 
             BlogContent::create([
                 'blog_id' => $blog->id,
-                'contents' => $request->validated()['contents'],
+                'contents' => $request->contents,
                 'active_status' => true
             ]);
 

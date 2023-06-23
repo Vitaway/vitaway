@@ -20,7 +20,11 @@
 export default {
     data() {
         return {
-            category_name: ""
+            category_name: "",
+            isLoading: false,
+            response: "",
+            hasResponse: false,
+            responseType: 'success',
         };
     },
     methods: {

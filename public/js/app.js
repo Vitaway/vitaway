@@ -5090,7 +5090,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       data: {
         title: "",
         caption: "",
-        contents: "## Start writing",
         image: '',
         category: ''
       },
@@ -5129,7 +5128,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               formData.append('title', _this.data.title);
               formData.append('image', _this.data.image);
               formData.append('caption', _this.data.caption);
-              formData.append('contents', _this.data.contents);
+              formData.append('contents', window.parent.tinymce.get('tinymce').getContent());
               formData.append('blog_category_id', _this.data.category);
               _context.next = 10;
               return axios.post("/api/blogs", formData);
@@ -5185,7 +5184,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      category_name: ""
+      category_name: "",
+      isLoading: false,
+      response: "",
+      hasResponse: false,
+      responseType: 'success'
     };
   },
   methods: {
@@ -5359,7 +5362,7 @@ var render = function render() {
       type: "text",
       id: "helper-text",
       "aria-describedby": "helper-text-explanation",
-      placeholder: "name@flowbite.com"
+      placeholder: "Hospitality in the crisis world"
     },
     domProps: {
       value: _vm.data.title
@@ -5439,36 +5442,7 @@ var render = function render() {
         _vm.$set(_vm.data, "caption", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c("div", {
-    staticClass: "mb-4 bg-white rounded-t-lg w-full dark:bg-gray-800"
-  }, [_c("label", {
-    staticClass: "sr-only",
-    attrs: {
-      "for": "comment"
-    }
-  }, [_vm._v("Write you content here")]), _vm._v(" "), _c("textarea", {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: _vm.data.contents,
-      expression: "data.contents"
-    }],
-    staticClass: "form-inputs px-0 w-full h-80 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400",
-    attrs: {
-      id: "tinymce",
-      rows: "4",
-      name: "contents"
-    },
-    domProps: {
-      value: _vm.data.contents
-    },
-    on: {
-      input: function input($event) {
-        if ($event.target.composing) return;
-        _vm.$set(_vm.data, "contents", $event.target.value);
-      }
-    }
-  })]), _vm._v(" "), _c("button", {
+  })]), _vm._v(" "), _vm._m(2), _vm._v(" "), _c("button", {
     staticClass: "btn btn-primary bg-indigo-800 text-white hover:bg-indigo-800/75 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600",
     attrs: {
       type: "submit"
@@ -5521,6 +5495,24 @@ var staticRenderFns = [function () {
       href: "#"
     }
   }, [_vm._v("Privacy Policy")]), _vm._v(".")]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "mb-4 bg-white rounded-t-lg w-full dark:bg-gray-800"
+  }, [_c("label", {
+    staticClass: "sr-only",
+    attrs: {
+      "for": "comment"
+    }
+  }, [_vm._v("Write you content here")]), _vm._v(" "), _c("textarea", {
+    staticClass: "form-inputs px-0 w-full h-80 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400",
+    attrs: {
+      id: "tinymce",
+      rows: "4",
+      name: "contents"
+    }
+  })]);
 }];
 render._withStripped = true;
 

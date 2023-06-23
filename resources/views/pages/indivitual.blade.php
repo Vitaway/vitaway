@@ -114,13 +114,13 @@
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/4436/4436450.png" alt="">
+                                <div class="icon bg-indigo-400 rounded-full p-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4436/4436450.png" alt="" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3">
+                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
                                     Small steps, long-term change
                                 </h3>
-                                <p class="card-text text-black">Vitaway helps you create healthy routines
+                                <p class="card-text text-black font-medium">Vitaway helps you create healthy routines
                                     that last for years, not just weeks at a time</p>
                                 <a href="#" class="btn">Get Started <i class="fa fa-arrow-right"></i></a>
                             </div>
@@ -129,13 +129,13 @@
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="">
+                                <div class="icon bg-indigo-400 rounded-full p-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3">
+                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
                                     Find your Joy
                                 </h3>
-                                <p class="card-text text-black">
+                                <p class="card-text text-black font-medium">
                                     Try new things you’ll actually enjoy,
                                     rather than avaiding foods you “can’t eat”
                                     or things you “ shouldn’t do”.
@@ -147,13 +147,13 @@
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="">
+                                <div class="icon bg-indigo-400 rounded-full p-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3">
+                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
                                     Virtual Care, uniquely yours
                                 </h3>
-                                <p class="card-text text-black">
+                                <p class="card-text text-black font-medium">
                                     When life happens. Vitaway helps you stay
                                     on  track with a plan that constantly
                                     adapts to meet your needs.

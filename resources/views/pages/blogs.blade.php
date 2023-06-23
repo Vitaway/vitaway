@@ -37,13 +37,7 @@
                                 <h2 class="heading mb-3">
                                     <a href="{{ route('single.blog', ['blog' => $blog->id]) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p>{{ $blog->caption }}</p>
-                                <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="post-author d-flex align-items-center">
-                                    <div class="text">
-                                        <strong>Sergy Campbell</strong>
-                                        <span>CEO and Founder</span>
-                                    </div>
-                                </a>
+                                <p class="trancate block line-clamp-3 font-medium leading-7 text-gray-600" style="display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">{{ $blog->caption }}</p>
                             </div>
                         </div>
                     </div>
