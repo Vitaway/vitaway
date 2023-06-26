@@ -731,7 +731,7 @@
                                 </p>
                             </div>
                             <div class="comp-l8ple1za R6ex7N" id="comp-l8ple1za" aria-disabled="false">
-                                <a data-testid="linkElement" href="https://www.drkasenene.com/schedule" target="_self" class="kuTaGy wixui-button zKbzSQ get-in-touch" aria-disabled="false">
+                                <a data-testid="linkElement" href="https://api.whatsapp.com/send?phone=250787279560" target="_self" class="kuTaGy wixui-button zKbzSQ get-in-touch" aria-disabled="false">
                                     <span class="M3I7Z2 wixui-button__label">Schedule an Appointment</span>
                                 </a>
                             </div>
@@ -807,7 +807,7 @@
                                 </div>
                             </div>
                             <div class="comp-l8ple1za R6ex7N" id="comp-l8ple1za" aria-disabled="false">
-                                <a data-testid="linkElement" href="https://www.drkasenene.com/schedule" target="_self" class="kuTaGy wixui-button zKbzSQ get-in-touch" aria-disabled="false">
+                                <a data-testid="linkElement" href="https://api.whatsapp.com/send?phone=250787279560" target="_self" class="kuTaGy wixui-button zKbzSQ get-in-touch" aria-disabled="false">
                                     <span class="M3I7Z2 wixui-button__label">Schedule an Appointment</span>
                                 </a>
                             </div>
