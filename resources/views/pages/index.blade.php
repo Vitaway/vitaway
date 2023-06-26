@@ -136,7 +136,7 @@
                         multidisciplinary approach to your care, working with you to overcome your
                         challenges and live a healthier, more active life.</p>
                     <div class="mt-5">
-                        <a href="#" class="get-in-touch">Get in Touch</a>
+                        <a href="https://api.whatsapp.com/send?phone=250787279560" class="get-in-touch">Get in Touch</a>
                     </div>
                 </div>
                 <div class="welness-img">
@@ -154,7 +154,7 @@
                         accomplish your nutrition goals.</p>
 
                     <div class="mt-5">
-                        <a href="#" class="get-in-touch">Get in Touch</a>
+                        <a href="https://api.whatsapp.com/send?phone=250787279560" class="get-in-touch">Get in Touch</a>
                     </div>
                 </div>
                 <div class="welness-img">

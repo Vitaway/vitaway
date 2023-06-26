@@ -254,7 +254,7 @@
                 <p class="text-blk description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.
                 </p>
-                <a class="explore" href="https://api.whatsapp.com/send?phone=250787906391" target="__black">
+                <a class="explore" href="https://api.whatsapp.com/send?phone=250787279560" target="__black">
                     Contact Us
                 </a>
             </div>
