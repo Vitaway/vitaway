@@ -1,3 +1,7 @@
+:root {
+    --shd: 0.00px 1.00px 12px 2px rgba(13,184,170,0.22);
+}
+
 /*
 ---------------------------------------------
 Banner Style
@@ -69,6 +73,21 @@ Banner Style
 
 .main-banner .left-content .more-detail-buttons{
     display: flex;
+}
+
+.main-banner .left-content .white-button a {
+    background-color: #4b8ef1;
+    color: #fff !important;
+}
+
+@media (max-width: 720px) {
+    .main-banner {
+        padding: 180px 10px 150px 10px;
+    }
+
+    .service-item {
+        margin-bottom: 50px !important;
+    }
 }
 
 .main-banner .left-content .white-button a {
@@ -719,4 +738,63 @@ eating-health-section Style
         top: 30%;
         transition: all 200ms ease-in ;
     }
+}
+
+@media (max-width: 720px) {
+    .timeline-goal {
+        flex-direction: column;
+    }
+
+    .timeline-goal li {
+        margin-bottom: 50px;
+    }
+}
+
+/* Wellness */
+.wellness {
+    padding: 5rem 5rem;
+}
+
+.wellness .welness-item {
+    display: flex;
+    background-color: white;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.wellness .welness-item .welness-description h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.wellness .welness-item .welness-description p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.get-in-touch {
+    transition: all 0.2s ease;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 0px solid rgb(63, 118, 82);
+    background: #0DB8AA;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wellness .welness-item .welness-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.wellness .welness-item .welness-img {
+    border-radius: 20px;
+    height: 150px;
+    width: 40rem;
+    margin-left: 20px;
 }

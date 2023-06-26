@@ -220,6 +220,12 @@ Programs
     line-height: 28px;
 }
 
+@media (max-width: 720px) {
+    .service-item {
+        margin-bottom: 50px !important;
+    }
+}
+
 .first-service .icon {
     background-image: url(../images/service-icon-01.png);
 }

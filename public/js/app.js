@@ -5553,7 +5553,7 @@ var render = function render() {
       type: "text",
       id: "helper-text",
       "aria-describedby": "helper-text-explanation",
-      placeholder: "name@flowbite.com"
+      placeholder: "Science"
     },
     domProps: {
       value: _vm.category_name

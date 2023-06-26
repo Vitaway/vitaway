@@ -1,9 +1,9 @@
-<div class="container-fluid justify-content-center">
+<div class="container-footer-fluid justify-content-center">
     <footer>
         <div class="row justify-content-around mb-0 pt-5 pb-0 ">
             <div class=" col-11">
                 <div class="row justify-content-center">
-                    <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4 text-center">
+                    <div class="col-md-3 col-12 font-italic mt-md-3 mt-4">
                         <x-application-logo /> <br>
                         <small class="copy-rights cursor-pointer">&#9400; 2022 Vitaway.org</small><br>
                         <small>Copyright.All Rights Resered. </small>

@@ -88,6 +88,16 @@ Banner Style
     transition: all .5s;
 }
 
+@media (max-width: 720px) {
+    .main-banner {
+        padding: 180px 10px 150px 10px;
+    }
+
+    .service-item {
+        margin-bottom: 50px !important;
+    }
+}
+
 /*
 ---------------------------------------------
 Banner Style

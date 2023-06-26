@@ -85,7 +85,7 @@
               </div>
             </div>
             <div class="col-lg-3">
-              <div class="service-item second-service">
+              <div class="service-item second-service sm:bg-yellow-500">
                 <div class="icon">
                     <img src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
                 </div>
@@ -125,61 +125,43 @@
     </div>
 
     {{-- Timeline --}}
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-timeline">
-                    <a href="#" class="timeline">
-                        <div class="timeline-icon">
-                            <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533561/vite-guest-imgs/towfiqu-barbhuiya-jOeh3Lv88xA-unsplash_p9m8xz.jpg"
-                                alt="">
-                        </div>
-                        <div class="timeline-content">
-                            <h3 class="title">Wellness Test</h3>
-                            <p class="description mt-3">
-                                Talking to a doctor has never been easier and more affordable.
-                                Get personalized, premium care when you speak to our licensed and experienced Medical
-                                Doctors. Our call centre is open 24/7 and you can consult in English and Kinyarwanda through
-                                chats, voice and video calls.
-                            </p>
-                            <button class="btn button-order">order</button>
-                        </div>
-                    </a>
-                    <a href="#" class="timeline">
-                        <div class="timeline-icon">
-                            <img src="https://images.unsplash.com/photo-1576402187878-974f70c890a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2666&q=80"
-                                alt="">
-                        </div>
-                        <div class="timeline-content">
-                            <h3 class="title"></h3>
-                            <p class="description">
-                                Take charge of your health with our range of wellness tests.
+    <div class="wellness">
+        <div class="wellness-container grid grid-cols-2 gap-3">
 
-                                Screening helps in early detection of certain preventable and controllable conditions such
-                                as high blood pressure, high cholesterol, diabetes, stroke and coronary heart disease.
-                            </p>
-                            <button class="btn button-order">order</button>
-                        </div>
-                    </a>
-                    <a href="#" class="timeline">
-                        <div class="timeline-icon">
-                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                                alt="">
-                        </div>
-                        <div class="timeline-content">
-                            <h3 class="title">Chronic Care Management</h3>
-                            <p class="description">
-                                We make it easy for you to manage ongoing chronic conditions like type-2-diabetes and
-                                hypertension.
-
-                                We offer monthly medicine refills, reminders for routine laboratory tests, reviews with a
-                                specialist and annual healthcare plans for optimum care management.
-                            </p>
-                            <button class="btn button-order">order</button>
-                        </div>
-                    </a>
+            <div class="welness-item">
+                <div class="welness-description">
+                    <h2>Nutrition consultation</h2>
+                    <p>Everyone’s nutritional goals are different, whether it’s losing weight,
+                        building fitness or just eating better. That’s why we take a comprehensive,
+                        multidisciplinary approach to your care, working with you to overcome your
+                        challenges and live a healthier, more active life.</p>
+                    <div class="mt-5">
+                        <a href="#" class="get-in-touch">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="welness-img">
+                    <img src="https://static.wixstatic.com/media/82df8c_80b4b77d2d9048978a8e10f562dc1f5d~mv2.jpg/v1/fill/w_352,h_412,al_c,lg_1,q_80,enc_auto/plan.jpg" alt="">
                 </div>
             </div>
+            <div class="welness-item">
+                <div class="welness-description">
+                    <h2>Get Personalized wellness Plan</h2>
+                    <p>Our nutrition services team includes doctors,
+                        wellness practitioners and nutritionists.
+                        These specialists work together with you
+                        to help you create a realistic, achievable
+                        plan for changing old habits in order to
+                        accomplish your nutrition goals.</p>
+
+                    <div class="mt-5">
+                        <a href="#" class="get-in-touch">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="welness-img">
+                    <img src="https://static.wixstatic.com/media/82df8c_83245a7d38a944b9b8cd1cc750392345~mv2.png/v1/fill/w_352,h_412,al_c,lg_1,q_85,enc_auto/wellness.png" alt="">
+                </div>
+            </div>
+
         </div>
     </div>
 

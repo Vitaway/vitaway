@@ -73,6 +73,16 @@ Banner Style
     color: #fff !important;
 }
 
+@media (max-width: 720px) {
+    .main-banner {
+        padding: 180px 10px 150px 10px;
+    }
+
+    .service-item {
+        margin-bottom: 50px !important;
+    }
+}
+
 .aligible-button a {
     display: inline-block !important;
     padding: 10px 20px !important;
@@ -170,6 +180,12 @@ Banner Style
 .better-you .left-content .white-button a {
     background-color: #4b8ef1;
     color: #fff !important;
+}
+
+@media (max-width: 720px) {
+    .better-you {
+        padding: 180px 10px 150px 10px;
+    }
 }
 
 .aligible-button a {
