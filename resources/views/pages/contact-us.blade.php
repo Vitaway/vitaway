@@ -233,34 +233,6 @@
     @section('content')
         <x-navigation-bar />
 
-        {{-- <div class="responsive-container-block bigContainer">
-            <div class="responsive-container-block Container bottomContainer">
-            <div class="ultimateImg">
-                <img class="mainImg" src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80">
-                <div class="purpleBox">
-                    <p class="purpleText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget purus lectus viverra in semper nec pretium mus.
-                    </p>
-                    <img class="stars" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp5.svg">
-                </div>
-            </div>
-            <div class="allText bottomText">
-                <p class="text-blk headingText">
-                Contact Us
-                </p>
-                <p class="text-blk subHeadingText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="text-blk description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.
-                </p>
-                <a class="explore" href="https://api.whatsapp.com/send?phone=250787279560" target="__black">
-                    Contact Us
-                </a>
-            </div>
-            </div>
-        </div> --}}
-
         <section class="section-bg" style="background-image: url(https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80);"  data-scroll-index="7">
             <div class="overlay pt-100 pb-100 ">
               <div class="container pt-16">
@@ -278,7 +250,7 @@
                                         <i class="fas fa-mobile-alt"></i>
                                     </div>
                                     <div class="info-right">
-                                        <h4>+250787279560</h4>
+                                        <a href="https://api.whatsapp.com/send?phone=250787279560" class="get-in-touch">+250787279560</a>
                                     </div>
                                 </li>
                                 <li>
