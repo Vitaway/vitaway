@@ -276,7 +276,13 @@
                     <div class="col-lg-6 d-flex align-items-center bg-white">
                         <div class="contact-form bg-white">
                             <!--Contact Form-->
-                            <form method='POST'>
+                            @if(session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            <form method='post' action="{{ route('post.contact') }}">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="forms-input">
@@ -296,7 +302,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <!--contact button-->
-                                        <button  class="btn-big btn btn-bg">
+                                        <button type="submit" class="btn-big btn btn-bg">
                                             Send Us <i class="fas fa-arrow-right"></i>
                                         </button>
                                     </div>

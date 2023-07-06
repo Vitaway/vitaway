@@ -1,10 +1,10 @@
 <?php
 
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\Auth;
+    use App\Http\Controllers\AdminController;
+    use App\Http\Controllers\BlogController;
+    use App\Http\Controllers\LoginController;
+    use App\Http\Controllers\ProfileController;
+    use Illuminate\Support\Facades\Auth;
     use Illuminate\Support\Facades\Route;
 
     /*
@@ -28,6 +28,7 @@ use Illuminate\Support\Facades\Auth;
     Route::get('/blogs/{blog}', [BlogController::class, 'show'])->name('single.blog');
     Route::get('/contact-us', fn () => view('pages.contact-us'))->name('contact');
     Route::get('/faqs', fn () => view('Pages.FAQs'))->name('faqs.home');
+    Route::post('/contacts', [ProfileController::class, 'storeContact'])->name('post.contact');
 
     /**
      * --------------------------------------

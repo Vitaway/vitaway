@@ -4,7 +4,8 @@
 
     use App\Http\Controllers\Controller;
     use App\Http\Requests\StoreProfileRequest;
-    use App\Models\SocialMedia;
+    use App\Models\Contact;
+    use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Auth;
 
     class ProfileController extends Controller {
@@ -16,5 +17,15 @@
             Auth::user()->save();
 
             return redirect()->back();
+        }
+
+        public function storeContact(Request $request) {
+            Contact::create([
+                'name' => $request->name,
+                'email' => $request->email,
+                'message' => $request->message
+            ]);
+
+            return redirect()->route('contact')->with('success', 'Your contact submitted');
         }
     }
