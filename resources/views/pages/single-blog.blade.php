@@ -3,8 +3,25 @@
 @section('title') {{ $blog->title }} @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!-- Primary Meta Tags -->
+    <title>{{ $blog->title }} | vitaway</title>
+    <meta name="title" content="{{ $blog->title }}">
+    <meta name="description" content="{{ $blog->caption }}">
+    <meta name="keywords" content="VITAWAY, BLOGS, E-CLINIC">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ env('APP_URL').'/blogs/'.$blog->id }}">
+    <meta property="og:title" content="{{ $blog->title }}">
+    <meta property="og:description" content="{{ $blog->caption }}">
+    <meta property="og:image" content="{{ $blog->blogMedia->graphic }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ env('APP_URL').'/blogs/'.$blog->id }}">
+    <meta property="twitter:title" content="{{ $blog->title }}">
+    <meta property="twitter:description" content="{{ $blog->caption }}">
+    <meta property="twitter:image" content="{{ $blog->blogMedia->graphic }}">
 @stop
 
 @section('styles')
