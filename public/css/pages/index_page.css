@@ -37,20 +37,19 @@ Banner Style
 .main-banner .left-content h2 {
     z-index: 2;
     position: relative;
-    font-weight: 900;
-    line-height: 70px;
-    font-size: 60px;
+    line-height: 66px;
+    font-size: 55px;
     margin-bottom: 20px;
     font-family: 'Roboto Slab', serif !important;
-    font-weight: 900 !important;
+    font-weight: 700 !important;
 }
 
 .main-banner .left-content p {
     margin-bottom: 45px;
     color: #2a2a2a;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
 }
 
 .main-banner .left-content .first-button {
@@ -752,7 +751,7 @@ eating-health-section Style
 
 /* Wellness */
 .wellness {
-    padding: 5rem 5rem;
+    padding: .7rem 5rem;
 }
 
 .wellness .welness-item {

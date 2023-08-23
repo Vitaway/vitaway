@@ -4,12 +4,10 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
             <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
                 <x-application-logo />
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
+
             <ul class="nav">
               <li class="scroll-to-section"><a href="{{ route('home') }}" @if(request()->routeIs('home') ?? false) class="active" @endif>Home</a></li>
               <li class="scroll-to-section"><a href="{{ route('who-we-serve') }}" @if(request()->routeIs('who-we-serve') ?? false) class="active" @endif>Who we serve</a></li>
@@ -18,6 +16,16 @@
               <li class="scroll-to-section"><a href="{{ route('about') }}" @if(request()->routeIs('about') ?? false) class="active" @endif>About</a></li>
               <li class="scroll-to-section"><a href="{{ route('contact') }}" @if(request()->routeIs('contact') ?? false) class="active" @endif>Contact</a></li>
             </ul>
+
+            <div class="mt-4">
+                <a href="javascript:void(0)" class="py-3 px-7 text-base font-medium text-dark hover:text-primary">
+                  Login
+                </a>
+                <a href="javascript:void(0)" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base font-medium text-white hover:bg-opacity-90">
+                  Sign Up
+                </a>
+            </div>
+
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
