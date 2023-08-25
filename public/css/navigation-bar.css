@@ -1,3 +1,7 @@
+:root {
+    --main-clor: #3268b9;
+}
+
 * {
     font-family: "Roboto Slab", serif !important;
 }
@@ -11,11 +15,11 @@ header
     background-color: #fff !important;
     height: 100px !important;
     border-bottom: 1px solid #e5e7eb !important;
-    position: fixed !important;
+    position: sticky !important;
     top: 0px;
     left: 0px;
     right: 0px;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
+    /* box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03); */
     z-index: 9999;
 }
 
@@ -26,19 +30,13 @@ header
 .header-area .main-nav {
     min-height: 80px;
     background: transparent;
-}
-
-.header-area .main-nav .logo {
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-area .main-nav .logo {
     line-height: 100px;
-    float: left;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -50,13 +48,7 @@ header
     line-height: 80px;
 }
 
-.background-header .main-nav .nav {
-    margin-top: 20px !important;
-}
-
 .header-area .main-nav .nav {
-    float: right;
-    margin-top: 30px;
     margin-right: 0px;
     background-color: transparent;
     -webkit-transition: all 0.3s ease 0s;
@@ -84,19 +76,6 @@ header
     border-radius: 50%;
 }
 
-.header-area .main-nav .nav li:nth-child(6) {
-    padding-right: 0px;
-    padding-left: 40px;
-}
-
-.header-area .main-nav .nav li:last-child a,
-.background-header .main-nav .nav li:last-child a,
-.header-area .main-nav .nav li:nth-child(6) a,
-.background-header .main-nav .nav li:nth-child(6) a {
-    padding: 0px 20px !important;
-    font-weight: 900 !important;
-}
-
 .header-area .main-nav .nav li a {
     display: block;
     font-size: 18px;
@@ -115,13 +94,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #4b8ef1 !important;
+    color: var(--main-clor) !important;
 }
 
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #4b8ef1 !important;
+    color: var(--main-clor) !important;
     opacity: 1;
 }
 

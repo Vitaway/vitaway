@@ -16,7 +16,7 @@
 @section('content')
     <x-navigation-bar />
 
-    <div class="section mt-4">
+    <div class="section">
         <div class="container">
             <div class="row g-5">
 

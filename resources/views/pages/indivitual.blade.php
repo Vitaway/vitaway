@@ -25,7 +25,7 @@
                       <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="row">
                           <div class="col-lg-12">
-                            <h4>Vitaway for Individuals</h4>
+                            <h4 class="text-white">Vitaway for Individuals</h4>
                             <h2>Shift your mindset,
                                 change your health </h2>
                             <p>Vitaway shows you a different way  to think about
@@ -35,8 +35,8 @@
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://images.unsplash.com/photo-1621525466547-4ac135e85f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                      <div class="right-image rounded-[20px] wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="rounded-[20px]" src="https://images.unsplash.com/photo-1621525466547-4ac135e85f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
                       </div>
                     </div>
                   </div>
@@ -66,21 +66,20 @@
                 font-weight: 700;
             }
         </style>
-        <div class="aligible-container">
-            <section class="p-5 aligible-panel shadow-md">
-                <div class="container">
-                    <div class="d-md-flex justify-between align-items-center">
-                        <h3 class="mb-3 mb-md-0">
+
+        <div class="aligible-container relative p-10">
+            <section class="p-5 aligible-panel shadow-md absolute -top-20 right-10 left-10 rounded-lg bg-white">
+                    <div class="flex justify-between items-center">
+                        <h2 class="mb-3 mb-md-0">
                             It takes only one minutes to see if
                             Vitaway is right for you and at no cost
-                        </h3>
+                        </h2>
                         <div class="input-group news-input ml-4">
-                            <div class="aligible-button" type="button">
+                            <div class="aligible-button cursor-pointer" type="button">
                                 <a href="#">Am I eligible </a>
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </div>
 

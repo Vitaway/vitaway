@@ -365,10 +365,11 @@ body {
 :root {
     /* preloader
      */
-    --color-gray-10: #141516;
+    --color-gray-10: #fff;
     --color-preloader-bg: var(--color-gray-10);
-    --color-loader: white;
+    --color-loader: #141516;
     --color-loader-light: rgba(255, 255, 255, 0.1);
+    --main-clor: #3268b9;
 }
 
 /* ===================================================================
@@ -423,8 +424,8 @@ body {
 #loader > div {
     content: "";
     background: var(--color-loader);
-    width: 4px;
-    height: 4px;
+    width: 15px;
+    height: 15px;
     position: absolute;
     top: 0;
     left: 0;
@@ -432,11 +433,11 @@ body {
 }
 
 #loader > div:nth-of-type(1) {
-    left: 15px;
+    left: 25px;
 }
 
 #loader > div:nth-of-type(3) {
-    left: -15px;
+    left: -30px;
 }
 
 /* dots jump */
