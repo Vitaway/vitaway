@@ -15,7 +15,7 @@ header
     background-color: #fff !important;
     height: 100px !important;
     border-bottom: 1px solid #e5e7eb !important;
-    position: fixed !important;
+    position: sticky !important;
     top: 0px;
     left: 0px;
     right: 0px;

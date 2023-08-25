@@ -1,53 +1,65 @@
-<div class="container-footer-fluid justify-content-center">
-    <footer>
-        <div class="row justify-content-around mb-0 pt-5 pb-0 ">
-            <div class=" col-11">
-                <div class="row justify-content-center">
-                    <div class="col-md-3 col-12 font-italic mt-md-3 mt-4">
-                        <x-application-logo /> <br>
-                        <small class="copy-rights cursor-pointer">&#9400; 2022 Vitaway.org</small><br>
-                        <small>Copyright.All Rights Resered. </small>
+<!-- Footer Start -->
+<div class="container-fluid bg-[#1D2A4D] text-light py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In Touch</h4>
+                <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
+                    <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Frequently Asked Questions</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
+                    <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter</h4>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address">
+                        <button class="btn btn-primary">Sign Up</button>
                     </div>
-                    <div class="col-md-3 col-12 my-sm-0 mt-5">
-                        <ul class="list-unstyled">
-                            <li class="mt-md-3 mt-4">Useful Links </li>
-                            <li><a href="{{ route('faqs.home') }}">Frequently Asked Questions </a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Terms & Conditions </a></li>
-                            <li><a href="">The Medical Group </a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-12 my-sm-0 mt-5">
-                        <ul class="list-unstyled">
-                            <li class="mt-md-3 mt-4">Follow Us </li>
-                            <li class="flex items-center"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="" class="mr-2"> Facebook</li>
-                            <li class="flex items-center"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="" class="mr-2"> Instagram</li>
-                            <li class="flex items-center"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="" class="mr-2"> Youtube</li>
-                            <li class="flex items-center"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="" class="mr-2"> Linkedin</li>
-                            <li class="flex items-center"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="" class="mr-2"> Twitter</li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
-                        <ul class="list-unstyled">
-                            <li class="mt-md-3 mt-4">Join Our Mailing
-                                List Today</li>
-                            <form action="#!" id="subscribe">
-                                <div class="input-parent">
-                                    <label for="username">Fullname</label>
-                                    <input type="text" id="username">
-                                </div>
-
-                                <div class="input-parent">
-                                    <label for="password">Email</label>
-                                    <input type="email" id="password">
-                                </div>
-
-                                <button type="submit">Subscribe</button>
-                            </form>
-                        </ul>
-                    </div>
+                </form>
+                <h6 class="text-primary text-uppercase mt-4 mb-3">Follow Us</h6>
+                <div class="d-flex">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 </div>
+<div class="container-fluid bg-[#1D2A4D] text-light border-top border-[#354F8E] py-4">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-md-0">&copy; <a class="text-primary" href="#">Vitaway</a>. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-primary" href="https://htmlcodex.com">Vitaway Team</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->

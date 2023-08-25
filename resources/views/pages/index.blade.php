@@ -134,7 +134,7 @@
     </div>
 
     <!-- ====== Services Section Start -->
-    <section class="pt-15 pb-5 lg:pt-[120px] lg:pb-[10px]">
+    <section class="pt-5 pb-5 lg:pt-[120px] lg:pb-[10px]">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
@@ -215,10 +215,13 @@
     </section>
     <!-- ====== Services Section End -->
 
-    <div class="wellness">
-        <div class="wellness-container grid grid-cols-2 gap-3">
+    <div class="wellness relative">
+        <div class="absolute right-0 -top-32" style="z-index: 3 !important">
+            <img src="/images/services-right-dec.png" alt="">
+        </div>
 
-            <div class="welness-item">
+        <div class="wellness-container grid grid-cols-2 gap-3 z-10">
+            <div class="welness-item" style="z-index: 6 !important">
                 <div class="welness-description">
                     <h2>Nutrition consultation</h2>
                     <p>Everyone’s nutritional goals are different, whether it’s losing weight,
@@ -233,7 +236,7 @@
                     <img src="https://static.wixstatic.com/media/82df8c_80b4b77d2d9048978a8e10f562dc1f5d~mv2.jpg/v1/fill/w_352,h_412,al_c,lg_1,q_80,enc_auto/plan.jpg" alt="">
                 </div>
             </div>
-            <div class="welness-item">
+            <div class="welness-item" style="z-index: 6 !important">
                 <div class="welness-description">
                     <h2>Get Personalized wellness Plan</h2>
                     <p>Our nutrition services team includes doctors,
@@ -256,14 +259,13 @@
     </div>
 
     {{-- Healcare service section --}}
-    <div id="services" class="services section mt-7">
-        <div class="container">
+    <div id="services" class="services flex items-center justify-center rounded-xl section my-7 mx-7" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/subscribe-bg.png); background-repeat: no-repeat; background-size: cover; background-position: center center">
+        <div class="container" style="margin-top: 55px !important">
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
               <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                <h4 class="text-4xl">We put Care into Healthcare</h4>
-                <img src="assets/images/heading-line-dec.png" alt="">
-                <div class="header-readme-button"><a href="#">Request a Demo</a></div>
+                <h3 class="text-4xl text-white">We put Care into Healthcare</h3>
+                <div class="header-readme-button mt-5"><a href="#">Request a Demo</a></div>
               </div>
             </div>
           </div>
@@ -271,7 +273,7 @@
     </div>
 
     {{-- Our Goals section --}}
-    <div id="services" class="services section" style="background: #00306A">
+    <div id="services" class="services section" style="background: #3268b9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -309,64 +311,95 @@
         </div>
     </div>
 
-    {{-- Eating health --}}
-    <div id="eating-health-section" class="eating-health-section section">
+    <div id="about" class="about-us section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                <h4>How Vitaway's diabetes program works for members </h4>
+            <div class="col-lg-5 align-self-center">
+              <div class="left-image">
+                <div class="relative rotate-6 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+                    <div class="w-[148px] h-[20px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+                    <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
+                    <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
+                    <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
+                    <div class="rounded-[2rem] overflow-hidden w-[274px] h-[572px] bg-white dark:bg-gray-800 ml-3">
+                        <img src="/images/categories.png" class="dark:hidden w-[274px] h-[572px]" alt="">
+                        <img src="/images/categories.png" class="hidden dark:block w-[274px] h-[572px]" alt="">
+                    </div>
+                </div>
               </div>
+            </div>
+            <div class="col-lg-7 ">
+                <div class="section-heading">
+                    <h2 class="mb-3 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">How Vitaway's diabetes program works for members</h2>
+                    <p class="mb-5 text-xl">You can browse free HTML templates on Too CSS website. Visit the website and explore latest website templates for your projects.</p>
+                    <div class="-mx-4 flex flex-wrap">
+                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                            <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <h4 class="mb-3 text-xl font-semibold text-dark">
+                                Eat Well Guide
+                            </h4>
+                            <p class="text-body-color">
+                                Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                            </p>
+                            </div>
+                        </div>
+
+                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
+                                </svg>
+                                </div>
+                                <h4 class="mb-3 text-xl font-semibold text-dark">
+                                    The Food goup
+                                </h4>
+                                <p class="text-body-color">
+                                    Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
+                                </svg>
+                                </div>
+                                <h4 class="mb-3 text-xl font-semibold text-dark">
+                                    Health & life Stage
+                                </h4>
+                                <p class="text-body-color">
+                                    Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
+                                </svg>
+                                </div>
+                                <h4 class="mb-3 text-xl font-semibold text-dark">
+                                    Health & Well being
+                                </h4>
+                                <p class="text-body-color">
+                                    The proportions of food groups been updated to take into account the new dietary recommendations for more fiber and less sugar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="service-item first-service">
-                <div class="icon">
-                    <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
-                </div>
-                <h4>Eat Well Guide </h4>
-                <p>
-                    Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="service-item second-service">
-                <div class="icon">
-                    <img src="https://myplate-prod.azureedge.us/sites/default/files/styles/medium/public/2020-11/myplate-brand--labelled.png?itok=7VtFXcBC" alt="">
-                </div>
-                <h4>The Food Group</h4>
-                <p>
-                    Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="service-item third-service">
-                <div class="icon">
-                    <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533561/vite-guest-imgs/national-cancer-institute-VJVsEnR_vNE-unsplash_rd7ttf.jpg" alt="">
-                </div>
-                <h4>Health & Life stage</h4>
-                <p>Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="service-item fourth-service">
-                <div class="icon">
-                    <img src="https://storage.ning.com/topology/rest/1.0/file/get/9256217282?profile=RESIZE_710x&width=650" alt="">
-                </div>
-                <h4>Health & well Being </h4>
-                <p>
-                    The proportions of food groups been updated to take into account the new dietary recommendations for more fiber and less sugar.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+      </div>
 
     <x-footer />
 @stop

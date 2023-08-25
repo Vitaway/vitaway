@@ -11,7 +11,7 @@ Banner Style
     padding: 190px 120px 150px 120px;
     position: relative;
     overflow: hidden;
-    background-color: #D9D9D9;
+    background: linear-gradient( #3268b9, #3268b9 );
 }
 
 .main-banner:after {
@@ -25,6 +25,7 @@ Banner Style
     width: 100%;
     height: 100%;
     z-index: 1;
+    border-radius: 20px;
 }
 
 .main-banner .left-content {
@@ -38,11 +39,12 @@ Banner Style
     line-height: 70px;
     font-size: 50px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .main-banner .left-content p {
     margin-bottom: 45px;
-    color: #2a2a2a;
+    color: white;
     font-weight: 500;
 }
 
