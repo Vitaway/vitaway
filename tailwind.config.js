@@ -7,7 +7,11 @@ module.exports = {
       "./node_modules/flowbite/**/*.js"
     ],
     theme: {
-      extend: {},
+        extend: {},
+        fontFamily: {
+            'merri': ['"Merriweather"', 'serif'],
+            'patua': ['"Patua One"', 'cursive']
+        },
     },
     plugins: [
         require('flowbite/plugin'),

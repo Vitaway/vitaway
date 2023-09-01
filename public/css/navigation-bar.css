@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Patua+One&display=swap');
+
 :root {
-    --main-clor: #3268b9;
+    --shd: 0.00px 1.00px 12px 2px rgba(13,184,170,0.22);
+    --secondary-font-family: 'Merriweather', serif;
+    --primary-font-family: 'Patua One', cursive;
 }
 
-* {
-    font-family: "Roboto Slab", serif !important;
+
+:root {
+    --main-clor: #3268b9;
 }
 
 /*
