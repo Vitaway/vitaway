@@ -32,6 +32,7 @@
             .contact-form {
                 position: relative;
                 padding: 45px 0 45px 60px;
+                border-radius: 20px
             }
 
             .contact-form:before {
@@ -41,7 +42,7 @@
                 right: 0;
                 bottom: 0;
                 left: 0;
-                border-radius: 6px;
+                border-radius: 20px;
                 box-shadow: 10px 40px 40px rgba(0,0,0,.2);
                 pointer-events: none;
                 right: auto;
@@ -273,7 +274,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 d-flex align-items-center bg-white">
+                    <div class="col-lg-6 d-flex align-items-center bg-white rounded-lg">
                         <div class="contact-form bg-white">
                             <!--Contact Form-->
                             @if(session('success'))

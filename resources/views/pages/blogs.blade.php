@@ -35,9 +35,9 @@
                                     <span class="date">July 2, 2020</span>
                                 </div>
                                 <h2 class="heading mb-3">
-                                    <a href="{{ route('single.blog', ['blog' => $blog->id]) }}">{{ $blog->title }}</a>
+                                    <a class="font-patua font-normal text-2xl" href="{{ route('single.blog', ['blog' => $blog->id]) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p class="trancate block line-clamp-3 font-medium leading-7 text-gray-600" style="display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">{{ $blog->caption }}</p>
+                                <p class="trancate block line-clamp-3 font-merri font-normal leading-7 text-gray-600" style="display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">{{ $blog->caption }}</p>
                             </div>
                         </div>
                     </div>

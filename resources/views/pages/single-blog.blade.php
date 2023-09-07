@@ -41,25 +41,30 @@
                     <div class="main_blog_details">
                         <img class="img-fluid" src="img/blog/news-blog.jpg" alt="" />
                         <a href="#">
-                            <h2 class="title">{{ $blog->title }}</h2>
+                            <h2 class="title font-patua font-normal tracking-wide">{{ $blog->title }}</h2>
                         </a>
                         <div class="user_details">
                             <div class="float-left">
-                                <div class=" flex items-center justify-center">
+                                <div class="flex items-center justify-center">
                                     <div class="">
                                         <img class="rounded-circle w-10 h-10" alt="avatar1" src="{{ $blog->user->avatar }}" />
                                     </div>
-                                    <div class="media-body ml-3 ">
-                                        <h5>{{ $blog->user->name }}</h5>
+                                    <div class="media-body ml-3 mt-3">
+                                        <h5 class="font-patua font-normal text-md">{{ $blog->user->name }}</h5>
                                         <p class="text-gray-900 font-semibold">{{ $blog->created_at->diffForHumans() }}</p>
                                     </div>
                                 </div>
                             </div>
+                            {{-- Share this doc --}}
+                            <social-links
+                                page_description="{{ $blog->caption }}"
+                                page_title="{{ $blog->title }}"
+                            />
                         </div>
                         <div class="post-img">
                             <img class="w-full" src="{{ $blog->blogMedia->graphic }}" alt="">
                         </div>
-                        <div class="post-content text-gray-950">{!! $blog->blogContent->contents !!}</div>
+                        <div class="post-content font-merri font-normal text-gray-950">{!! $blog->blogContent->contents !!}</div>
                     </div>
                 </div>
             </div>
