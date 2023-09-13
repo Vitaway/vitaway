@@ -11,7 +11,7 @@
 
         <link rel="icon" type="image/x-icon" href="/storage/images/norldarch_logo_small.png">
         @if (Auth::check()) <meta name="user" content="{{ Auth::user() }}"> @endif
-        
+
         <title>admin | dashboard | vitaway</title>
 
         <!-- Font Awesome Icons -->
@@ -70,10 +70,11 @@
         <!-- Github buttons -->
         <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
         </script>
+
+        @yield('scripts')
     </body>
 </html>

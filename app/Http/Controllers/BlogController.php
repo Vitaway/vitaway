@@ -56,6 +56,26 @@
         }
 
         /**
+         * Store a newly created resource in storage.
+         *
+         * @param  \App\Http\Requests\StoreBlogRequest  $request
+         * @return \Illuminate\Http\Response
+         */
+        public function update(Blog $blog, StoreBlogRequest $request) {
+            $uploadedFileUrl = Cloudinary::uploadFile(
+                $request->file('image')->getRealPath(),
+            )->getSecurePath();
+
+            if(!$uploadedFileUrl) return response()->json([ "message" => "Unable to upload image"], 400);
+
+            $blog->update($request->validated());
+            $blog->blogMedia()->update([ 'graphic' => $uploadedFileUrl ]);
+            $blog->blogContent()->update([ 'contents' => $request->contents]);
+
+            return response()->json([ "message" => "blog update successfully" ]);
+        }
+
+        /**
          * Display the specified resource.
          *
          * @param  \App\Models\Blog  $blog
@@ -63,6 +83,12 @@
          */
         public function show(Blog $blog) {
             return view('pages.single-blog', compact('blog'));
+        }
+
+        public function singleBlogDetails(Blog $blog) {
+            $categories = BlogCategory::orderBy('created_at', 'desc')->get();
+
+            return view('auth.update', compact('blog', 'categories'));
         }
 
         /**
@@ -84,5 +110,12 @@
                 "message" => "category created",
                 "data" => $category,
             ], 201);
+        }
+
+        public function destroy(Blog $blog) {
+            $blog->delete();
+            return response()->json([
+                "message" => "blog deleted"
+            ]);
         }
     }

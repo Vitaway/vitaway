@@ -101,6 +101,8 @@
 
                     this.responseType = "success";
                     this.response = response.data.message;
+                    document.getElementById('blogForm').classList.add('hidden');
+                    window.location.reload();
                 } catch(error) {
                     this.responseType = "error";
                     this.response = error.response.data.message;

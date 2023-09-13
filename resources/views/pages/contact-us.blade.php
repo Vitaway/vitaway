@@ -95,11 +95,10 @@
                 border-bottom-color: rgba(0,0,0,.1);
             }
             .contact-form input::placeholder {
-            color:#222;
+                color:#222;
             }
             .contact-form textarea::placeholder {
-            color:#222;
-
+                color:#222;
             }
             .contact-form input {
                 margin-bottom: 30px;
@@ -116,14 +115,13 @@
 
             }
             .contact-form textarea:hover, .contact-form textarea:focus{
-            background: transparent;
+                background: transparent;
                 outline: none;
-            box-shadow: none;
+                box-shadow: none;
                 border: 2px solid transparent;
                 border-bottom-color: rgb(254, 132, 111);
 
             }
-
 
             .taso-btn {
                 background-color: #fff;
@@ -136,7 +134,7 @@
                 padding: 0 30px 0px 0;
             }
 
-            h2.contact-title {
+            .contact-info h2.contact-title {
                 font-size: 35px;
                 font-weight: 600;
                 color: #fff;
@@ -147,30 +145,28 @@
                 color: #ececec;
             }
 
-            ul.contact-info {
+            .contact-info ul.contact-info {
                 margin-top: 30px;
             }
 
-            ul.contact-info li {
+            .contact-info ul.contact-info li {
                 margin-bottom: 22px;
             }
 
-
-
-            ul.contact-info span {
+            .contact-info ul.contact-info span {
                 font-size: 20px;
                 line-height: 26px;
             }
-            ul.contact-info li {
+            .contact-info ul.contact-info li {
                 display: flex;
                 width: 100%;
             }
 
-            .info-left {
+            .contact-info .info-left {
                 width: 10%;
             }
 
-            .info-left i {
+            .contact-info .info-left i {
                 width: 30px;
                 height: 30px;
                 line-height: 30px;
@@ -178,15 +174,15 @@
                 color: #ffffff;
             }
 
-            .info-right h4 {
+            .contact-info .info-right h4 {
                 color: #fff;
                 font-size: 18px;
             }
             .contact-page .info-left i{
-            color: #FE846F;
+                color: #FE846F;
             }
-            .btn {
-            display: inline-block;
+            .contact-form .btn {
+                display: inline-block;
                 font-weight: 400;
                 text-align: center;
                 white-space: nowrap;
@@ -207,7 +203,7 @@
                 transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
                 transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
             }
-            .btn-big {
+            .contact-form .btn-big {
                 color: #ffffff;
                 -webkit-box-shadow: 0px 5px 20px 0px rgba(45, 45, 45, 0.47843137254901963);
                 box-shadow: 2px 5px 5px 0px rgba(45, 45, 45, 0.19);
@@ -220,13 +216,12 @@
             }
 
             @media only screen and (max-width: 767px) {
-            .contact-form {
-                padding: 30px;
-            }
-            .contact-form:before {
-                width: 100%;
-            }
-
+                .contact-form {
+                    padding: 30px;
+                }
+                .contact-form:before {
+                    width: 100%;
+                }
             }
         </style>
     @stop
@@ -241,10 +236,11 @@
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="contact-info">
                             <h2 class="contact-title">
-                                Connect with us</h2>
+                                Connect with us
+                            </h2>
                             <p class="font-semibold">Learn simple steps you can take right now to improve your health and wellness.
                                 Our bespoke meal plans are curated based on your body’s needs, food sensitivities and reactions, and the goal you want to achieve.
-                                </p>
+                            </p>
                             <ul class="contact-info">
                                 <li>
                                     <div class="info-left">
@@ -255,20 +251,20 @@
                                     </div>
                                 </li>
                                 <li>
-                                <div class="info-left">
-                                    <i class="fas fa-at"></i>
-                                </div>
-                                <div class="info-right">
-                                    <h4> vitawayeclinic@gmail.com </h4>
-                                </div>
+                                    <div class="info-left">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="info-right">
+                                        <h4> vitawayeclinic@gmail.com </h4>
+                                    </div>
                                 </li>
                                 <li>
-                                <div class="info-left">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div class="info-right">
-                                    <h4>Kigali- Rwanda </h4>
-                                </div>
+                                    <div class="info-left">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="info-right">
+                                        <h4>Kigali- Rwanda </h4>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
