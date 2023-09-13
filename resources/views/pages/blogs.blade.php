@@ -9,14 +9,13 @@
 
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
-    <link rel="stylesheet" href="/css/pages/blog_page.css">
     <link rel="stylesheet" href="/css/footer.css">
 @stop
 
 @section('content')
     <x-navigation-bar />
 
-    <div class="section">
+    <div class="section py-20">
         <div class="container">
             <div class="row g-5">
 
@@ -24,11 +23,11 @@
                     <div class="col-lg-4">
                         <div class="post-entry d-block small-post-entry-v">
                             <div class="thumbnail">
-                                <div class="h-[250px]" href="{{ route('single.blog', ['blog' => $blog->id]) }}">
-                                    <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" class="w-full h-full">
+                                <div class="h-[250px] rounded-lg" href="{{ route('single.blog', ['blog' => $blog->id]) }}">
+                                    <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" class="w-full h-full rounded-lg">
                                 </div>
                             </div>
-                            <div class="post-content">
+                            <div class="post-content mt-4">
                                 <div class="post-meta mb-1">
                                     <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="category">Business</a>, <a href="{{ route('single.blog', ['blog' => $blog->id]) }}"
                                         class="category">Travel</a> —

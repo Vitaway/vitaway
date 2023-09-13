@@ -53,7 +53,10 @@
      */
     Route::group(['middleware' => ['auth']], function() {
         Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+
         Route::post('/blogs', [BlogController::class, 'store'])->name('post.blogs');
+
+        Route::get('/blogs/show/{blog}', [BlogController::class, 'singleBlogDetails'])->name('show.blog');
         Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
         Route::post('/profile', [ProfileController::class, 'store'])->name('post.profile');
         Route::get('/logout', [LoginController::class, 'logout'])->name('adminLogout');
