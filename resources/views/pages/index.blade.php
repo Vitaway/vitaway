@@ -31,14 +31,13 @@
                         </div>
                         <div class="col-lg-12 more-detail-buttons ">
                             <button type="button" class="text-white font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
-                                <svg class="w-4 h-4 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                                </svg>
-                                Sign in with Twitter
+                                Get Started
                             </button>
                             <button type="button" class="text-gray-900 font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
-                                <svg class="w-4 h-4 mr-2 -ml-1 text-[#626890]" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="ethereum" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"></path></svg>
-                                Pay with Ethereum
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>
+                                Download The APP
                             </button>
                         </div>
 
@@ -65,21 +64,21 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 relative mt-4">
+                <div class="col-lg-6 relative">
                     <div class="mx-auto ml-5 z-20">
                         <div class="absolute left-40">
-                            <div class="relative rotate-12 translate-x-10 pt-2 border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+                            <div class="relative rotate-12 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                                 <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                                 <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
                                 <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                 <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                 <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                                    <img src="/images/categories.png" class="dark:hidden w-[272px] h-[572px]" alt="">
-                                    <img src="/images/categories.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
+                                    <img src="/images/Categories_2.png" class="dark:hidden w-[272px] h-[572px]" alt="">
+                                    <img src="/images/Categories_2.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="relative border-gray-800 pt-2 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+                        <div class="relative border-gray-800 pt-[13px] dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                             <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
@@ -134,85 +133,92 @@
     </div>
 
     <!-- ====== Services Section Start -->
-    <section class="pt-5 pb-5 lg:pt-[120px] lg:pb-[10px]">
-        <div class="container mx-auto">
-            <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4">
-                    <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-                        <h2 class="mb-4 text-3xl font-patua font-medium text-dark sm:text-4xl md:text-[40px]">
-                            Remote <span class="text-[indigo]">Doctor</span> Consultation
-                        </h2>
-                        <p class="text-xl text-gray-600 font-merri font-bold">
-                            There are many variations of passages of Lorem Ipsum available
-                            but the majority have suffered alteration in some form.
-                        </p>
-                    </div>
+    <template>
+        <div style="z-index: 6 !important" class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-28 lg:px-11 lg:pt-20">
+            <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                <div>
+                <p class="inline-block font-patua font-normal px-3 py-px mb-4 text-xs tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                    Brand new
+                </p>
                 </div>
+                <h2 class="max-w-lg font-patua font-normal mb-6 font-sans text-3xl leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-9 -right-1 z-0 hidden w-28 -mt-8 -ml-20 text-blue-gray-100 lg:w-28 lg:-ml-28 lg:-mt-10 sm:block">
+                        <defs>
+                            <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
+                            <circle cx="1" cy="1" r=".7"></circle>
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                        </svg>
+                        <span class="relative font-patua font-normal">The</span>
+                    </span>
+                    quick, brown fox jumps over a lazy dog
+                </h2>
+                <p class="text-base text-gray-700 md:text-lg font-merri font-normal">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+                </p>
             </div>
-
-            <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                    <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
-                        <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
-                            </svg>
+            <div class="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                <div>
+                    <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
+                    </div>
+                    <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                    <p class="mb-3 text-sm text-gray-900">
+                    A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                    </p>
+                </div>
+                <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                </div>
+                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                    <div>
+                        <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
                         </div>
-                        <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Diabetes
-                        </h4>
-                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Simply Diabetes management with quick checks and a Proper...
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <p class="mb-3 text-sm text-gray-900">
+                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
                         </p>
                     </div>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
-
-                <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                    <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
-                        <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
-                            </svg>
+                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                    <div>
+                        <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
                         </div>
-                        <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Hypertension
-                        </h4>
-                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Track Your health trends to work toward reaching your health...
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <p class="mb-3 text-sm text-gray-900">
+                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
                         </p>
                     </div>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
-                <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                    <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
-                        <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
-                            </svg>
+                <div style="z-index: 30 !important" class="flex bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                    <div>
+                        <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                        </svg>
                         </div>
-                        <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Weight Management
-                        </h4>
-                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Find tools and strategies to help healthy weight...
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <p class="mb-3 text-sm text-gray-900">
+                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
                         </p>
                     </div>
-                </div>
-                <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                    <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
-                        <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
-                            </svg>
-                        </div>
-                        <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Mental Health
-                        </h4>
-                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">we care about your mental health.</p>
-                    </div>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
             </div>
         </div>
-    </section>
+    </template>
     <!-- ====== Services Section End -->
 
     <div class="wellness relative">
@@ -259,45 +265,79 @@
     </div>
 
     {{-- Our Goals section --}}
-    <div id="services" class="services section" style="background: #3268b9">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="section-heading text-left">
-                        <h4 class="text-white font-patua font-medium tracking-wide">Our Goal: A Solution for Everyone </h4>
-                        <img src="assets/images/heading-line-dec.png" alt="">
+    <template>
+        <div class="relative mt-4 px-4 pt-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
+            <div class="absolute inset-x-0 top-0 items-top justify-center hidden overflow-hidden md:flex md:inset-y-0">
+                <svg viewBox="0 0 88 88" class="w-full max-w-screen-xl text-blue-200">
+                    <circle fill="currentColor" cx="44" cy="44" r="15.5"></circle>
+                    <circle fill-opacity="0.2" fill="currentColor" cx="44" cy="44" r="44"></circle>
+                    <circle fill-opacity="0.2" fill="currentColor" cx="44" cy="44" r="37.5"></circle>
+                    <circle fill-opacity="0.3" fill="currentColor" cx="44" cy="44" r="29.5"></circle>
+                    <circle fill-opacity="0.3" fill="currentColor" cx="44" cy="44" r="22.5"></circle>
+                </svg>
+            </div>
+            <div class="relative">
+                <div class="pt-7">
+                    <div class="grid gap-5 row-gap-8 lg:grid-cols-2 items-center">
+                        <div class="flex flex-col justify-center">
+                            <div class="max-w-xl">
+                                <h2 class="max-w-lg mb-6 font-patua font-normal leading-10 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                                    The quick, brown fox<br class="hidden md:block" />
+                                    jumps over
+                                    <span class="relative px-1">
+                                        <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
+                                        <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700">a lazy dog</span>
+                                    </span>
+                                </h2>
+                                <p class="text-base text-gray-700 md:text-lg">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                                </p>
+                            </div>
+                            <div class="grid gap-3 row-gap-2 sm:grid-cols-2 mt-5">
+                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                    <h4 class="mb-3 text-xl font-patua font-medium text-dark">
+                                        Diabetes
+                                    </h4>
+                                    <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
+                                        Simply Diabetes management with quick checks and a Proper...
+                                    </p>
+                                </div>
+                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                    <h4 class="mb-3 text-xl font-patua font-medium text-dark">
+                                        Diabetes
+                                    </h4>
+                                    <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
+                                        Simply Diabetes management with quick checks and a Proper...
+                                    </p>
+                                </div>
+                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                    <h4 class="mb-3 text-xl font-patua font-medium text-dark">
+                                        Diabetes
+                                    </h4>
+                                    <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
+                                        Simply Diabetes management with quick checks and a Proper...
+                                    </p>
+                                </div>
+                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                    <h4 class="mb-3 text-xl font-patua font-medium text-dark">
+                                        Diabetes
+                                    </h4>
+                                    <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
+                                        Simply Diabetes management with quick checks and a Proper...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="object-cover w-full h-64 rounded shadow-lg sm:h-96" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </template>
 
-        <div class="container">
-            <div class="row">
-                <ul class="timeline-goal" id="timeline-goal">
-                    <li class="li complete">
-                        <div class="status">
-                            <h4> Patient </h4> <br>
-                            <p>Reducing the degree of disability and dependence for daily living activities</p>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="status">
-                            <h4> Healthy Provider </h4> <br>
-                            <p>Creating better patient outcomes with a seamless and comfortable treatment experience</p>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="status">
-                            <h4> Society </h4> <br>
-                            <p> Decreasing long-term costs and burdens</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div id="about" class="about-us section">
+    <div id="about" class="about-us section pb-10">
         <div class="container">
           <div class="row">
             <div class="col-lg-5 align-self-center">

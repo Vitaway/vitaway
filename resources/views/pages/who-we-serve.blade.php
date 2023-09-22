@@ -16,34 +16,43 @@
 @section('content')
     <x-navigation-bar />
 
-    <!-- home section -->
-    <section id="home" class="tm-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h2>VITAWAY FOR HEALTH PLAN</h2>
-                                <h3 class="mt-2">Evidence - base Health care </h3>
-                                <p class="mt-5">
-                                    Vitaway’s personalized programs inspire better health outcome.
-                                </p>
-                            </div>
+    <template>
+        <div class="relative">
+            <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533556/vite-guest-imgs/allgo-an-app-for-plus-size-people-eqlRthvN188-unsplash_mjb1s7.jpg" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="" />
+            <div class="relative bg-opacity-75 bg-gray-900/60">
+                <svg class="absolute inset-x-0 -bottom-1 text-white" viewBox="0 0 1160 163">
+                    <path
+                    fill="currentColor"
+                    d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
+                    ></path>
+                </svg>
+                <div style="height: 500px" class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                    <div class="flex flex-col items-center justify-between xl:flex-row">
+                        <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
+                            <h2 class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
+                                The quick, brown fox <br class="hidden md:block" />
+                                jumps over a lazy dog
+                            </h2>
+                            <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                            </p>
+                        </div>
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </template>
 
-    <div id="services" class="services section mt-4">
+    <div id="services" class="services section mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading text-left">
-                        <h4>Programs</h4>
-                        <p>
+                        <h4 class="font-normal font-patua tracking-wider">Programs</h4>
+                        <p class="leading-6">
                             Virtual care is the first integrated solution. To achieve long-lasting health changes on their
                             terms, Vitaway supports members in changing their thinking.
                         </p>

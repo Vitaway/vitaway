@@ -94,7 +94,8 @@ header
     line-height: 40px;
     border: transparent;
     letter-spacing: 1px;
-    font-weight: 700 !important;
+
+    font-family: var(--primary-font-family);
 }
 
 .header-area .main-nav .nav li:hover a,

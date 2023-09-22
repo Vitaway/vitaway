@@ -15,7 +15,30 @@
 @section('content')
     <x-navigation-bar />
 
-    <div class="section py-20">
+    <template>
+        <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
+            <div class="flex flex-col w-full mb-6 lg:justify-between lg:flex-row md:mb-8">
+                <div class="flex items-center mb-5 md:mb-6 group lg:max-w-xl">
+                    <a href="/" aria-label="Item" class="mr-4">
+                        <div class="flex items-center justify-center w-16 h-16 rounded-full bg-indigo-50">
+                            <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </a>
+                    <h3 class="font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-3xl">
+                        <span class="inline-block mb-2 font-patua font-normal">Lorem ipsum dolor sit amet consectetur <br/> amet consectetur.</span>
+                        <div class="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100"></div>
+                    </h3>
+                </div>
+                <p class="w-full text-gray-700 lg:text-sm lg:max-w-md font-patua font-normal">
+                    "Sed ut perspiciatis unde omnis iste natus error sit iste voluptatem accusantium doloremque rem aperiam, ipsa eaque quae. Sed ut perspiciatis unde omnis iste."
+                </p>
+            </div>
+        </div>
+    </template>
+
+    <div class="section pb-20">
         <div class="container">
             <div class="row g-5">
 

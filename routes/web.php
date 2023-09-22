@@ -23,6 +23,9 @@
     Route::get('/about', fn () => view('pages.about'))->name('about');
     Route::get('/faqs', fn () => view('pages.faqs'))->name('faqs');
     Route::get('/who-we-serve', fn () => view('pages.who-we-serve'))->name('who-we-serve');
+    Route::get('/meet-team', fn() => view('pages.meet-team'))->name('get.team');
+    Route::get('/pricing', fn() => view('pages.pricing'))->name('get.pricing');
+    Route::get('/download', fn() => view('pages.download'))->name('get.download');
 
     Route::get('/blogs', [BlogController::class, 'homepage'])->name('blogs');
     Route::get('/blogs/{blog}', [BlogController::class, 'show'])->name('single.blog');

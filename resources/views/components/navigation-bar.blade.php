@@ -7,6 +7,10 @@
                     <a class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+012 345 6789</a>
                     <span class="text-body">|</span>
                     <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@example.com</a>
+                    <span class="text-body">|</span>
+                    <a href="{{ route('about') }}" class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>About Us</a>
+                    <span class="text-body">|</span>
+                    <a href="{{ route('get.team') }}" class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>Our Team</a>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
@@ -51,12 +55,9 @@
             </ul>
 
             <div class="mt-4">
-                <a href="{{ route('contact') }}" class="py-3 px-7 text-base text-dark hover:text-primary font-patua font-normal">
-                  About Us
-                </a>
-                <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal">
-                  Contact
-                </a>
+                <a href="{{ route('get.download') }}" class="py-3 text-base text-dark hover:text-primary font-patua font-normal">Download</a>
+                <a href="{{ route('get.pricing') }}" class="py-3 px-7 text-base text-dark hover:text-primary font-patua font-normal">Pricing</a>
+                <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal">Contact</a>
             </div>
 
             <a class='menu-trigger'>
