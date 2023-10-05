@@ -3,8 +3,8 @@
 @section('title') Download @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Download the latest healthcare resources, guides, and products from Vitaway. Access valuable information to support your well-being and stay informed about our innovative healthcare solutions.">
+    <meta name="keywords" content="Vitaway Downloads, Well-being Support, Downloadable Content, Healthcare Solutions, Medical Information, Healthcare Resources,vitaway, vitaway.org, e-clinic, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education, download vitaway, vitaway download">
 @stop
 
 @section('styles')
@@ -35,24 +35,26 @@
                                             </defs>
                                             <rect fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)" width="52" height="24"></rect>
                                         </svg>
-                                        <span class="relative font-patua font-normal bg-white">The</span>
+                                        <span class="relative font-patua font-normal bg-white">All-in-One</span>
                                     </span>
-                                    quick, brown fox jumps <br/> over a lazy dog
+                                    Virtual Health Companion
+                                    Empowering Your Wellness Comprehensive Care
                                 </h2>
                                 <p class="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                                    Designed to improve your healthcare experience,
+                                    from virtual doctor consultations to health tracking and personalized wellness plans.
                                 </p>
                                 <hr class="my-8 border-gray-600" />
                                 <div class="flex items-center mb-3 sm:justify-left">
-                                    <a href="/" class="mr-3 transition duration-300 hover:shadow-lg">
+                                    <a href="https://www.apple.com/app-store/" class="mr-3 transition duration-300 hover:shadow-lg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1000px-Download_on_the_App_Store_Badge.svg.png" class="object-cover object-top w-32 mx-auto" alt="" />
                                     </a>
-                                    <a href="/" class="transition duration-300 hover:shadow-lg">
+                                    <a href="https://play.google.com/store/games?hl=en&gl=US" class="transition duration-300 hover:shadow-lg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1000px-Google_Play_Store_badge_EN.svg.png" class="object-cover object-top w-32 mx-auto" alt="" />
                                     </a>
                                 </div>
                                 <p class="max-w-xs text-xs text-gray-600 sm:text-sm sm:max-w-sm">
-                                    Sed ut unde omnis iste natus accusantium doloremque laudantium omnis iste.
+                                    Take charge of your well-being with convenience and comprehensive care at your fingertips.
                                 </p>
                             </div>
                         </div>

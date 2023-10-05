@@ -3,8 +3,8 @@
 @section('title') blogs @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Explore insightful and informative healthcare blogs by Vitaway. Stay updated with the latest trends, tips, and news in the world of health and wellness.">
+    <meta name="keywords" content="Vitaway, blogs, healthcare blogs, health and wellness, latest trends, healthcare news, wellness tips">
 @stop
 
 @section('styles')
@@ -27,12 +27,15 @@
                         </div>
                     </a>
                     <h3 class="font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-3xl">
-                        <span class="inline-block mb-2 font-patua font-normal">Lorem ipsum dolor sit amet consectetur <br/> amet consectetur.</span>
+                        <span class="inline-block mb-2 font-patua font-normal">
+                            For insightful articles, expert tips, and up-to-date information on all things healthcare, wellness, and lifestyle.
+                        </span>
                         <div class="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100"></div>
                     </h3>
                 </div>
                 <p class="w-full text-gray-700 lg:text-sm lg:max-w-md font-patua font-normal">
-                    "Sed ut perspiciatis unde omnis iste natus error sit iste voluptatem accusantium doloremque rem aperiam, ipsa eaque quae. Sed ut perspiciatis unde omnis iste."
+                    From researchs to practical advice, our blog is your trusted source for staying
+                    informed and making the most of your health journey.
                 </p>
             </div>
         </div>

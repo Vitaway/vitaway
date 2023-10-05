@@ -3,8 +3,8 @@
 @section('title') Home @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
+    <meta name="keywords" content="vitaway, vitaway.org, e-clinic, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
 @stop
 
 @section('styles')

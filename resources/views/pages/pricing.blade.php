@@ -3,8 +3,8 @@
 @section('title') Pricing @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Transparent and competitive pricing for our healthcare products and services. Explore our pricing plans and find the perfect solution to fit your wellness needs. we're committed to making high-quality healthcare accessible to everyone.">
+    <meta name="keywords" content="Vitaway, pricing, healthcare pricing, transparent pricing, competitive pricing, wellness plans, healthcare products, affordable healthcare, accessibility, wellness solutions" />
 @stop
 
 @section('styles')
@@ -30,69 +30,70 @@
                     </defs>
                     <rect fill="url(#2c67e949-4a23-49f7-bf27-ca140852cf21)" width="52" height="24"></rect>
                   </svg>
-                  <span class="relative">Affordable</span>
+                  <span class="relative">Accessible</span>
                 </span>
-                for everyone
+                Healthcare for All on Affordable Pricing
               </h2>
               <p class="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+                We believe that good health shouldn't be a luxury, and our transparent and budget-friendly pricing options reflect that commitment,
+                Discover how Vitaway puts your well-being first, without compromise.
               </p>
             </div>
             <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-y-8 mt-8 max-md:max-w-sm max-md:mx-auto">
                 <div class="bg-gray-100 rounded-3xl overflow-hidden p-8" style="border: 1px solid #e7dfd7">
                     <div class="text-left">
-                    <h4 class="text-2xl font-extrabold">Starter</h4>
-                    <p class="text-xs mt-2">Ideal for individuals.</p>
-                    <h3 class="text-2xl font-extrabold mt-4">$5.00<sub class="text-sm font-medium text-gray-400 ml-2">/ Month</sub></h3>
-                    <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
+                        <h4 class="text-3xl font-normal font-patua">Free</h4>
+                        <p class="text-md mt-2 text-gray-600">Only Basis Features</p>
+                        <h3 class="text-2xl font-normal font-patua mt-4">$0.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
+                        <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
                     </div>
                     <div class="mt-8">
-                    <h4 class="text-lg font-bold mb-4">Plan Included</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        50 Image generations
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        500 Credits
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Customer Support
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        50GB Cloud Storage
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited Book Mark
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited basic feature
-                        </li>
-                    </ul>
+                        <h4 class="text-lg font-bold mb-4">Plan Included</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            50 Image generations
+                            </li>
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            500 Credits
+                            </li>
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            Customer Support
+                            </li>
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            50GB Cloud Storage
+                            </li>
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            Unlimited Book Mark
+                            </li>
+                            <li class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                            </svg>
+                            Unlimited basic feature
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="bg-white scale-[1.05] shadow-[0_2px_40px_-4px_rgba(93,96,127,0.2)] rounded-3xl overflow-hidden p-8">
                     <div class="text-left">
-                    <h4 class="text-2xl font-extrabold">Professional</h4>
-                    <p class="text-xs mt-2">Ideal for small Teams.</p>
-                    <h3 class="text-2xl font-extrabold mt-4">$8.00<sub class="text-sm font-medium text-gray-400 ml-2">/ Month</sub></h3>
+                    <h4 class="text-2xl font-normal font-patua">Medium</h4>
+                    <p class="text-md mt-2 text-gray-600">Most Popular plan with <br /> almost everything</p>
+                    <h3 class="text-2xl font-normal font-patua mt-4">$10.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
                     <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
                     </div>
                     <div class="mt-8">
@@ -139,9 +140,9 @@
                 </div>
                 <div class="bg-gray-100 rounded-3xl overflow-hidden p-8" style="border: 1px solid #e7dfd7">
                     <div class="text-left">
-                    <h4 class="text-2xl font-extrabold">Enterprise</h4>
-                    <p class="text-xs mt-2">Ideal for larger Teams.</p>
-                    <h3 class="text-2xl font-extrabold mt-4">$20.00<sub class="text-sm font-medium text-gray-400 ml-2">/ Month</sub></h3>
+                    <h4 class="text-2xl font-normal font-patua">Premium</h4>
+                    <p class="text-md mt-2 text-gray-600">Access All Features</p>
+                    <h3 class="text-2xl font-normal font-patua mt-4">$15.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
                     <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
                     </div>
                     <div class="mt-8">

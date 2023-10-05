@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <a class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+012 345 6789</a>
+                    <a class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 906 391</a>
                     <span class="text-body">|</span>
-                    <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@example.com</a>
+                    <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
                     <span class="text-body">|</span>
                     <a href="{{ route('about') }}" class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>About Us</a>
                     <span class="text-body">|</span>
@@ -15,19 +15,19 @@
             </div>
             <div class="col-md-6 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center">
-                    <a class="text-body px-2" href="">
+                    <a class="text-body px-2" target="__blank" href="https://www.facebook.com/VitawayEClinic/">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a class="text-body px-2" href="">
+                    <a class="text-body px-2" target="__blank" href="https://twitter.com/VitawayCare">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a class="text-body px-2" href="">
+                    <a class="text-body px-2" target="__blank" href="https://www.linkedin.com/in/emmanuel-hakuzimana-123309188/?originalSubdomain=rw">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a class="text-body px-2" href="">
+                    <a class="text-body px-2" target="__blank" href="https://www.instagram.com/">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="text-body ps-2" href="">
+                    <a class="text-body ps-2" target="__blank" href="https://www.youtube.com/@vitawaye-clinic6903">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>

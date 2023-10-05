@@ -1,10 +1,10 @@
 @extends('layouts.guest')
 
-    @section('title') Contact us @stop
+    @section('title') Contact Us | Reach Our Team @stop
 
     @section('metas')
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Contact Vitaway for all your healthcare needs. Reach our dedicated team for product information, support, or partnership inquiries. Your message matters to us. Let's connect for a healthier tomorrow.">
+        <meta name="keywords" content="contact Vitaway, healthcare team, product information, support, partnership inquiries, healthcare needs">
     @stop
 
     @section('styles')
@@ -235,11 +235,10 @@
                 <div class="flex flex-col items-center justify-between xl:flex-row">
                   <div class="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
                     <h2 class="max-w-lg mb-6 font-sans text-3xl font-normal font-patua tracking-tight text-white sm:text-4xl sm:leading-none">
-                      The quick, brown fox <br class="hidden md:block" />
-                      jumps over a <span class="text-gray-400 font-normal font-patua">lazy dog</span>
+                        Contact Vitaway today, and let's connect for <span class="text-gray-400 font-normal font-patua">a Healthier tomorrow</span>
                     </h2>
                     <p class="max-w-xl mb-4 text-base font-normal font-patua text-gray-400 md:text-lg">
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                        We'd love to hear from you! Reach out to our dedicated team of experts at Vitaway and let us assist you on your healthcare journey.
                     </p>
 
                     <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
@@ -250,7 +249,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            A slice of heaven
+                            Product information
                           </li>
                           <li class="flex text-gray-400">
                             <span class="mr-1">
@@ -258,7 +257,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            Disrupt inspire
+                            Any support
                           </li>
                           <li class="flex text-gray-400">
                             <span class="mr-1">
@@ -266,7 +265,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            Preliminary thinking
+                            Partnership opportunities
                           </li>
                         </ul>
                         <ul class="space-y-3">
@@ -276,7 +275,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            Flipboard curmudgeon
+                            Have question
                           </li>
                           <li class="flex text-gray-400">
                             <span class="mr-1">
@@ -284,7 +283,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            Storage shed
+                            Feedback, or inquiries
                           </li>
                           <li class="flex text-gray-400">
                             <span class="mr-1">
@@ -292,7 +291,7 @@
                                 <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                               </svg>
                             </span>
-                            Satoshi Nakamoto
+                            About us
                           </li>
                         </ul>
                     </div>
@@ -301,9 +300,11 @@
                         <button type="button" class="text-white font-patua font-normal bg-green-600 hover:bg-green-600/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
                             Use Whatsapp
                         </button>
-                        <button type="button" class="text-gray-900 font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
-                            Download The APP
-                        </button>
+                        <a href="{{ route('get.download') }}">
+                            <button type="button" class="text-gray-900 font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
+                                Download The app
+                            </button>
+                        </a>
                     </div>
                   </div>
                   <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
@@ -358,7 +359,7 @@
                             </button>
                           </div>
                           <p class="text-xs text-gray-600 sm:text-sm font-normal font-patua">
-                            We respect your privacy. Unsubscribe at any time.
+                            We respect your privacy.
                           </p>
                         </form>
                       </div>

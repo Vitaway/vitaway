@@ -28,7 +28,8 @@
     },
     "dependencies": {
         "@tailwindcss/line-clamp": "^0.4.4",
-        "vue-goodshare": "^1.6.1",
-        "html2pdf.js": "^0.10.1"
+        "html2pdf.js": "^0.10.1",
+        "swiper": "^10.0.0",
+        "vue-goodshare": "^1.6.1"
     }
 }
