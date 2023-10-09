@@ -321,47 +321,8 @@
                         <h3 class="mb-4 text-xl font-normal font-patua sm:text-center sm:mb-6 sm:text-2xl">
                           Connect With Vitaway
                         </h3>
-                        <form>
-                          <div class="mb-1 sm:mb-2">
-                            <label for="name" class="inline-block mb-1 font-normal font-patua">Fullname</label>
-                            <input placeholder="Use Fullname" required=""
-                              type="text"
-                              class="flex-grow w-full h-12 px-4 mb-2 font-normal font-patua transition duration-200 bg-white border border-gray-300 rounded appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                              id="fullname"
-                              name="fullname"
-                            />
-                          </div>
-                          <div class="mb-1 sm:mb-2">
-                            <label for="email" class="inline-block mb-1 font-normal font-patua">E-mail</label>
-                            <input
-                              placeholder="john.doe@example.org"
-                              required=""
-                              type="text"
-                              class="flex-grow w-full h-12 px-4 mb-2 font-normal font-patua transition duration-200 bg-white border border-gray-300 rounded appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                              id="email"
-                              name="email"
-                            />
-                          </div>
-                          <div class="mb-1 sm:mb-2">
-                            <label for="email" class="inline-block mb-1 font-normal font-patua">Message</label>
-                            <textarea
-                              placeholder="Write a Message..."
-                              class="flex-grow w-full h-12 px-4 mb-2 font-normal font-patua transition duration-200 bg-white border border-gray-300 rounded appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                              cols="30" rows="10"
-                            ></textarea>
-                          </div>
-                          <div class="mt-4 mb-2 sm:mb-4">
-                            <button
-                              type="submit"
-                              class="inline-flex items-center justify-center w-full h-12 px-6 font-normal font-patua tracking-wide text-white transition duration-200 rounded bg-indigo-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                            >
-                              Contact
-                            </button>
-                          </div>
-                          <p class="text-xs text-gray-600 sm:text-sm font-normal font-patua">
-                            We respect your privacy.
-                          </p>
-                        </form>
+                        {{-- Contact Form --}}
+                        <div><contact-form /></div>
                       </div>
                     </div>
                   </div>

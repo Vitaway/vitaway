@@ -1,7 +1,7 @@
 <?php
 
     use App\Http\Controllers\BlogController;
-    use Illuminate\Http\Request;
+    use App\Http\Controllers\ContactController;
     use Illuminate\Support\Facades\Route;
 
     /*
@@ -14,6 +14,8 @@
     | is assigned the "api" middleware group. Enjoy building your API!
     |
     */
+    Route::post('/contacts', [ContactController::class, 'store'])->name('post.contacts');
+    Route::post('/suscribe', [ContactController::class, 'suscribe'])->name('post.suscribe');
 
     /**
      * -----------------------------

@@ -1,249 +1,103 @@
 @extends('layouts.guest')
 
-@section('title') Frequent Asked Question @stop
+@section('title') Frequent Asked Questions @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Explore Vitaway's Frequently Asked Questions (FAQ) to find answers to common queries about our healthcare products, services, and team to Learn more about how we're dedicated to enhancing your well-being.">
+    <meta name="keywords" content="Vitaway, FAQ, Frequently Asked Questions, healthcare, products, services, team, well-being, answers">
 @stop
 
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
-    <link rel="stylesheet" href="/css/pages/FAQs.css">
     <link rel="stylesheet" href="/css/footer.css">
 @stop
 
 @section('content')
     <x-navigation-bar />
 
-    <!-- BANNER -->
-    <section class="hero-wrap degree-right" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
-        <div class="container">
-            <div class="row slider-text">
-                <div class="col-md-6">
-                    <div class="hero-heading">
-                        <span class="subheading">Welcome to Vitaway Library</span>
-                        <h1 class="mb-4">Most Frenquent
-                            Asked Questions
-                            </h1>
-                        <p class="mb-4" style="font-size: 16.5px">
-                            Far far away, behind the word mountains, far from the countries
-                            Vokalia and Consonantia, there live the blind texts
-                        </p>
-                    </div>
-                </div>
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
+          <div class="flex flex-col mb-16 sm:text-center">
+            <a href="/" class="mb-6 sm:mx-auto">
+              <div class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+                <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                  <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+              </div>
+            </a>
+            <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <span class="relative inline-block">
+                  <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                    <defs>
+                      <pattern id="ec5d8ef5-b853-4714-b94f-df28ec98eeb7" x="0" y="0" width=".135" height=".30"><circle cx="1" cy="1" r=".7"></circle></pattern>
+                    </defs>
+                    <rect fill="url(#ec5d8ef5-b853-4714-b94f-df28ec98eeb7)" width="52" height="24"></rect>
+                  </svg>
+                  <span class="relative">The</span>
+                </span>
+                quick, brown fox jumps over a lazy dog
+              </h2>
+              <p class="text-base text-gray-700 md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p>
             </div>
+          </div>
+          <div class="space-y-4">
+            <div class="border rounded shadow-sm">
+              <button type="button" aria-label="Open item" title="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
+                <p class="text-lg font-medium">The quick, brown fox jumps over a lazy dog?</p>
+                <div class="flex items-center justify-center w-8 h-8 border rounded-full">
+                  <!-- Add "transform rotate-180" classes on svg, if is open" -->
+                  <svg viewBox="0 0 24 24" class="w-3 text-gray-600 transition-transform duration-200">
+                    <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="2,7 12,17 22,7" stroke-linejoin="round"></polyline>
+                  </svg>
+                </div>
+              </button>
+              <!-- Show content if is open
+              <div class="p-4 pt-0"><p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p></div>
+              -->
+            </div>
+            <div class="border rounded shadow-sm">
+              <button type="button" aria-label="Open item" title="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
+                <p class="text-lg font-medium">The first mate and his Skipper too will do?</p>
+                <div class="flex items-center justify-center w-8 h-8 border rounded-full">
+                  <svg viewBox="0 0 24 24" class="w-3 text-gray-600 transition-transform duration-200 transform rotate-180">
+                    <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="2,7 12,17 22,7" stroke-linejoin="round"></polyline>
+                  </svg>
+                </div>
+              </button>
+              <!-- Show content if is open
+              <div class="p-4 pt-0"><p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p></div>
+              -->
+            </div>
+            <div class="border rounded shadow-sm">
+              <button type="button" aria-label="Open item" title="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
+                <p class="text-lg font-medium">Is the Space Pope reptilian!?</p>
+                <div class="flex items-center justify-center w-8 h-8 border rounded-full">
+                  <svg viewBox="0 0 24 24" class="w-3 text-gray-600 transition-transform duration-200 transform rotate-180">
+                    <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="2,7 12,17 22,7" stroke-linejoin="round"></polyline>
+                  </svg>
+                </div>
+              </button>
+              <!-- Show content if is open
+              <div class="p-4 pt-0"><p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p></div>
+              -->
+            </div>
+            <div class="border rounded shadow-sm">
+              <button type="button" aria-label="Open item" title="Open item" class="flex items-center justify-between w-full p-4 focus:outline-none">
+                <p class="text-lg font-medium">How much money you got on you?</p>
+                <div class="flex items-center justify-center w-8 h-8 border rounded-full">
+                  <svg viewBox="0 0 24 24" class="w-3 text-gray-600 transition-transform duration-200 transform rotate-180">
+                    <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="2,7 12,17 22,7" stroke-linejoin="round"></polyline>
+                  </svg>
+                </div>
+              </button>
+              <!-- Show content if is open
+              <div class="p-4 pt-0"><p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p></div>
+              -->
+            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- *************** QUESTIONS LIST **************** -->
-    <section class="blog_part section_padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-5">
-                    <div class="section_tittle text-center">
-                        <h2>Frequent Asked Questions</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5 justify-content-center">
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788842/vite-guest-imgs/pregnancy_woman_with_diabete_t5rt45.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Healthy_Pregnancy_for_Women_With_Diabetes.php" class="btn_4 Link">12 Questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">A Healthy Pregnancy for Women With Diabetes </h5>
-                                </div>
-                                <p class="Card-Description">Diabetes mellitus also called “diabetes” is caused by a problem
-                                    with insulin</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788840/vite-guest-imgs/breastfeedingbaby_s3zypb.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Breastfeeding_Your_Baby.php" class="btn_4 Link">14 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Breastfeeding Your Baby</h5>
-                                </div>
-                                <p class="Card-Description">recommended for the first 6 months of a baby’s life.
-                                    Breastfeeding should continue up to the...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788840/vite-guest-imgs/depression_ey24wt.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Depression.php" class="btn_4 Link">13 Questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Depression</h5>
-                                </div>
-                                <p class="Card-Description">Depression changes your thoughts, feelings, behavior, and
-                                    physical...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788841/vite-guest-imgs/Depression_pregnancy_qcxzie.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Depression_During_Pregnancy.php" class="btn_4 Link">12 Questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Depression During Pregnancy</h5>
-                                </div>
-                                <p class="Card-Description">It is more than feeling sad or upset for a short time...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788841/vite-guest-imgs/DiabetesWomen_ayoorc.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Diabetes_and_Women.php" class="btn_4 Link">10 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Diabetes and Women</h5>
-                                </div>
-                                <p class="Card-Description">Glucose is then carried to the body’s cells with the help of
-                                    insulin
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788841/vite-guest-imgs/eating_disorder_ugnfmm.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Eating_Disorders.php" class="btn_4 Link">13 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Eating Disorders</h5>
-                                </div>
-                                <p class="Card-Description"> person with an eating disorder can become so concerned with
-                                    food
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788842/vite-guest-imgs/sport_after_td39l1.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Exercise_After_Pregnancy.php" class="btn_4 Link">13 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Exercise After Pregnancy</h5>
-                                </div>
-                                <p class="Card-Description">
-                                    you should get at least 150 minutes of moderate-intensity aerobic activity...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788840/vite-guest-imgs/during_bgcljq.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Exercise_During_Pregnancy.php" class="btn_4 Link">13 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Exercise During Pregnancy</h5>
-                                </div>
-                                <p class="Card-Description">
-                                    Physical activity does not increase your risk of ...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788842/vite-guest-imgs/pregnacy_care_kmrfow.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Good_Health_Before_Pregnancy.php" class="btn_4 Link">32 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Good Health Before Pregnancy</h5>
-                                </div>
-                                <p class="Card-Description">
-                                    Identifying these things is important because the...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-col">
-                    <div class="single-home-blog">
-                        <div class="card">
-                            <div class="card-media h-40">
-                                <div class="card-media-overly"></div>
-                                <img class="Image" src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671788842/vite-guest-imgs/healthy_eat_xjlwji.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <a href="Healthy_Eating.php" class="btn_4 Link">29 questions</a>
-                                <div class="blog-tittle">
-                                    <h5 class="card-title card-data-title">Healthy Eating</h5>
-                                </div>
-                                <p class="Card-Description">Not getting enough of these important nutrients can affect your
-                                    health</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    </section>
+      </div>
 
     <x-footer />
 @stop

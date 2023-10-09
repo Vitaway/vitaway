@@ -29,17 +29,14 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="d-inline-block font-patua text-gray-100 text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter</h4>
                 <form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control p-3 border-0 font-patua font-normal" placeholder="Your Email Address">
-                        <button class="btn btn-primary font-patua font-normal">Subscribe</button>
-                    </div>
+                    <div><subscriber-form /></div>
                 </form>
                 <h6 class="font-patua text-gray-100 text-uppercase mt-4 mb-3">Follow Us</h6>
                 <div class="d-flex">
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" target="__blank" href="https://twitter.com/VitawayCare"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" target="__blank" href="https://www.facebook.com/VitawayEClinic/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" target="__blank" href="https://www.linkedin.com/in/emmanuel-hakuzimana-123309188/?originalSubdomain=rw"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" target="__blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

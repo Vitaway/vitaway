@@ -7,13 +7,16 @@
                     <a class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 906 391</a>
                     <span class="text-body">|</span>
                     <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
-                    <span class="text-body">|</span>
-                    <a href="{{ route('about') }}" class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>About Us</a>
-                    <span class="text-body">|</span>
-                    <a href="{{ route('get.team') }}" class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>Our Team</a>
+
+                    <span class="text-body top-header-about-links">|</span>
+                    <a href="{{ route('about') }}" class="text-decoration-none top-header-about-links text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>About Us</a>
+                    <span class="text-body top-header-about-links">|</span>
+                    <a href="{{ route('get.team') }}" class="text-decoration-none top-header-about-links text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>Our Team</a>
+                    <span class="text-body top-header-about-links">|</span>
+                    <a href="{{ route('faqs') }}" class="text-decoration-none top-header-about-links text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>FAQs</a>
                 </div>
             </div>
-            <div class="col-md-6 text-center text-lg-end">
+            <div class="col-md-6 text-center text-lg-end top-header-social-links">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-body px-2" target="__blank" href="https://www.facebook.com/VitawayEClinic/">
                         <i class="fab fa-facebook-f"></i>
@@ -54,15 +57,14 @@
                 <li class="scroll-to-section font-patua font-normal"><a href="{{ route('blogs') }}" @if(request()->routeIs('blogs') ?? false) class="active" @endif>Blogs</a></li>
             </ul>
 
-            <div class="mt-4">
+            <div class="mt-4 extra-links">
                 <a href="{{ route('get.download') }}" class="py-3 text-base text-dark hover:text-primary font-patua font-normal">Download</a>
                 <a href="{{ route('get.pricing') }}" class="py-3 px-7 text-base text-dark hover:text-primary font-patua font-normal">Pricing</a>
                 <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal">Contact</a>
             </div>
 
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
+           <div><mobile-navbar /></div>
+
             <!-- ***** Menu End ***** -->
           </nav>
         </div>
