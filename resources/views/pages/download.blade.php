@@ -38,7 +38,7 @@
                                         <span class="relative font-patua font-normal bg-white">All-in-One</span>
                                     </span>
                                     Virtual Health Companion
-                                    Empowering Your Wellness Comprehensive Care
+                                    Empowering Your Wellness <br/> Comprehensive Care
                                 </h2>
                                 <p class="text-base text-gray-700 md:text-lg">
                                     Designed to improve your healthcare experience,

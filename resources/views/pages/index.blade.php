@@ -66,7 +66,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 relative">
+                <div class="col-lg-6 relative mobile-view">
                     <div class="mx-auto ml-5 z-20">
                         <div class="absolute left-40">
                             <div class="relative rotate-12 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
@@ -268,7 +268,7 @@
 
     {{-- Our Goals section --}}
     <template>
-        <div class="relative mt-4 px-4 pt-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
+        <div class="our-goal relative mt-4 px-4 pt-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24">
             <div class="absolute inset-x-0 top-0 items-top justify-center hidden overflow-hidden md:flex md:inset-y-0">
                 <svg viewBox="0 0 88 88" class="w-full max-w-screen-xl text-blue-200">
                     <circle fill="currentColor" cx="44" cy="44" r="15.5"></circle>

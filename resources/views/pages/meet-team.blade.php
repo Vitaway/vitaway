@@ -10,13 +10,20 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        @media (max-width: 720px) {
+            .team-section {
+                padding: 20px;
+            }
+        }
+    </style>
 @stop
 
 @section('content')
     <x-navigation-bar />
 
     <template>
-        <div class="relative w-full h-full">
+        <div class="team-section relative w-full h-full">
             <div class="absolute hidden w-full from-indigo-50 bg-gradient-to-b lg:block h-96"></div>
 
             <div class="relative py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:py-20">

@@ -241,3 +241,29 @@ Banner Style
     line-height: 30px;
     margin: 10px 0 !important;
 }
+
+
+.hero-section {
+    height: 80vh
+}
+
+@media (max-width: 720px) {
+    .hero-section {
+        margin-top: 20px;
+        padding: 0;
+    }
+    .hero-section .right-image{
+        display: none;
+    }
+}
+
+.pledge {
+    margin-top: 50px !important;
+}
+
+@media (max-width: 720px) {
+    .pledge {
+        margin-top: 10px;
+        padding: 0;
+    }
+}
