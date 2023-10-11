@@ -19,7 +19,7 @@
         <div class="relative bg-white overflow-hidden">
             <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div class="absolute inset-0 inset-x-10">
-                    <div class="absolute inset-y-0 z-0 w-full h-full from-indigo-50 bg-gradient-to-b lg:w-3/6"></div>
+                    <div class="absolute inset-y-0 z-0 w-full h-full from-indigo-100 bg-gradient-to-b lg:w-3/6"></div>
                 </div>
                 <div class="relative">
                     <div class="grid gap-10 lg:grid-cols-2">

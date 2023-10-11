@@ -11,6 +11,39 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/index_page.css">
     <link rel="stylesheet" href="/css/footer.css">
+
+    <style>
+        .css-1ueqzyg {
+            position: absolute;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            top: 80%;
+            left: 10%;
+            width: 400px;
+            height: 400px;
+            -webkit-filter: blur(80px);
+            filter: blur(80px);
+            background: radial-gradient(circle at 50% 50%, #3268b9, #444bf700);
+            opacity: 0.7;
+        }
+        .css-10gqqxt {
+            position: absolute;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            top: 30%;
+            left: 80%;
+            width: 300px;
+            height: 300px;
+            -webkit-filter: blur(80px);
+            filter: blur(80px);
+            background: radial-gradient(circle at 50% 50%, #3268b9, #4c00ff00);
+            opacity: .7;
+        }
+    </style>
 @stop
 
 @section('content')
@@ -26,15 +59,15 @@
                   <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="row">
                         <div class="col-lg-12 hero-title font-patua font-normal">
-                            <h2>Accessible Virtual <br> Care for Everyone's <br> Well-being</h2>
-                            <p>Experience comprehensive virtual care <br> that's accessible to all, prioritizing your <br> holistic well-being.</p>
+                            <h2 class="wow fadeIn">Universal Access <br> To Virtual Health <br> Services for Enhanced Well-being</h2>
+                            <p class="wow fadeIn">Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.</p>
                         </div>
                         <div class="col-lg-12 more-detail-buttons ">
-                            <button type="button" class="text-white font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
+                            <button type="button" class="text-white animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
                                 Get Started
                             </button>
                             <a href="{{ route('get.download') }}">
-                                <button type="button" class="text-gray-900 font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
+                                <button type="button" class="text-gray-900 animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                     </svg>
@@ -45,21 +78,18 @@
 
                       <div class="clients pt-16">
                         <h6 class="mb-2 flex items-center text-xs font-normal text-body-color">
-                          Some Of Our Clients
+                          Some Of Our Paterners
                           <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
                         </h6>
                         <div class="flex items-center">
                           <div class="mr-4 w-full py-3">
-                            <img src="/images/brands/ayroui.svg" alt="ayroui" />
+                            <img src="/images/brands/RBC-LOGO_Sept30_2019-Regular.png" alt="ayroui" />
                           </div>
                           <div class="mr-4 w-full py-3">
-                            <img
-                              src="/images/brands/graygrids.svg"
-                              alt="graygrids"
-                            />
+                            <img src="/images/brands/5df0a744c2f6edb843387c54_norrsken-logo-Black.webp" alt="graygrids" />
                           </div>
                           <div class="mr-4 w-full py-3">
-                            <img src="/images/brands/uideck.svg" alt="uideck" />
+                            {{-- <img src="/images/brands/uideck.svg" alt="uideck" /> --}}
                           </div>
                         </div>
                       </div>
@@ -68,7 +98,7 @@
                 </div>
                 <div class="col-lg-6 relative mobile-view">
                     <div class="mx-auto ml-5 z-20">
-                        <div class="absolute left-40">
+                        <div class="absolute left-40 animate__animated animate__fadeInUp animate__delay-1s animate__slow">
                             <div class="relative rotate-12 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                                 <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                                 <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
@@ -80,7 +110,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="relative border-gray-800 pt-[13px] dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+                        <div class="relative wow bounceInUp border-gray-800 pt-[13px] dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                             <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
@@ -136,16 +166,16 @@
 
     <!-- ====== Services Section Start -->
     <template>
-        <div style="z-index: 6 !important" class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-28 lg:px-11 lg:pt-20">
+        <div style="z-index: 6 !important" class=" bg-transparent px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-28 lg:px-11 lg:pt-20">
             <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <div>
                 <p class="inline-block font-patua font-normal px-3 py-px mb-4 text-xs tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                    Brand new
+                    Consultation
                 </p>
                 </div>
                 <h2 class="max-w-lg font-patua font-normal mb-6 font-sans text-3xl leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     <span class="relative inline-block">
-                        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-9 -right-1 z-0 hidden w-28 -mt-8 -ml-20 text-blue-gray-100 lg:w-28 lg:-ml-28 lg:-mt-10 sm:block">
+                        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-9 right-10 z-0 hidden w-28 -mt-8 -ml-20 text-blue-gray-100 lg:w-28 lg:-ml-28 lg:-mt-10 sm:block">
                         <defs>
                             <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
                             <circle cx="1" cy="1" r=".7"></circle>
@@ -153,30 +183,31 @@
                         </defs>
                         <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
                         </svg>
-                        <span class="relative font-patua font-normal">The</span>
+                        <span class="relative font-patua font-normal">Accessible</span>
                     </span>
-                    quick, brown fox jumps over a lazy dog
+                    Remote Doctor Consultation
                 </h2>
                 <p class="text-base text-gray-700 md:text-lg font-merri font-normal">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+                    Connect with qualified medical professionals from the comfort of your home,
+                    ensuring convenient, safe, and efficient healthcare access whenever you need it.
                 </p>
             </div>
             <div class="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
-                <div>
-                    <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                        </svg>
+                <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                    <div>
+                        <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                            <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <p class="mb-3 text-sm text-gray-900">
+                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                        </p>
                     </div>
-                    <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
-                    <p class="mb-3 text-sm text-gray-900">
-                    A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
-                    </p>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
-                <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
-                </div>
-                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                         <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -190,7 +221,7 @@
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
-                <div style="z-index: 6 !important" class="flex flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                         <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -204,7 +235,7 @@
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
                 </div>
-                <div style="z-index: 30 !important" class="flex bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
+                <div style="z-index: 30 !important" class="flex animate__animated animate__fadeInUp animate__slow bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                         <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -229,7 +260,7 @@
         </div>
 
         <div class="wellness-container grid grid-cols-2 gap-3 z-10">
-            <div class="welness-item" style="z-index: 6 !important">
+            <div class="welness-item animate__animated animate__fadeInUp animate__slow" style="z-index: 6 !important">
                 <div class="welness-description">
                     <h2 class="font-patua font-medium tracking-wide">Nutrition Consultation</h2>
                     <p class="text-gray-600 font-merri font-semibold leading-8 text-md">Everyone’s nutritional goals are different, whether it’s losing weight,
@@ -244,7 +275,7 @@
                     <img src="https://static.wixstatic.com/media/82df8c_80b4b77d2d9048978a8e10f562dc1f5d~mv2.jpg/v1/fill/w_352,h_412,al_c,lg_1,q_80,enc_auto/plan.jpg" alt="">
                 </div>
             </div>
-            <div class="welness-item" style="z-index: 6 !important">
+            <div class="welness-item animate__animated animate__fadeInUp animate__slow" style="z-index: 6 !important">
                 <div class="welness-description">
                     <h2 class="font-patua font-medium tracking-wide">Get Personalized wellness Plan</h2>
                     <p class="text-gray-600 font-merri font-semibold leading-8 text-md">Our nutrition services team includes doctors,
@@ -284,43 +315,46 @@
                         <div class="flex flex-col justify-center">
                             <div class="max-w-xl">
                                 <h2 class="max-w-lg mb-6 font-patua font-normal leading-10 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                    The quick, brown fox<br class="hidden md:block" />
-                                    jumps over
+                                    Virtual-first care <br class="hidden md:block" />
+                                    to address expensive chronic conditions found
                                     <span class="relative px-1">
                                         <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
-                                        <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700">a lazy dog</span>
+                                        <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700">across your population</span>
                                     </span>
                                 </h2>
                                 <p class="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                                    We leverage our expertise and tech-savvy skills to drive your digital transformation,
+                                    unlocking competitive advantages through cutting-edge technologies, data solutions,
+                                    and digital healthcare services. Our experience guarantees improved patient care,
+                                    smarter decision-making, and enhanced healthcare management.
                                 </p>
                             </div>
                             <div class="grid gap-3 row-gap-2 sm:grid-cols-2 mt-5">
-                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Diabetes
+                                        Vitaway for Diabetes
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
                                         Simply Diabetes management with quick checks and a Proper...
                                     </p>
                                 </div>
-                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Diabetes
+                                        Vitaway for Prevention
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
                                         Simply Diabetes management with quick checks and a Proper...
                                     </p>
                                 </div>
-                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Diabetes
+                                        Vitaway for Hypertension
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
                                         Simply Diabetes management with quick checks and a Proper...
                                     </p>
                                 </div>
-                                <div class="mb-2 rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
+                                <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
                                         Diabetes
                                     </h4>
@@ -331,7 +365,9 @@
                             </div>
                         </div>
                         <div>
-                            <img class="object-cover w-full h-64 rounded shadow-lg sm:h-96" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40" src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4" src="https://images.unsplash.com/photo-1621525434111-87a99d170b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
                         </div>
                     </div>
                 </div>
@@ -343,15 +379,17 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-5 align-self-center">
-              <div class="left-image">
-                <div class="relative rotate-6 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+              <div class="left-image relative">
+                <div border-radius="50% 200% 40% 80%" class="css-1ueqzyg"></div>
+                <div border-radius="50% 200% 40% 80%" class="css-10gqqxt"></div>
+                <div class="relative animate__animated animate__fadeInUp animate__slow rotate-6 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                     <div class="w-[148px] h-[20px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                     <div class="rounded-[2rem] overflow-hidden w-[274px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                        <img src="/images/categories.png" class="dark:hidden w-[274px] h-[572px]" alt="">
-                        <img src="/images/categories.png" class="hidden dark:block w-[274px] h-[572px]" alt="">
+                        <img src="/images/learn.png" class="dark:hidden w-[274px] h-[572px]" alt="">
+                        <img src="/images/learn.png" class="hidden dark:block w-[274px] h-[572px]" alt="">
                     </div>
                 </div>
               </div>
@@ -359,10 +397,12 @@
             <div class="col-lg-7 ">
                 <div class="section-heading">
                     <h2 class="mb-3 text-3xl text-dark sm:text-4xl md:text-[40px] font-patua font-medium leading-9">How Vitaway's diabetes program works for members</h2>
-                    <p class="mb-5 text-xl font-merri font-normal leading-10 text-gray-600">You can browse free HTML templates on Too CSS website. Visit the website and explore latest website templates for your projects.</p>
+                    <p class="mb-5 text-xl font-merri font-normal leading-10 text-gray-600">
+                        Our program empowers individuals to manage their diabetes and improve their overall health
+                    </p>
 
                     <div class="-mx-4 flex flex-wrap">
-                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                        <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
                             <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -378,7 +418,7 @@
                             </div>
                         </div>
 
-                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                        <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
                             <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -393,7 +433,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                        <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
                             <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -408,7 +448,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="w-full px-2 md:w-2/3 lg:w-3/6">
+                        <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
                             <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

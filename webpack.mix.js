@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,6 +15,11 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
+    .sourceMaps()
     .postCss("resources/css/app.css", "public/css", [
         require("tailwindcss"),
-    ]);
+    ])
+    .purgeCss({
+        enabled: mix.inProduction(),
+        folders: ['resources/views'],
+    });

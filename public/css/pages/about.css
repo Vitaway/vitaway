@@ -16,7 +16,6 @@ Banner Style
 
 .main-banner:after {
     content: "";
-    background-image: url(../images/slider-left-dec.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -117,7 +116,6 @@ Banner Style
 
 .better-you:after {
     content: "";
-    background-image: url(../images/slider-left-dec.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
