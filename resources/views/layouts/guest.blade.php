@@ -12,7 +12,7 @@
     <meta name="rating" content="RTA-5042-1996-1400-1577-RTA" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="icon" type="image/x-icon" href="/storage/images/norldarch_logo_small.png">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
 
     <title>@yield('title') | vitaway</title>
 
