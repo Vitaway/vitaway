@@ -83,8 +83,8 @@
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                             <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                             <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                                <img src="/images/categories.png" class="dark:hidden w-[272px] h-[572px]" alt="">
-                                <img src="/images/categories.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
+                                <img src="/images/Categories.png" class="dark:hidden w-[272px] h-[572px]" alt="">
+                                <img src="/images/Categories.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
                             </div>
                         </div>
                     </div>
