@@ -29,12 +29,13 @@
                 <div style="height: 500px" class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                     <div class="flex flex-col items-center justify-between xl:flex-row">
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                            <h2 class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
-                                The quick, brown fox <br class="hidden md:block" />
-                                jumps over a lazy dog
+                            <h2 style="line-height: 2.9rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
+                                Your Well-being with Vitaway's <br class="hidden md:block" />
+                                Health Plan
                             </h2>
                             <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                                Our personalized programs are designed to inspire better health outcomes.
+                                We believe in tailoring wellness plans to your unique needs.
                             </p>
                         </div>
                         <div class="w-full max-w-xl xl:px-8 xl:w-5/12">

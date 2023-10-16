@@ -11,39 +11,6 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/index_page.css">
     <link rel="stylesheet" href="/css/footer.css">
-
-    <style>
-        .css-1ueqzyg {
-            position: absolute;
-            -webkit-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            top: 80%;
-            left: 10%;
-            width: 400px;
-            height: 400px;
-            -webkit-filter: blur(80px);
-            filter: blur(80px);
-            background: radial-gradient(circle at 50% 50%, #3268b9, #444bf700);
-            opacity: 0.7;
-        }
-        .css-10gqqxt {
-            position: absolute;
-            -webkit-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            top: 30%;
-            left: 80%;
-            width: 300px;
-            height: 300px;
-            -webkit-filter: blur(80px);
-            filter: blur(80px);
-            background: radial-gradient(circle at 50% 50%, #3268b9, #4c00ff00);
-            opacity: .7;
-        }
-    </style>
 @stop
 
 @section('content')
@@ -196,13 +163,11 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                            <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                            </svg>
+                           <img src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Diabetes</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                            Comprehensive guide explores the various types of diabetes, their causes, symptoms, and management
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -210,13 +175,12 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                        </svg>
+                            <img src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Hypertension</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                            Learn how to measure your blood pressure, spot the warning signs, and discover practical steps
+                            to manage and prevent this silent but deadly health threat
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -224,13 +188,12 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                        </svg>
+                            <img src="https://cdn-icons-png.flaticon.com/512/847/847345.png" alt="">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Weight Management</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                            Comprehensive guide offers expert insights, practical tips, and personalized plans
+                            to help you achieve and maintain a weight that promotes your well-being
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -238,13 +201,13 @@
                 <div style="z-index: 30 !important" class="flex animate__animated animate__fadeInUp animate__slow bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                        </svg>
+                            <img src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">The deep ocean</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Mental health</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear.
+                            Your mental health is as important to us as your physical health,
+                            and we believe that taking care of your mind
+                            is a crucial part of overall wellness
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -314,7 +277,7 @@
                     <div class="grid gap-5 row-gap-8 lg:grid-cols-2 items-center">
                         <div class="flex flex-col justify-center">
                             <div class="max-w-xl">
-                                <h2 class="max-w-lg mb-6 font-patua font-normal leading-10 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                                <h2 style="line-height: 2.6rem" class="max-w-lg mb-6 font-patua font-normal leading-10 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                                     Virtual-first care <br class="hidden md:block" />
                                     to address expensive chronic conditions found
                                     <span class="relative px-1">
@@ -335,7 +298,7 @@
                                         Vitaway for Diabetes
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Simply Diabetes management with quick checks and a Proper...
+                                        A specially formulated supplement designed to complement your health journey
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
@@ -343,7 +306,7 @@
                                         Vitaway for Prevention
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Simply Diabetes management with quick checks and a Proper...
+                                        The power of Vitaway, a comprehensive solution for proactive health and prevention
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
@@ -351,23 +314,23 @@
                                         Vitaway for Hypertension
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Simply Diabetes management with quick checks and a Proper...
+                                        Improve heart health, and lead a more balanced life without relying solely on medication
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Diabetes
+                                        For also Mental Wellness
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Simply Diabetes management with quick checks and a Proper...
+                                        Encouraging and optimize mental wellness alongside professional care
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40" src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4" src="https://images.unsplash.com/photo-1621525434111-87a99d170b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 shadow-sm" src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://images.unsplash.com/photo-1621525434111-87a99d170b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
                         </div>
                     </div>
                 </div>
@@ -382,6 +345,35 @@
               <div class="left-image relative">
                 <div border-radius="50% 200% 40% 80%" class="css-1ueqzyg"></div>
                 <div border-radius="50% 200% 40% 80%" class="css-10gqqxt"></div>
+                <span class="absolute right-0 bottom-8 z-10">
+                    <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
+                        <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
+                        <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
+                        <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
+                        <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
+                        <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
+                        <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
+                        <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
+                        <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
+                        <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
+                        <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
+                        <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
+                        <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
+                        <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
+                        <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
+                        <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
+                        <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
+                        <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
+                        <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
+                        <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
+                        <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
+                        <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
+                        <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
+                        <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
+                        <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    </svg>
+                </span>
                 <div class="relative animate__animated animate__fadeInUp animate__slow rotate-6 translate-x-10 pt-[13px] border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
                     <div class="w-[148px] h-[20px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[124px] rounded-l-lg"></div>
@@ -396,30 +388,33 @@
             </div>
             <div class="col-lg-7 ">
                 <div class="section-heading">
-                    <h2 class="mb-3 text-3xl text-dark sm:text-4xl md:text-[40px] font-patua font-medium leading-9">How Vitaway's diabetes program works for members</h2>
+                    <h2 style="line-height: 2.6rem" class="mb-3 text-3xl text-dark sm:text-4xl md:text-[40px] font-patua font-medium leading-9">
+                        How Vitaway's diabetes program works <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700"> for members </span>
+                    </h2>
                     <p class="mb-5 text-xl font-merri font-normal leading-10 text-gray-600">
                         Our program empowers individuals to manage their diabetes and improve their overall health
                     </p>
 
                     <div class="-mx-4 flex flex-wrap">
                         <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
-                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
+                            <div class="mb-8 rounded-[20px] bg-white p-4 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
+                                        <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
                                     </svg>
                                 </div>
-                                <h4 class="mb-2 text-md font-patua font-medium text-gray-600">
+                                <h4 class="text-md font-patua font-medium text-gray-600">
                                     Eat Well Guide
                                 </h4>
                                 <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                    Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                                    Whether you're looking to improve your dietary habits, explore sustainable eating options,
+                                    or simply find healthy food establishments near you.
                                 </p>
                             </div>
                         </div>
 
                         <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
-                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
+                            <div class="mb-8 rounded-[20px] bg-white p-4 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
@@ -434,7 +429,7 @@
                             </div>
                         </div>
                         <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
-                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
+                            <div class="mb-8 rounded-[20px] bg-white p-4 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>
@@ -449,7 +444,7 @@
                             </div>
                         </div>
                         <div class="w-full animate__animated animate__fadeInUp animate__slow px-2 md:w-2/3 lg:w-3/6">
-                            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
+                            <div class="mb-8 rounded-[20px] bg-white p-4 shadow-sm hover:shadow-lg md:px-7 xl:px-10" style="border: 1px solid #e7dfd7">
                                 <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-[#3268b9]">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.6746 0.26779C10.0637 -1.33065 1.86522 4.39279 0.266779 13.0037C-0.506658 17.1803 0.421467 21.3568 2.79334 24.8631C5.21678 28.3693 8.82615 30.6897 12.9512 31.4631C13.9308 31.6178 14.859 31.7209 15.7871 31.7209C23.2637 31.7209 29.9668 26.3584 31.359 18.6756C32.9574 10.0647 27.234 1.81466 18.6746 0.26779ZM29.6574 18.3662C29.5543 18.8819 29.4512 19.449 29.2965 19.9131L16.7668 15.2209V1.81466C17.2824 1.86623 17.8496 1.91779 18.3652 2.02091C25.9449 3.4131 30.998 10.735 29.6574 18.3662ZM14.9105 1.81466V14.9115H1.86522C1.91678 14.3959 1.96834 13.8287 2.07147 13.3131C3.20584 6.86779 8.67147 2.22716 14.9105 1.81466ZM13.3121 29.6584C9.65115 28.9881 6.45428 26.9256 4.28865 23.8318C2.79334 21.7178 1.96834 19.2428 1.81365 16.7678H15.6324L28.5746 21.6147C26.048 27.3381 19.7574 30.8443 13.3121 29.6584Z" fill="white"/>

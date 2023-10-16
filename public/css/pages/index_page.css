@@ -843,7 +843,7 @@ eating-health-section Style
 
 .wellness .welness-item .welness-description p {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 23px;
 }
 
@@ -884,4 +884,36 @@ eating-health-section Style
         margin: 0 !important;
         padding-top: 5px !important;
     }
+}
+
+
+.css-1ueqzyg {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 10%;
+    width: 400px;
+    height: 400px;
+    -webkit-filter: blur(80px);
+    filter: blur(80px);
+    background: radial-gradient(circle at 50% 50%, #dbf1d0, #444bf700);
+    opacity: 0.7;
+}
+.css-10gqqxt {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 80%;
+    width: 300px;
+    height: 300px;
+    -webkit-filter: blur(80px);
+    filter: blur(80px);
+    background: radial-gradient(circle at 50% 50%, #dbf1d0, #4c00ff00);
+    opacity: .7;
 }

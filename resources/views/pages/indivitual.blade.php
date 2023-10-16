@@ -29,12 +29,12 @@
                     <div style="height: 500px" class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div class="flex flex-col items-center justify-between xl:flex-row">
                             <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 mt-4">
-                                <h2 class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
-                                    The quick, brown fox <br class="hidden md:block" />
-                                    jumps over a lazy dog
+                                <h2 style="line-height: 2.9rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
+                                    Transform your Life and Mindset shift for Optimal Health
                                 </h2>
                                 <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                                    Discover how changing your mindset can be the key to improving your overall health and well-being.
+                                    Explore the power of a positive perspective in this journey toward a healthier you
                                 </p>
                             </div>
                             <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
@@ -51,16 +51,16 @@
               <div style="border: 1px solid #e7dfd7" class="p-8 absolute -top-20 right-20 left-20 rounded-[20px] bg-white shadow-md sm:p-16">
                 <div class="flex flex-col lg:flex-row">
                   <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-                    <h2 class="font-patua font-normal text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                      The quick, brown fox<br class="hidden md:block" />
-                      jumps over
+                    <h2 style="line-height: 2.5rem" class="font-patua font-normal text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                        It takes only one minutes to see if <br class="hidden md:block" /> Vitaway is right for you and at no cost.
                       <span class="inline-block text-indigo-600 font-patua font-normal">a lazy dog</span>
                     </h2>
                   </div>
                   <div class="lg:w-1/2">
                     <p class="mb-4 text-base text-gray-700">
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium
-                      doloremque rem aperiam.
+                        Your path to better well-being with Vitaway's one-minute wellness assessment.
+                        Find out if our tailored solutions are right for you, at no cost.
+                        Your journey to improved health begins now!
                     </p>
                     <a href="/" aria-label="" class="inline-flex items-center transition-colors duration-200 bg-indigo-600 px-4 py-3 rounded-[10px] font-normal font-patua text-gray-100 hover:text-deep-purple-800">
                      I am Eligible
@@ -162,12 +162,12 @@
                     <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
                 </svg>
                 <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 mt-4">
-                    <h2 class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-black sm:text-4xl sm:leading-none">
-                        The quick, brown fox <br class="hidden md:block" />
-                        jumps over a lazy dog
+                    <h2 style="line-height: 2.5rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-black sm:text-4xl sm:leading-none">
+                        With multi-condition virtual care programs, Vitaway
+                        provides everything you need to experience better health
                     </h2>
                     <p class="max-w-xl mb-4 text-base text-gray-800 md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+                        We've got everything you need to improve your health, from expert guidance to personalized solutions. Experience a healthier you, today.
                     </p>
                 </div>
             </div>
