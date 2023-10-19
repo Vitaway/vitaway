@@ -151,68 +151,11 @@
             </div>
         </section>
 
-        <div class="virtual-programs from-indigo-50 bg-gradient-to-b">
-            <div class="sm:max-w-xl relative md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-                <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-9 -right-1 z-0 hidden w-28 -mt-8 -ml-20 text-blue-gray-100 lg:w-28 lg:-ml-28 lg:-mt-10 sm:block">
-                    <defs>
-                        <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
-                        <circle cx="1" cy="1" r=".7"></circle>
-                        </pattern>
-                    </defs>
-                    <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
-                </svg>
-                <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 mt-4">
-                    <h2 style="line-height: 2.5rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-black sm:text-4xl sm:leading-none">
-                        With multi-condition virtual care programs, Vitaway
-                        provides everything you need to experience better health
-                    </h2>
-                    <p class="max-w-xl mb-4 text-base text-gray-800 md:text-lg">
-                        We've got everything you need to improve your health, from expert guidance to personalized solutions. Experience a healthier you, today.
-                    </p>
-                </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                      <div class="left-content show-up header-text">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <ul class="measurements">
-                                <li><a href="#home">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4327/4327809.png" alt="">
-                                     Prevention </a>
-                                </li>
-                                <li><a href="#news">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="">
-                                    Diabetes </a>
-                                </li>
-                                <li><a href="#contact">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
-                                    Hypertension </a>
-                                </li>
-                                <li><a href="#about">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="">
-                                    Behavioral Health </a>
-                                </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533558/vite-guest-imgs/louis-hansel--9CjvlbUGhY-unsplash_zxsnxn.jpg" alt="" class="rounded">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-         </div>
+        <div>
+            <virtual-care-programs />
+        </div>
 
-         <x-footer />
+        <x-footer />
     @stop
 
     @section('scripts') @stop

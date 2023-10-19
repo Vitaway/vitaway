@@ -169,10 +169,15 @@ Banner Style
     text-align: center;
     position: relative;
     z-index: 0;
+    max-width: 710px;
+    padding: 10px;
+    height: 400px;
+    background-color: #fff;
 }
 
 .virtual-programs .right-image img {
-    max-width: 710px;
+    width: 100%;
+    height: 100%;
 }
 
 .virtual-programs .left-content .more-detail-buttons {
