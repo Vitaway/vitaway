@@ -99,6 +99,24 @@ Banner Style
     .service-item {
         margin-bottom: 50px !important;
     }
+
+    .main-banner .left-content h2 {
+        line-height: 40px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: var(--primary-font-family) !important;
+        font-weight: 400 !important;
+    }
+
+    .main-banner .left-content p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .more-detail-buttons button {
+        font-size: 10px !important;
+        padding: 10px 15px !important;
+    }
 }
 
 .main-banner .left-content .white-button a {

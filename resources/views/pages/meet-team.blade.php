@@ -57,7 +57,7 @@
 
                     <div class="grid sm:grid-cols-6">
                         <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-1.jpeg" alt="Person" />
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-1.jpeg" alt="Emmanuel HAKUZIMANA" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-normal font-patua mb-3">Emmanuel HAKUZIMANA</p>
@@ -80,8 +80,8 @@
                     </div>
 
                     <div class="grid sm:grid-cols-6">
-                        <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-6.jpeg" alt="Person" />
+                        <div class="relative w-full h-96 max-h-full rounded sm:h-auto sm:col-span-3">
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-6.jpeg" alt="Eric NIYONGIRA" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Eric NIYONGIRA</p>
@@ -104,8 +104,8 @@
                     </div>
 
                     <div class="grid sm:grid-cols-6">
-                        <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-4.jpeg" alt="Person" />
+                        <div class="relative w-full h-96 max-h-full rounded sm:h-auto sm:col-span-3">
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-4.jpeg" alt="Steven SHIMIRWA" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Steven SHIMIRWA</p>
@@ -128,8 +128,8 @@
                     </div>
 
                     <div class="grid sm:grid-cols-6">
-                        <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-2.jpeg" alt="Person" />
+                        <div class="relative w-full h-96 max-h-full rounded sm:h-auto sm:col-span-3">
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-5.jpeg" alt="Stacy Charlene USANASE" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Stacy Charlene USANASE</p>
@@ -152,8 +152,8 @@
                     </div>
 
                     <div class="grid sm:grid-cols-6">
-                        <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-5.jpeg" alt="Person" />
+                        <div class="relative w-full h-96 max-h-full rounded sm:h-auto sm:col-span-3">
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-2.jpeg" alt="Gisele IREBE" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Gisele IREBE</p>
@@ -177,7 +177,7 @@
 
                     <div class="grid sm:grid-cols-6">
                         <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-8.png" alt="Person" />
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-8.png" alt="MANIRABONA H. Patience" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Patience H. MANIRABONA</p>

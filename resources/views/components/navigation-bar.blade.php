@@ -58,9 +58,9 @@
             </ul>
 
             <div class="mt-4 extra-links">
-                <a href="{{ route('get.download') }}" class="py-3 text-base text-dark hover:text-primary font-patua font-normal">Download</a>
-                <a href="{{ route('get.pricing') }}" class="py-3 px-7 text-base text-dark hover:text-primary font-patua font-normal">Pricing</a>
-                <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal">Contact</a>
+                <a href="{{ route('get.download') }}" class="py-3 text-base text-dark hover:text-primary font-patua font-normal" style="z-index: 999">Download</a>
+                <a href="{{ route('get.pricing') }}" class="py-3 px-7 text-base text-dark hover:text-primary font-patua font-normal" style="z-index: 999">Pricing</a>
+                <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal" style="z-index: 999">Contact</a>
             </div>
 
            <div><mobile-navbar /></div>

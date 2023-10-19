@@ -45,146 +45,158 @@
                         <h4 class="text-3xl font-normal font-patua">Free</h4>
                         <p class="text-md mt-2 text-gray-600">Only Basis Features</p>
                         <h3 class="text-2xl font-normal font-patua mt-4">$0.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
-                        <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
+                        <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Get Started</button>
                     </div>
                     <div class="mt-8">
                         <h4 class="text-lg font-bold mb-4">Plan Included</h4>
                         <ul class="space-y-4">
                             <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            50 Image generations
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Make an Virtual PT Appointment as a non-member
                             </li>
                             <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            500 Credits
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Edit profile
                             </li>
                             <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            Customer Support
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Access to blogs
                             </li>
                             <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            50GB Cloud Storage
-                            </li>
-                            <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            Unlimited Book Mark
-                            </li>
-                            <li class="flex items-center text-sm">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                            </svg>
-                            Unlimited basic feature
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Health assessment
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="bg-white scale-[1.05] shadow-[0_2px_40px_-4px_rgba(93,96,127,0.2)] rounded-3xl overflow-hidden p-8">
                     <div class="text-left">
-                    <h4 class="text-2xl font-normal font-patua">Medium</h4>
-                    <p class="text-md mt-2 text-gray-600">Most Popular plan with <br /> almost everything</p>
-                    <h3 class="text-2xl font-normal font-patua mt-4">$10.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
-                    <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
+                        <h4 class="text-2xl font-normal font-patua">Medium</h4>
+                        <p class="text-md mt-2 text-gray-600">Most Popular plan with <br /> almost everything</p>
+                        <h3 class="text-2xl font-normal font-patua mt-4">$10.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
+                        <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Get Started</button>
                     </div>
                     <div class="mt-8">
-                    <h4 class="text-lg font-bold mb-4">Plan Included</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        100 Image generations
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        1000 Credits
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Customer Support
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        100GB Cloud Storage
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited Book Mark
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited basic feature
-                        </li>
-                    </ul>
+                        <h4 class="text-lg font-bold mb-4">Plan Included</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Make a Virtual PT Appointment as a member
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Access all features like lessons, daily tracks etc…
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Chat, video call with a coach 24/7
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Track your health interactions
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Personalized meal plan
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Reminders notification
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Ongoing personal support
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                A weekly task like workout and etc …
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="bg-gray-100 rounded-3xl overflow-hidden p-8" style="border: 1px solid #e7dfd7">
                     <div class="text-left">
-                    <h4 class="text-2xl font-normal font-patua">Premium</h4>
-                    <p class="text-md mt-2 text-gray-600">Access All Features</p>
-                    <h3 class="text-2xl font-normal font-patua mt-4">$15.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
-                    <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Buy Now</button>
+                        <h4 class="text-2xl font-normal font-patua">Premium</h4>
+                        <p class="text-md mt-2 text-gray-600">Access All Features</p>
+                        <h3 class="text-2xl font-normal font-patua mt-4">$15.00<sub class="text-sm font-normal font-patua text-gray-400 ml-2">/ Month</sub></h3>
+                        <button type="button" class="w-full mt-8 px-2 py-2.5 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 rounded-full">Get Started</button>
                     </div>
                     <div class="mt-8">
-                    <h4 class="text-lg font-bold mb-4">Plan Included</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        500 Image generations
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        5000 Credits
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Customer Support
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        500GB Cloud Storage
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited Book Mark
-                        </li>
-                        <li class="flex items-center text-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
-                            <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
-                        </svg>
-                        Unlimited basic feature
-                        </li>
-                    </ul>
+                        <h4 class="text-lg font-bold mb-4">Plan Included</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                All medium packages
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Unlimited video call
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Personal coach
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Daily challenges
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Join the Safe Space group
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Personalized expert consultations
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Join the community member
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-gray-200 fill-[#333] rounded-full p-[3px]" viewBox="0 0 24 24">
+                                    <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                </svg>
+                                Integrating data with your PCP
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

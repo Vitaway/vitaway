@@ -30,9 +30,11 @@
                             <p class="wow fadeIn">Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.</p>
                         </div>
                         <div class="col-lg-12 more-detail-buttons ">
-                            <button type="button" class="text-white animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
-                                Get Started
-                            </button>
+                            <a href="{{ route('get.pricing') }}">
+                                <button type="button" class="text-white animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
+                                    Get Started
+                                </button>
+                            </a>
                             <a href="{{ route('get.download') }}">
                                 <button type="button" class="text-gray-900 animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">

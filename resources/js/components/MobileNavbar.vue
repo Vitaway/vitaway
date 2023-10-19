@@ -162,22 +162,22 @@
     </div>
 </template>
 <script>
-import AppLogo from './AppLogo.vue';
-export default {
-  components: { AppLogo },
-    data() {
-        return {
-            isOpen: false
-        }
-    },
-    methods: {
-        openSidenav() {
-            this.isOpen = true;
+    import AppLogo from './AppLogo.vue';
+    export default {
+        components: { AppLogo },
+        data() {
+            return {
+                isOpen: false
+            }
         },
-        closeSidebar() {
-            this.isOpen = false;
+        methods: {
+            openSidenav() {
+                this.isOpen = true;
+            },
+            closeSidebar() {
+                this.isOpen = false;
+            }
         }
     }
-}
 </script>
 
