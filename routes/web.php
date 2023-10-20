@@ -2,7 +2,8 @@
 
     use App\Http\Controllers\AdminController;
     use App\Http\Controllers\BlogController;
-    use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HealthEatingController;
+use App\Http\Controllers\LoginController;
     use App\Http\Controllers\ProfileController;
     use Illuminate\Support\Facades\Auth;
     use Illuminate\Support\Facades\Route;
@@ -69,4 +70,24 @@
         Route::get('/pre-diabetes', [ConditionController::class, 'preDiabetes'])->name('condition.pre-diabetes');
         Route::get('/hypertension', [ConditionController::class, 'hypertension'])->name('condition.hypertension');
         Route::get('/mental-health', [ConditionController::class, 'mentalHealth'])->name('condition.mental-health');
+    });
+
+    Route::prefix('/health-eating')->group(function() {
+        Route::get('/well-guide', [HealthEatingController::class, 'guides'])->name('well-guide');
+        Route::get('/food-group', [HealthEatingController::class, 'foodGroup'])->name('food-group');
+        Route::get('/life-stages', [HealthEatingController::class, 'lifeStages'])->name('life-stages');
+        Route::get('/well-being', [HealthEatingController::class, 'wellBeing'])->name('well-being');
+
+        Route::prefix('/food-groups')->group(function() {
+            Route::get('/grains', [HealthEatingController::class, 'grains'])->name('food-groups.grains');
+            Route::get('/proteins', [HealthEatingController::class, 'proteins'])->name('food-groups.proteins');
+            Route::get('/vegetables', [HealthEatingController::class, 'vegetables'])->name('food-groups.vegetables');
+            Route::get('/dairy', [HealthEatingController::class, 'dairy'])->name('food-groups.dairy');
+        });
+
+        Route::prefix('/life-stages')->group(function() {
+            Route::get('/adult', [HealthEatingController::class, 'adult'])->name('life-stages.adult');
+            Route::get('/children', [HealthEatingController::class, 'children'])->name('life-stages.children');
+            Route::get('/pregnancy', [HealthEatingController::class, 'pregnancy'])->name('life-stages.pregnancy');
+        });
     });

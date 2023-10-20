@@ -297,9 +297,11 @@
                     </div>
 
                     <div class="col-lg-12 more-detail-buttons mt-4">
-                        <button type="button" class="text-white font-patua font-normal bg-green-600 hover:bg-green-600/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
-                            Use Whatsapp
-                        </button>
+                        <a href="https://wa.me/250787906391" target="__blank">
+                            <button type="button" class="text-white font-patua font-normal bg-green-600 hover:bg-green-600/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
+                                Use Whatsapp
+                            </button>
+                        </a>
                         <a href="{{ route('get.download') }}">
                             <button type="button" class="text-gray-900 font-patua font-normal bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
                                 Download The app

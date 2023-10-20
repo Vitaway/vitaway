@@ -66,8 +66,8 @@
                                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                     <div class="rounded-[2rem] ml-2 mt-2 mb-2 overflow-hidden w-[94%] h-[97%] bg-white dark:bg-gray-800">
-                                        <img src="/images/weight-screen.png" class="dark:hidden" alt="">
-                                        <img src="/images/weight-screen.png" class="hidden dark:block" alt="">
+                                        <img src="/images/blood-pressure.png" class="dark:hidden" alt="">
+                                        <img src="/images/blood-pressure.png" class="hidden dark:block" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -90,8 +90,8 @@
                                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                     <div class="rounded-[2rem] ml-2 mt-2 mb-2 overflow-hidden w-[94%] h-[97%] bg-white dark:bg-gray-800">
-                                        <img src="/images/learn-screen.png" class="dark:hidden" alt="">
-                                        <img src="/images/learn-screen.png" class="hidden dark:block" alt="">
+                                        <img src="/images/weight-screen.png" class="dark:hidden" alt="">
+                                        <img src="/images/weight-screen.png" class="hidden dark:block" alt="">
                                     </div>
                                 </div>
                             </div>

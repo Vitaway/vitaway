@@ -13,17 +13,17 @@
         <div class="container">
             <div class="row">
                 <ul class="timeline-goal" id="timeline-goal" >
-                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-900 bg-white': openTab !== 1, 'text-white bg-pink-600': openTab === 1}">
+                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-900 bg-white': openTab !== 1, 'text-white bg-indigo-200': openTab === 1}">
                         <div class="status">
                             <h4> Plan created for you </h4> <br>
                         </div>
                     </li>
-                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-900 bg-white': openTab !== 2, 'text-white bg-pink-600': openTab === 2}">
+                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-900 bg-white': openTab !== 2, 'text-white bg-indigo-200': openTab === 2}">
                         <div class="status">
                             <h4> Vitaway Care Team </h4> <br>
                         </div>
                     </li>
-                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-900 bg-white': openTab !== 3, 'text-white bg-pink-600': openTab === 3}">
+                    <li class="li complete cursor-pointer" v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-900 bg-white': openTab !== 3, 'text-white bg-indigo-200': openTab === 3}">
                         <div class="status">
                             <h4> Smart Health Devices </h4> <br>
                         </div>

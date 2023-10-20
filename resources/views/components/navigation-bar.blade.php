@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <a class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 906 391</a>
+                    <a href="https://wa.me/250787906391" target="__blank" class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 906 391</a>
                     <span class="text-body">|</span>
                     <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
 

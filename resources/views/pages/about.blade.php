@@ -22,11 +22,7 @@
                     <svg class="absolute left-7 hidden h-full text-white transform -translate-x-1/2 lg:block" viewBox="0 0 100 100" fill="currentColor" preserveAspectRatio="none slice">
                         <path d="M50 0H100L50 100H0L50 0Z"></path>
                     </svg>
-                    <img
-                        class="object-cover w-full h-56 rounded lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-                        src="/images/starai.png"
-                        alt=""
-                    />
+                    <img class="object-cover w-full h-56 rounded lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 </div>
                 <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
                     <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
@@ -134,7 +130,7 @@
 
         {{-- Our values --}}
         <template>
-            <div class="relative px-4 pt-5 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-15 lg:pb-20">
+            <div class="relative px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-15 lg:pb-20">
                 <div class="absolute inset-x-0 top-0 items-top justify-center hidden overflow-hidden md:flex md:inset-y-0">
                     <svg viewBox="0 0 88 88" class="w-full max-w-screen-xl text-blue-200">
                         <circle fill="currentColor" cx="44" cy="44" r="15.5"></circle>
@@ -179,7 +175,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                             </svg>
                             </div>
-                            <p class="mb-2 text-gray-800 font-bold">Start with Trust </p>
+                            <p class="mb-2 text-gray-800 font-patua font-normal text-xl">Start with Trust </p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We listen closely, and we operate with kindness. We provide respectful and candid feedback to each other.
                             </p>
@@ -194,7 +190,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                                 </svg>
                             </div>
-                            <p class="mb-2 text-gray-800 font-bold">SEEK CONTEXT</p>
+                            <p class="mb-2 text-gray-800 font-patua font-normal text-xl">Seek Context</p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We ask to understand, and we build connections. We do our research up front to move faster down th road.
                             </p>
@@ -209,7 +205,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                                 </svg>
                             </div>
-                            <p class="mb-2 font-bold text-gray-800">Act Boldly</p>
+                            <p class="mb-2 font-patua font-normal text-gray-800 text-xl">Act Boldly</p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We innovate daily to solve problems, improve processes, and find new opportunities for our members and customers.
                             </p>
@@ -224,7 +220,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                                 </svg>
                             </div>
-                            <p class="mb-2 text-gray-800 font-bold">Deliver Results </p>
+                            <p class="mb-2 text-gray-800 font-patua font-normal text-xl">Deliver Results </p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We reward impact above output. We set a high bar. We’re not afraid to fail, and we take pride in our work.
                             </p>
@@ -239,7 +235,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                                 </svg>
                             </div>
-                            <p class="mb-2 text-gray-800 font-bold">Succeed Together </p>
+                            <p class="mb-2 text-gray-800 font-patua font-normal text-xl">Succeed Together </p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We prioritize Vitaway’s progress over team or self. We have fun as we get stuff done, and we celebrate together.
                             </p>
@@ -254,7 +250,7 @@
                                 <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
                                 </svg>
                             </div>
-                            <p class="mb-2 text-gray-800 font-bold">Remember Why we’re Here</p>
+                            <p class="mb-2 text-gray-800 font-patua font-normal text-xl">Remember Why we’re Here</p>
                             <p class="text-sm leading-5 text-gray-900">
                                 We push through the challenges of changing healthcare because we know the destination is worth it
                             </p>
@@ -306,7 +302,7 @@
                     </a>
                     <a href="/" aria-label="View Item">
                     <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
+                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/summit.jpeg" alt="" />
                         <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                         <p class="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
                         <p class="text-sm tracking-wide text-gray-300">
@@ -317,7 +313,7 @@
                     </a>
                     <a href="/" aria-label="View Item">
                     <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
+                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                         <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                         <p class="mb-4 text-lg font-bold text-gray-100">The Harvesters</p>
                         <p class="text-sm tracking-wide text-gray-300">
