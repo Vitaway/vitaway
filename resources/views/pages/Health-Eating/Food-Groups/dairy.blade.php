@@ -3,8 +3,8 @@
 @section('title') Food Groups | Vegetables @stop
 
 @section('metas')
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+<meta name="description" content="Explore a wide variety of healthy vegetables at Vitaway. Discover the nutritional benefits and delicious recipes of vegetables from different food groups.">
+<meta name="keywords" content="food groups, vegetables, healthy vegetables, nutritional benefits, vegetable recipes, Vitaway">
 @stop
 
 @section('styles')

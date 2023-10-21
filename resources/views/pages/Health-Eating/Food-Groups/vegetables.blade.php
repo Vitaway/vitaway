@@ -3,8 +3,8 @@
 @section('title') Food Groups | Vegetables @stop
 
 @section('metas')
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="vegetables, food groups, healthy eating, Vitaway, nutrition, vegetables in diet">
+    <meta name="description" content="There is strong evidence that for each serve of vegetables eaten each day the risk of coronary heart disease is reduced even further!  Also, by eating vegetables, especially colourful vegetables, there is a reduced risk of stroke and weight gain.">
 @stop
 
 @section('styles')
@@ -33,7 +33,6 @@
                             Vegatables
                         </h2>
                         <p class="mb-6 text-base text-indigo-100 md:text-lg">
-                            Did you know most Australians eat only about half the recommended quantity of vegetables per day?
                             There is strong evidence that for each serve of vegetables eaten each day the risk of coronary heart
                             disease is reduced even further!  Also, by eating vegetables, especially colourful vegetables,
                             there is a reduced risk of stroke and weight gain.
@@ -55,6 +54,13 @@
                 <div class="col-lg-8">
                     <div class="main-contents">
                         <div class="font-merri font-normal text-gray-900">
+                            <h2>Did you know most Australians eat only about half the recommended quantity of vegetables per day?</h2>
+                            <p>
+                                Strong evidence supports the idea that with every daily serving of vegetables you consume,
+                                the risk of coronary heart disease decreases significantly. Moreover, the inclusion of colorful
+                                vegetables in your diet not only further reduces the risk of heart disease but also lowers the chances
+                                of stroke and unwanted weight gain.
+                            </p>
                             <p>
                                 Vegetables, including legumes/beans are nutrient dense, low in kilojoules, and are a good source of
                                 minerals and vitamins (such as magnesium, vitamin C and folate), dietary fibre and a range of

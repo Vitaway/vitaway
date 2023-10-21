@@ -84,9 +84,6 @@
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="flex flex-col md:justify-center lg:flex-row">
                     <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
                         <div>
                             <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">
@@ -104,7 +101,9 @@
                             </a>
                         </div>
                     </div>
+                </div>
 
+                <div class="flex flex-col md:justify-center lg:flex-row">
                     <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
                         <div>
                             <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">
@@ -122,6 +121,63 @@
                             </a>
                         </div>
                     </div>
+                    <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+                        <div>
+                            <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">
+                                Fruit and vegetables
+                            </h5>
+                            <p class="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                                Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <a href="{{ route('food-groups.fruits') }}">
+                                <button type="submit" class="inline-flex font-patua font-normal items-center justify-center h-12 px-6 mr-6 tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-400 hover:bg-indigo-500 focus:shadow-outline focus:outline-none">
+                                    Read More
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+                        <div>
+                            <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">
+                                What is MyPlate
+                            </h5>
+                            <p class="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                                Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <a href="{{ route('food-groups.myplate') }}">
+                                <button type="submit" class="inline-flex font-patua font-normal items-center justify-center h-12 px-6 mr-6 tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-400 hover:bg-indigo-500 focus:shadow-outline focus:outline-none">
+                                    Read More
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:justify-left lg:flex-row">
+
+                    <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+                        <div>
+                            <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">
+                                Hydration
+                            </h5>
+                            <p class="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                                Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                            </p>
+                        </div>
+                        <div class="flex items-center">
+                            <a href="{{ route('food-groups.hydration') }}">
+                                <button type="submit" class="inline-flex font-patua font-normal items-center justify-center h-12 px-6 mr-6 tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-400 hover:bg-indigo-500 focus:shadow-outline focus:outline-none">
+                                    Read More
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

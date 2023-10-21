@@ -83,6 +83,10 @@ use App\Http\Controllers\LoginController;
             Route::get('/proteins', [HealthEatingController::class, 'proteins'])->name('food-groups.proteins');
             Route::get('/vegetables', [HealthEatingController::class, 'vegetables'])->name('food-groups.vegetables');
             Route::get('/dairy', [HealthEatingController::class, 'dairy'])->name('food-groups.dairy');
+
+            Route::get('/fruit-and-vegetables', [HealthEatingController::class, 'fruits'])->name('food-groups.fruits');
+            Route::get('/myplate', [HealthEatingController::class, 'myplate'])->name('food-groups.myplate');
+            Route::get('/hydration', [HealthEatingController::class, 'hydration'])->name('food-groups.hydration');
         });
 
         Route::prefix('/life-stages')->group(function() {

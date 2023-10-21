@@ -37,6 +37,18 @@
             return view('pages.Health-Eating.Food-Groups.dairy');
         }
 
+        public function fruits() {
+            return view('pages.Health-Eating.Food-Groups.fruits');
+        }
+
+        public function myplate() {
+            return view('pages.Health-Eating.Food-Groups.myplate');
+        }
+
+        public function hydration() {
+            return view('pages.Health-Eating.Food-Groups.hydration');
+        }
+
         public function adult() {
             return view('pages.Health-Eating.Life-Stages.Adult');
         }

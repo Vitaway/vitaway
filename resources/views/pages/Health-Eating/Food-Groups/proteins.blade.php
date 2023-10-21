@@ -1,10 +1,10 @@
 @extends('layouts.guest')
 
-@section('title') Food Groups | Proteins and Food Group @stop
+@section('title') Food Groups | Proteins @stop
 
 @section('metas')
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="food groups, proteins, protein-rich foods, healthy diet, nutrition, Vitaway">
+    <meta name="description" content="All foods made from seafood; meat, poultry, and eggs; beans, peas, and lentils; and nuts, seeds, and soy products are part of the Protein Foods Group. Beans, peas, and lentils are also part of the Vegetable Group.">
 @stop
 
 @section('styles')

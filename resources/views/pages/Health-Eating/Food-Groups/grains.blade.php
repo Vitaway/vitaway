@@ -1,10 +1,10 @@
 @extends('layouts.guest')
 
-@section('title') Food Groups | Vegetables @stop
+@section('title') Food Groups | Grains Starch food @stop
 
 @section('metas')
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Explore the grains and starch food group on Vitaway. Learn about the importance of grains in a balanced diet. Discover our nutritious products.">
+    <meta name="keywords" content="food groups, grains, starch food, balanced diet, nutritious products, Vitaway">
 @stop
 
 @section('styles')
