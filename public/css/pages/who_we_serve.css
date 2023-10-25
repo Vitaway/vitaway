@@ -126,9 +126,7 @@ Programs
     margin-left: 18%;
     margin-right: 18%;
     color: black;
-    font-family: 'Merriweather', serif !important;
-    font-weight: 700 !important;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .services .container-fluid {
@@ -330,9 +328,9 @@ Programs
 .timeline-goal h4 {
     font-weight: 600
 }
-.timeline-goal .li.complete  .status{
+.timeline-goal .li.complete  .status {
     text-align: center;
-    padding: 50px 40px 0px 40px;
+    padding: 30px 40px 0px 40px;
     display: flex;
     justify-content: center;
     border-bottom: 3px solid white;
@@ -350,8 +348,8 @@ Programs
     transition: all 200ms ease-in ;
 }
 .timeline-goal .li.complete .status h4 {
-    color: white;
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
     font-weight: 900;
 }
 

@@ -54,7 +54,9 @@
                     </button>
                     <div class="mt-4 grid grid-cols-4 gap-4">
                         @foreach ($blogs as $blog)
-                            <blog-cards blog="{{ $blog }}" categories="{{ json_encode($categories) }}" />
+                            <div>
+                                <blog-cards blog="{{ $blog }}" categories="{{ json_encode($categories) }}" />
+                            </div>
                         @endforeach
                     </div>
                 </div>

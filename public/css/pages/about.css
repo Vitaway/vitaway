@@ -16,7 +16,6 @@ Banner Style
 
 .main-banner:after {
     content: "";
-    background-image: url(../images/slider-left-dec.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -117,7 +116,6 @@ Banner Style
 
 .better-you:after {
     content: "";
-    background-image: url(../images/slider-left-dec.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -240,4 +238,30 @@ Banner Style
     font-weight: 400;
     line-height: 30px;
     margin: 10px 0 !important;
+}
+
+
+.hero-section {
+    height: 80vh
+}
+
+@media (max-width: 720px) {
+    .hero-section {
+        margin-top: 20px;
+        padding: 0;
+    }
+    .hero-section .right-image{
+        display: none;
+    }
+}
+
+.pledge {
+    margin-top: 50px !important;
+}
+
+@media (max-width: 720px) {
+    .pledge {
+        margin-top: 10px;
+        padding: 0;
+    }
 }

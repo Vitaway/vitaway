@@ -94,7 +94,8 @@ header
     line-height: 40px;
     border: transparent;
     letter-spacing: 1px;
-    font-weight: 700 !important;
+
+    font-family: var(--primary-font-family);
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -321,6 +322,22 @@ header
     }
 }
 
+@media (max-width: 1280px) {
+    .top-header-about-links {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-area .main-nav .extra-links {
+        display: none;
+    }
+
+    .header-area .menu-trigger {
+        display: block !important;
+    }
+}
+
 @media (max-width: 992px) {
     .header-area .main-nav .nav li:last-child,
     .background-header .main-nav .nav li:last-child {
@@ -449,5 +466,11 @@ header
 @media (min-width: 767px) {
     .header-area .main-nav .nav {
         display: flex !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header-area .main-nav .extra-links {
+        display: none;
     }
 }

@@ -16,71 +16,59 @@
     @section('content')
         <x-navigation-bar />
 
-        <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                      <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <h4 class="text-white">Vitaway for Individuals</h4>
-                            <h2>Shift your mindset,
-                                change your health </h2>
-                            <p>Vitaway shows you a different way  to think about
-                                your health so you can expercience lasting change </p>
-                          </div>
+        <template>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1613089222731-8841ac989caa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU4fHxoZWFydCUyMGF0dGFja3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="Transform your Life and Mindset shift for Optimal Health" />
+                <div class="relative bg-opacity-75 bg-gray-900/60">
+                    <svg class="absolute inset-x-0 -bottom-1 text-white" viewBox="0 0 1160 163">
+                        <path
+                        fill="currentColor"
+                        d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
+                        ></path>
+                    </svg>
+                    <div style="height: 500px" class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <div class="flex flex-col items-center justify-between xl:flex-row">
+                            <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 mt-4">
+                                <h2 style="line-height: 2.9rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
+                                    Transform your Life and Mindset shift for Optimal Health
+                                </h2>
+                                <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
+                                    Discover how changing your mindset can be the key to improving your overall health and well-being.
+                                    Explore the power of a positive perspective in this journey toward a healthier you
+                                </p>
+                            </div>
+                            <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
+
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col-lg-6">
-                      <div class="right-image rounded-[20px] wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img class="rounded-[20px]" src="https://images.unsplash.com/photo-1621525466547-4ac135e85f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-                      </div>
-                    </div>
+                </div>
+            </div>
+        </template>
+
+        <div class="aligible-container relative p-10">
+            <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+              <div style="border: 1px solid #e7dfd7" class="p-8 absolute -top-20 right-20 left-20 rounded-[20px] bg-white shadow-md sm:p-16">
+                <div class="flex flex-col lg:flex-row">
+                  <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
+                    <h2 style="line-height: 2.5rem" class="font-patua font-normal text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                        It takes only one minutes to see if <br class="hidden md:block" /> Vitaway is right for you and at no cost.
+                      <span class="inline-block text-indigo-600 font-patua font-normal">a lazy dog</span>
+                    </h2>
+                  </div>
+                  <div class="lg:w-1/2">
+                    <p class="mb-4 text-base text-gray-700">
+                        Your path to better well-being with Vitaway's one-minute wellness assessment.
+                        Find out if our tailored solutions are right for you, at no cost.
+                        Your journey to improved health begins now!
+                    </p>
+                    <a href="/" aria-label="" class="inline-flex items-center transition-colors duration-200 bg-indigo-600 px-4 py-3 rounded-[10px] font-normal font-patua text-gray-100 hover:text-deep-purple-800">
+                     I am Eligible
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-         </div>
-
-         <style>
-            .aligible-container{
-                position: relative;
-                height: 150px;
-            }
-            .aligible-panel{
-                margin: 0px 20px;
-                border-radius: 20px;
-                position: absolute;
-                top: -60px;
-                right: 0;
-                left: 0;
-                background: #F5F5F5;
-                color: black;
-            }
-            .aligible-panel h3{
-                font-size: 20px !important;
-                line-height: 30px;
-                font-weight: 700;
-            }
-        </style>
-
-        <div class="aligible-container relative p-10">
-            <section class="p-5 aligible-panel shadow-md absolute -top-20 right-10 left-10 rounded-lg bg-white">
-                    <div class="flex justify-between items-center">
-                        <h2 class="mb-3 mb-md-0">
-                            It takes only one minutes to see if
-                            Vitaway is right for you and at no cost
-                        </h2>
-                        <div class="input-group news-input ml-4">
-                            <div class="aligible-button cursor-pointer" type="button">
-                                <a href="#">Am I eligible </a>
-                            </div>
-                        </div>
-                    </div>
-            </section>
         </div>
 
         <!--Boxs section -->
@@ -107,31 +95,31 @@
                 transition: all 0.3s;
             }
         </style>
+
         <section class="p-5">
             <div class="container">
                 <div class="row text-center g-4">
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon bg-indigo-400 rounded-full p-5">
+                                <div class="icon bg-indigo-50 rounded-full p-5">
                                     <img src="https://cdn-icons-png.flaticon.com/512/4436/4436450.png" alt="" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
+                                <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
                                     Small steps, long-term change
                                 </h3>
                                 <p class="card-text text-black font-medium">Vitaway helps you create healthy routines
                                     that last for years, not just weeks at a time</p>
-                                <a href="#" class="btn">Get Started <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon bg-indigo-400 rounded-full p-5">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="" class="w-[100px]">
+                                <div class="icon bg-indigo-50 rounded-full p-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="Find your Joy" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
+                                <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
                                     Find your Joy
                                 </h3>
                                 <p class="card-text text-black font-medium">
@@ -139,17 +127,16 @@
                                     rather than avaiding foods you “can’t eat”
                                     or things you “ shouldn’t do”.
                                 </p>
-                                <a href="#" class="btn">Get Started <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <div class="icon bg-indigo-400 rounded-full p-5">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="" class="w-[100px]">
+                                <div class="icon bg-indigo-50 rounded-full p-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="Virtual Care, uniquely yours" class="w-[100px]">
                                 </div>
-                                <h3 class="card-title mb-3 mt-3 font-bold text-xl">
+                                <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
                                     Virtual Care, uniquely yours
                                 </h3>
                                 <p class="card-text text-black font-medium">
@@ -157,7 +144,6 @@
                                     on  track with a plan that constantly
                                     adapts to meet your needs.
                                 </p>
-                                <a href="#" class="btn">Get Started <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -165,60 +151,11 @@
             </div>
         </section>
 
-        <div class="virtual-programs">
-            <div class="container">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <div class="heading">
-                      <h4>With multi-condition virtual care programs, Vitaway
-                        provides everything you need to experience better health
-                        </h4>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                      <div class="left-content show-up header-text">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <ul class="measurements">
-                                <li><a href="#home">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4327/4327809.png" alt="">
-                                     Prevention </a>
-                                </li>
-                                <li><a href="#news">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="">
-                                    Diabetes </a>
-                                </li>
-                                <li><a href="#contact">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
-                                    Hypertension </a>
-                                </li>
-                                <li><a href="#about">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="">
-                                    Behavioral Health </a>
-                                </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533558/vite-guest-imgs/louis-hansel--9CjvlbUGhY-unsplash_zxsnxn.jpg" alt="" class="rounded">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-         </div>
+        <div>
+            <virtual-care-programs />
+        </div>
 
-         <x-footer />
+        <x-footer />
     @stop
 
     @section('scripts') @stop
