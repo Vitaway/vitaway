@@ -12,9 +12,9 @@
     <meta name="rating" content="RTA-5042-1996-1400-1577-RTA" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <link rel="icon" type="image/x-icon" href="/images/Favicons/android-chrome-192x192.png">
 
-    <title>@yield('title') | vitaway</title>
+    <title>@yield('title') | Vitaway</title>
 
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/Global.css">

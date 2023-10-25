@@ -29,6 +29,7 @@
                             <h2 class="wow fadeIn">Universal Access <br> To Virtual Health <br> Services for Enhanced Well-being</h2>
                             <p class="wow fadeIn">Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.</p>
                         </div>
+
                         <div class="col-lg-12 more-detail-buttons ">
                             <a href="{{ route('get.pricing') }}">
                                 <button type="button" class="text-white animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
@@ -45,23 +46,29 @@
                             </a>
                         </div>
 
-                      <div class="clients pt-16">
-                        <h6 class="mb-2 flex items-center text-xs font-normal text-body-color">
-                          Some Of Our Paterners
-                          <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
-                        </h6>
-                        <div class="flex items-center">
-                          <div class="mr-4 w-full py-3">
-                            <img src="/images/brands/RBC-LOGO_Sept30_2019-Regular.png" alt="ayroui" />
-                          </div>
-                          <div class="mr-4 w-full py-3">
-                            <img src="/images/brands/5df0a744c2f6edb843387c54_norrsken-logo-Black.webp" alt="graygrids" />
-                          </div>
-                          <div class="mr-4 w-full py-3">
-                            {{-- <img src="/images/brands/uideck.svg" alt="uideck" /> --}}
-                          </div>
+                        <div class="clients pt-16">
+                            <h6 class="mb-2 flex items-center text-xs font-patua font-normal text-body-color">
+                                Some Of Our Paterners
+                            <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
+                            </h6>
+                            <div class="flex items-center">
+                                <a href="https://www.minict.gov.rw/" target="__blank" class="mr-4 w-80 py-3">
+                                    <div>
+                                        <img src="https://amarebe.com/wp-content/uploads/2022/11/MINICT-1.png" alt="MINICT" />
+                                    </div>
+                                </a>
+                                <a href="https://www.undp.org/rwanda" target="__blank" class="mr-4 w-40 py-3">
+                                    <div>
+                                        <img src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-blue.svg" alt="UNDP" />
+                                    </div>
+                                </a>
+                                <a href="https://tefconnect.net" target="__blank" class="mr-4 w-full py-3">
+                                    <div>
+                                        <img src="https://tefconnect.net/static/media/logo_new.4eee159d.webp" alt="tefconnect" />
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -74,8 +81,8 @@
                                 <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                 <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                 <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                                    <img src="/images/Categories_2.png" class="dark:hidden w-[272px] h-[572px]" alt="">
-                                    <img src="/images/Categories_2.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
+                                    <img src="/images/Categories_2.png" class="dark:hidden w-[272px] h-[572px]" alt="vitaway client coach dashboard">
+                                    <img src="/images/Categories_2.png" class="hidden dark:block w-[272px] h-[572px]" alt="vitaway client coach dashboard">
                                 </div>
                             </div>
                         </div>
@@ -85,8 +92,8 @@
                             <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                             <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                             <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                                <img src="/images/Categories.png" class="dark:hidden w-[272px] h-[572px]" alt="">
-                                <img src="/images/Categories.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
+                                <img src="/images/Categories.png" class="dark:hidden w-[272px] h-[572px]" alt="vitaway client dashboard">
+                                <img src="/images/Categories.png" class="hidden dark:block w-[272px] h-[572px]" alt="vitaway client dashboard">
                             </div>
                         </div>
                     </div>
@@ -165,7 +172,7 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                           <img src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="">
+                           <img src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="Diabetes">
                         </div>
                         <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Diabetes</h4>
                         <p class="mb-3 text-sm text-gray-900">
@@ -177,7 +184,7 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                            <img src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="Hypertension">
                         </div>
                         <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Hypertension</h4>
                         <p class="mb-3 text-sm text-gray-900">
@@ -190,7 +197,7 @@
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                            <img src="https://cdn-icons-png.flaticon.com/512/847/847345.png" alt="">
+                            <img src="https://cdn-icons-png.flaticon.com/512/847/847345.png" alt="Weight Management">
                         </div>
                         <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Weight Management</h4>
                         <p class="mb-3 text-sm text-gray-900">
@@ -203,7 +210,7 @@
                 <div style="z-index: 30 !important" class="flex animate__animated animate__fadeInUp animate__slow bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                            <img src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="Mental health">
                         </div>
                         <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Mental health</h4>
                         <p class="mb-3 text-sm text-gray-900">
@@ -237,7 +244,7 @@
                     </div>
                 </div>
                 <div class="welness-img">
-                    <img src="https://static.wixstatic.com/media/82df8c_80b4b77d2d9048978a8e10f562dc1f5d~mv2.jpg/v1/fill/w_352,h_412,al_c,lg_1,q_80,enc_auto/plan.jpg" alt="">
+                    <img src="https://static.wixstatic.com/media/82df8c_80b4b77d2d9048978a8e10f562dc1f5d~mv2.jpg/v1/fill/w_352,h_412,al_c,lg_1,q_80,enc_auto/plan.jpg" alt="Nutrition Consultation">
                 </div>
             </div>
             <div class="welness-item animate__animated animate__fadeInUp animate__slow" style="z-index: 6 !important">
@@ -255,7 +262,7 @@
                     </div>
                 </div>
                 <div class="welness-img">
-                    <img src="https://static.wixstatic.com/media/82df8c_83245a7d38a944b9b8cd1cc750392345~mv2.png/v1/fill/w_352,h_412,al_c,lg_1,q_85,enc_auto/wellness.png" alt="">
+                    <img src="https://static.wixstatic.com/media/82df8c_83245a7d38a944b9b8cd1cc750392345~mv2.png/v1/fill/w_352,h_412,al_c,lg_1,q_85,enc_auto/wellness.png" alt="Personalized wellness Plan">
                 </div>
             </div>
 
@@ -330,9 +337,9 @@
                             </div>
                         </div>
                         <div>
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 shadow-sm" src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="" />
-                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://images.unsplash.com/photo-1621525434111-87a99d170b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 shadow-sm" src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="Vitaway for Diabetes" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://plus.unsplash.com/premium_photo-1672292535264-ef6dab7d6a90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVudGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="Vitaway for Prevention" />
+                            <img class="animate__animated animate__fadeInUp animate__slow object-cover w-full h-40 rounded sm:h-40 mt-4 shadow-sm" src="https://images.unsplash.com/photo-1621525434111-87a99d170b0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="Vitaway for Hypertension" />
                         </div>
                     </div>
                 </div>
@@ -382,8 +389,8 @@
                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                     <div class="rounded-[2rem] overflow-hidden w-[274px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                        <img src="/images/learn.png" class="dark:hidden w-[274px] h-[572px]" alt="">
-                        <img src="/images/learn.png" class="hidden dark:block w-[274px] h-[572px]" alt="">
+                        <img src="/images/learn.png" class="dark:hidden w-[274px] h-[572px]" alt="vitaway programs and learning">
+                        <img src="/images/learn.png" class="hidden dark:block w-[274px] h-[572px]" alt="vitaway programs and learning">
                     </div>
                 </div>
               </div>

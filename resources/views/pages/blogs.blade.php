@@ -50,14 +50,13 @@
                         <div class="post-entry d-block small-post-entry-v">
                             <div class="thumbnail">
                                 <div class="h-[250px] rounded-lg" href="{{ route('single.blog', ['blog' => $blog->id]) }}">
-                                    <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" class="w-full h-full rounded-lg">
+                                    <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" alt="{{ $blog->title }}" class="w-full h-full rounded-lg">
                                 </div>
                             </div>
                             <div class="post-content mt-4">
                                 <div class="post-meta mb-1">
-                                    <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="category">Business</a>, <a href="{{ route('single.blog', ['blog' => $blog->id]) }}"
-                                        class="category">Travel</a> —
-                                    <span class="date">July 2, 2020</span>
+                                    <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="category capitalize font-patua font-normal">{{ $blog->blogCategory->name }}</a> —
+                                    <span class="date">{{ $blog->created_at->diffForHumans() }}</span>
                                 </div>
                                 <h2 class="heading mb-3">
                                     <a class="font-patua font-normal text-2xl" href="{{ route('single.blog', ['blog' => $blog->id]) }}">{{ $blog->title }}</a>

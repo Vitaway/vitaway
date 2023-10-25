@@ -30,19 +30,19 @@
                         <ul class="measurements">
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-900 bg-white': openTab !== 1, 'text-white bg-indigo-200': openTab === 1}">
                                 <a class="rounded hover:bg-gray-300 hover:rounded">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4327/4327809.png" alt="">
+                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4327/4327809.png" alt="Pre-Diabetes">
                                     Pre-Diabetes
                                 </a>
                             </li>
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-900 bg-white': openTab !== 2, 'text-white bg-indigo-200': openTab === 2}">
                                 <a class="rounded hover:bg-gray-300 hover:rounded">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="">
+                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="Diabetes">
                                     Diabetes
                                 </a>
                             </li>
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-900 bg-white': openTab !== 3, 'text-white bg-indigo-200': openTab === 3}">
                                 <a class="rounded hover:bg-gray-300 hover:rounded">
-                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="">
+                                    <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="Hypertension">
                                     Hypertension
                                 </a>
                             </li>
@@ -53,13 +53,13 @@
                 </div>
                 <div class="col-lg-6">
                     <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}" class="right-image wow fadeInRight rounded ring ring-gray-300" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://images.unsplash.com/photo-1685660478285-ab8e2876780e?auto=format&fit=crop&q=80&w=2580&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded">
+                        <img src="https://images.unsplash.com/photo-1685660478285-ab8e2876780e?auto=format&fit=crop&q=80&w=2580&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pre-Diabetes" class="rounded">
                     </div>
                     <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}" class="right-image wow fadeInRight rounded ring ring-gray-300" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://images.unsplash.com/photo-1683726815994-d76cb5ea6b8b?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded">
+                        <img src="https://images.unsplash.com/photo-1683726815994-d76cb5ea6b8b?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Diabetes" class="rounded">
                     </div>
                     <div v-bind:class="{'hidden': openTab !== 3, 'block': openTab === 3}" class="right-image wow fadeInRight rounded ring ring-gray-300" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="https://images.unsplash.com/photo-1683187884086-365d0b9f2b06?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded">
+                        <img src="https://images.unsplash.com/photo-1683187884086-365d0b9f2b06?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hypertension" class="rounded">
                     </div>
                 </div>
               </div>

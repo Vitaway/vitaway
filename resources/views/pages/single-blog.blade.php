@@ -47,7 +47,7 @@
                             <div class="float-left">
                                 <div class="flex items-center justify-center">
                                     <div class="">
-                                        <img class="rounded-circle w-10 h-10" alt="avatar1" src="{{ $blog->user->avatar }}" />
+                                        <img class="rounded-circle w-10 h-10" alt="{{ $blog->user->name }}" src="{{ $blog->user->avatar }}" />
                                     </div>
                                     <div class="media-body ml-3 mt-3">
                                         <h5 class="font-patua font-normal text-md">{{ $blog->user->name }}</h5>
@@ -62,7 +62,7 @@
                             />
                         </div>
                         <div class="post-img">
-                            <img class="w-full" src="{{ $blog->blogMedia->graphic }}" alt="">
+                            <img class="w-full" src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}">
                         </div>
                         <div class="post-content font-merri font-normal text-gray-950">{!! $blog->blogContent->contents !!}</div>
                     </div>

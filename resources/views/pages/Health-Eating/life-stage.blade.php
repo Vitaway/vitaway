@@ -18,7 +18,7 @@
 
     <template>
         <div class="relative">
-            <img src="https://images.unsplash.com/photo-1534768654272-e97681c3a2c7?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="" />
+            <img src="https://images.unsplash.com/photo-1534768654272-e97681c3a2c7?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="LIFE STAGES" />
 
             <div class="relative bg-opacity-75 bg-gray-900/60">
                 <div class="absolute inset-x-0 bottom-0">
@@ -67,7 +67,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
                         <div>
                             <h5 class="max-w-md mb-6 text-xl font-patua font-normal leading-none sm:text-2xl">

@@ -18,7 +18,7 @@
 
     <template>
         <div class="relative">
-            <img src="https://plus.unsplash.com/premium_photo-1686285541215-015dfccebe27?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="" />
+            <img src="https://plus.unsplash.com/premium_photo-1686285541215-015dfccebe27?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="Vegatables" />
 
             <div class="relative bg-opacity-75 bg-gray-900/60">
                 <div class="absolute inset-x-0 bottom-0">
@@ -110,7 +110,7 @@
     <div class="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-3">
         <div class="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
             <div class="relative lg:w-1/2">
-                <img src="https://images.unsplash.com/photo-1572357176061-7c96fd2af22f?auto=format&fit=crop&q=80&w=2835&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-cover w-full lg:absolute h-80 lg:h-full" />
+                <img src="https://images.unsplash.com/photo-1572357176061-7c96fd2af22f?auto=format&fit=crop&q=80&w=2835&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Building a Healthy and Balanced Diet" class="object-cover w-full lg:absolute h-80 lg:h-full" />
                 <svg class="absolute top-0 right-0 hidden h-full text-white lg:inline-block" viewBox="0 0 20 104" fill="currentColor">
                     <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104"></polygon>
                 </svg>

@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <a href="https://wa.me/250787906391" target="__blank" class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 906 391</a>
+                    <a href="https://wa.me/250787279560" target="__blank" class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 279 560</a>
                     <span class="text-body">|</span>
-                    <a class="text-decoration-none text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
+                    <a class="text-decoration-none text-body px-3 font-patua font-normal" target="__blank" href="mailto:info@vitaway.org"><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
 
                     <span class="text-body top-header-about-links">|</span>
                     <a href="{{ route('about') }}" class="text-decoration-none top-header-about-links text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>About Us</a>

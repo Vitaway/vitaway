@@ -16,7 +16,7 @@
                     <a class="text-light mb-2 font-patua font-normal" href="{{ route('home') }}"><i class="fa fa-angle-right me-2"></i>Home</a>
                     <a class="text-light mb-2 font-patua font-normal" href="{{ route('about') }}"><i class="fa fa-angle-right me-2"></i>About Us</a>
                     <a class="text-light mb-2 font-patua font-normal" href="{{ route('get.team') }}"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('get.blogs') }}"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
+                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('blogs') }}"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
                     <a class="text-light font-patua font-normal" href="{{ route('contact') }}"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                 <h4 class="d-inline-block font-patua text-gray-100 text-uppercase border-bottom border-5 border-secondary mb-4">Contacts</h4>
                 <p class="mb-1 font-patua font-normal text-gray-100"><i class="fa fa-map-marker-alt font-patua font-normal text-gray-100 me-3"></i>1 KN 78 St, Kigali, Rwanda</p>
                 <p class="mb-1 font-patua font-normal text-gray-100"><i class="fa fa-envelope font-patua font-normal text-gray-100 me-3"></i>info@vitaway.org</p>
-                <p class="mb-0 font-patua font-normal text-gray-100"><i class="fa fa-phone-alt font-patua font-normal text-gray-100 me-3"></i>+250 787 906 391</p>
+                <p class="mb-0 font-patua font-normal text-gray-100"><i class="fa fa-phone-alt font-patua font-normal text-gray-100 me-3"></i>+250 787 279 560</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="d-inline-block font-patua text-gray-100 text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter</h4>

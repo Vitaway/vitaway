@@ -47,10 +47,10 @@
                                 <hr class="my-8 border-gray-600" />
                                 <div class="flex items-center mb-3 sm:justify-left">
                                     <a href="https://www.apple.com/app-store/" class="mr-3 transition duration-300 hover:shadow-lg">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1000px-Download_on_the_App_Store_Badge.svg.png" class="object-cover object-top w-32 mx-auto" alt="" />
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1000px-Download_on_the_App_Store_Badge.svg.png" class="object-cover object-top w-32 mx-auto" alt="Download Vitaway From App Store" />
                                     </a>
                                     <a href="https://play.google.com/store/games?hl=en&gl=US" class="transition duration-300 hover:shadow-lg">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1000px-Google_Play_Store_badge_EN.svg.png" class="object-cover object-top w-32 mx-auto" alt="" />
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1000px-Google_Play_Store_badge_EN.svg.png" class="object-cover object-top w-32 mx-auto" alt="Download Vitaway From Google Play Store" />
                                     </a>
                                 </div>
                                 <p class="max-w-xs text-xs text-gray-600 sm:text-sm sm:max-w-sm">
@@ -66,8 +66,8 @@
                                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                     <div class="rounded-[2rem] ml-2 mt-2 mb-2 overflow-hidden w-[94%] h-[97%] bg-white dark:bg-gray-800">
-                                        <img src="/images/blood-pressure.png" class="dark:hidden" alt="">
-                                        <img src="/images/blood-pressure.png" class="hidden dark:block" alt="">
+                                        <img src="/images/blood-pressure.png" class="dark:hidden" alt="Vitaway Blood Pressure Dashboard Screen">
+                                        <img src="/images/blood-pressure.png" class="hidden dark:block" alt="Vitaway Blood Pressure Dashboard Screen">
                                     </div>
                                 </div>
                             </div>
@@ -78,8 +78,8 @@
                                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                     <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800 ml-3">
-                                        <img src="/images/Categories.png" class="dark:hidden w-[272px] h-[572px]" alt="">
-                                        <img src="/images/Categories.png" class="hidden dark:block w-full h-full" alt="">
+                                        <img src="/images/Categories.png" class="dark:hidden w-[272px] h-[572px]" alt="Vitaway client Dashboard Screen">
+                                        <img src="/images/Categories.png" class="hidden dark:block w-full h-full" alt="Vitaway client Dashboard Screen">
                                     </div>
                                 </div>
                             </div>
@@ -90,8 +90,8 @@
                                     <div class="h-[46px] w-[3px] bg-gray-800 absolute -left-[3px] top-[178px] rounded-l-lg"></div>
                                     <div class="h-[64px] w-[3px] bg-gray-800 absolute -right-[3px] top-[142px] rounded-r-lg"></div>
                                     <div class="rounded-[2rem] ml-2 mt-2 mb-2 overflow-hidden w-[94%] h-[97%] bg-white dark:bg-gray-800">
-                                        <img src="/images/weight-screen.png" class="dark:hidden" alt="">
-                                        <img src="/images/weight-screen.png" class="hidden dark:block" alt="">
+                                        <img src="/images/weight-screen.png" class="dark:hidden" alt="Vitaway Weight management Screen">
+                                        <img src="/images/weight-screen.png" class="hidden dark:block" alt="Vitaway Weight management Screen">
                                     </div>
                                 </div>
                             </div>

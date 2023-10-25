@@ -22,7 +22,7 @@
                     <svg class="absolute left-7 hidden h-full text-white transform -translate-x-1/2 lg:block" viewBox="0 0 100 100" fill="currentColor" preserveAspectRatio="none slice">
                         <path d="M50 0H100L50 100H0L50 0Z"></path>
                     </svg>
-                    <img class="object-cover w-full h-56 rounded lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img class="object-cover w-full h-56 rounded lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Elevate Your Health with Vitaway Virtual Care: Uniquely" />
                 </div>
                 <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
                     <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-5">
-                        <img class="object-cover w-full h-56 col-span-2 rounded" src="/images/Team/bg-1.jpeg" alt="" />
+                        <img class="object-cover w-full h-56 col-span-2 rounded" src="/images/Team/bg-1.jpeg" alt="vitaway core team" />
                         {{-- <img class="object-cover w-full h-48 rounded" src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" />
                         <img class="object-cover w-full h-48 rounded" src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" /> --}}
                     </div>
@@ -280,45 +280,45 @@
                 <div class="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
                     <a href="/" aria-label="View Item">
                         <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                            <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/Team/bg.jpeg" alt="" />
+                            <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/Team/bg.jpeg" alt="vitaway team during meetup" />
                             <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                            <p class="mb-4 text-lg font-bold text-gray-100">Mona Lisa</p>
-                            <p class="text-sm tracking-wide text-gray-300">
-                                Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling?
-                            </p>
+                                <p class="mb-4 text-lg font-bold text-gray-100">Mona Lisa</p>
+                                <p class="text-sm tracking-wide text-gray-300">
+                                    Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling?
+                                </p>
                             </div>
                         </div>
                     </a>
                     <a href="/" aria-label="View Item">
                     <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/Team/bg-1.jpeg" alt="" />
+                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/Team/bg-1.jpeg" alt="vitaway team during meetup" />
                         <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                        <p class="mb-4 text-lg font-bold text-gray-100">The Starry Night</p>
-                        <p class="text-sm tracking-wide text-gray-300">
-                            Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Rémy, where he’d committed himself in 1889.
-                        </p>
+                            <p class="mb-4 text-lg font-bold text-gray-100">The Starry Night</p>
+                            <p class="text-sm tracking-wide text-gray-300">
+                                Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Rémy, where he’d committed himself in 1889.
+                            </p>
                         </div>
                     </div>
                     </a>
                     <a href="/" aria-label="View Item">
                     <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/summit.jpeg" alt="" />
+                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="/images/summit.jpeg" alt="vitaway team during meetup" />
                         <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                        <p class="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
-                        <p class="text-sm tracking-wide text-gray-300">
-                            Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau.
-                        </p>
+                            <p class="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
+                            <p class="text-sm tracking-wide text-gray-300">
+                                Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau.
+                            </p>
                         </div>
                     </div>
                     </a>
                     <a href="/" aria-label="View Item">
                     <div class="relative overflow-hidden transition duration-200 transform rounded hover:-translate-y-2 hover:shadow-2xl">
-                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                        <img class="object-cover w-full h-56 md:h-64 xl:h-80" src="https://images.unsplash.com/photo-1543300055-4a87568503c8?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="vitaway team during meetup" />
                         <div class="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                        <p class="mb-4 text-lg font-bold text-gray-100">The Harvesters</p>
-                        <p class="text-sm tracking-wide text-gray-300">
-                            Bruegel’s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons.
-                        </p>
+                            <p class="mb-4 text-lg font-bold text-gray-100">The Harvesters</p>
+                            <p class="text-sm tracking-wide text-gray-300">
+                                Bruegel’s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons.
+                            </p>
                         </div>
                     </div>
                     </a>

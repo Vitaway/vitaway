@@ -111,7 +111,7 @@
                                 <div class="right-image wow fadeInRight rounded-full" data-wow-duration="1s"
                                     data-wow-delay="0.5s">
                                     <img src="https://res.cloudinary.com/dzhuhtn30/image/upload/v1671533560/vite-guest-imgs/national-cancer-institute-NFvdKIhxYlU-unsplash_vfx6zu.jpg"
-                                        alt="" class="rounded-full"
+                                        alt="vitaway: Our Plans are tailor- fit to meet your condition needs and improve" class="rounded-full"
                                         style="border-radius: 50%; width: 400px; height: 400px">
                                 </div>
                             </div>
@@ -189,7 +189,7 @@
                                 <div class="right-image wow fadeInRight rounded-full" data-wow-duration="1s"
                                     data-wow-delay="0.5s">
                                     <img src="https://images.unsplash.com/photo-1536064479547-7ee40b74b807?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                        alt="" class="rounded-full"
+                                        alt="Vitaway: Personal support They actually get to know you" class="rounded-full"
                                         style="border-radius: 50%; width: 400px; height: 400px">
                                 </div>
                             </div>
@@ -247,7 +247,7 @@
                                 <div class="right-image wow fadeInRight rounded-full" data-wow-duration="1s"
                                     data-wow-delay="0.5s">
                                     <img src="https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                        alt="" class="rounded-full"
+                                        alt="Vitaway: Our Smart medical devices allow you to share key data with your care team" class="rounded-full"
                                         style="border-radius: 50%; width: 400px; height: 400px">
                                 </div>
                             </div>

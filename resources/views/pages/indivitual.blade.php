@@ -18,7 +18,7 @@
 
         <template>
             <div class="relative">
-                <img src="https://images.unsplash.com/photo-1613089222731-8841ac989caa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU4fHxoZWFydCUyMGF0dGFja3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="" />
+                <img src="https://images.unsplash.com/photo-1613089222731-8841ac989caa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU4fHxoZWFydCUyMGF0dGFja3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" class="absolute inset-0 object-cover w-full h-full" style="-o-object-fit: cover;object-fit: cover;transition: transform 0.3s ease;aspect-ratio: 4/3;" alt="Transform your Life and Mindset shift for Optimal Health" />
                 <div class="relative bg-opacity-75 bg-gray-900/60">
                     <svg class="absolute inset-x-0 -bottom-1 text-white" viewBox="0 0 1160 163">
                         <path
@@ -117,7 +117,7 @@
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
                                 <div class="icon bg-indigo-50 rounded-full p-5">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="" class="w-[100px]">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="Find your Joy" class="w-[100px]">
                                 </div>
                                 <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
                                     Find your Joy
@@ -134,7 +134,7 @@
                         <div class="card bg-white border-0">
                             <div class="card-body d-flex flex-column align-items-center">
                                 <div class="icon bg-indigo-50 rounded-full p-5">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="" class="w-[100px]">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="Virtual Care, uniquely yours" class="w-[100px]">
                                 </div>
                                 <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
                                     Virtual Care, uniquely yours
