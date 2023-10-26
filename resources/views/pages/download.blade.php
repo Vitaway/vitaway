@@ -10,6 +10,13 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        @media (max-width: 720px) {
+            .section-title-content {
+                width: 88vw;
+            }
+        }
+    </style>
 @stop
 
 @section('content')
@@ -24,7 +31,7 @@
                 <div class="relative">
                     <div class="grid gap-10 lg:grid-cols-2">
                         <div class="flex flex-col justify-center md:pr-10 xl:pr-0 lg:max-w-lg">
-                            <div class="max-w-xl mb-6">
+                            <div class="max-w-xl mb-6 section-title-content">
                                 <h2 class="mb-6 font-patua font-normal text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                                     <span class="relative inline-block">
                                         <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-28 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-32 lg:-mt-10 sm:block">
