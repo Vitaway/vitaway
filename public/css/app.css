@@ -13432,6 +13432,9 @@ input:checked + .toggle-bg {
 .w-4 {
   width: 1rem;
 }
+.w-40 {
+  width: 10rem;
+}
 .w-5 {
   width: 1.25rem;
 }
@@ -13443,6 +13446,9 @@ input:checked + .toggle-bg {
 }
 .w-8 {
   width: 2rem;
+}
+.w-80 {
+  width: 20rem;
 }
 .w-\[100px\] {
   width: 100px;
@@ -13479,15 +13485,6 @@ input:checked + .toggle-bg {
 }
 .w-screen {
   width: 100vw;
-}
-.w-40 {
-  width: 10rem;
-}
-.w-60 {
-  width: 15rem;
-}
-.w-80 {
-  width: 20rem;
 }
 .max-w-2xl {
   max-width: 42rem;
