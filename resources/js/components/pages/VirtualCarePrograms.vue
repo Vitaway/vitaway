@@ -29,19 +29,19 @@
                       <div class="col-lg-12">
                         <ul class="measurements">
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-900 bg-white': openTab !== 1, 'text-white bg-indigo-200': openTab === 1}">
-                                <a class="rounded hover:bg-gray-300 hover:rounded">
+                                <a href="#" class="rounded hover:bg-gray-300 hover:rounded">
                                     <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4327/4327809.png" alt="Pre-Diabetes">
                                     Pre-Diabetes
                                 </a>
                             </li>
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-900 bg-white': openTab !== 2, 'text-white bg-indigo-200': openTab === 2}">
-                                <a class="rounded hover:bg-gray-300 hover:rounded">
+                                <a href="#" class="rounded hover:bg-gray-300 hover:rounded">
                                     <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="Diabetes">
                                     Diabetes
                                 </a>
                             </li>
                             <li class="rounded hover:bg-gray-300 hover:rounded" v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-900 bg-white': openTab !== 3, 'text-white bg-indigo-200': openTab === 3}">
-                                <a class="rounded hover:bg-gray-300 hover:rounded">
+                                <a href="#" class="rounded hover:bg-gray-300 hover:rounded">
                                     <img class="circular" src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="Hypertension">
                                     Hypertension
                                 </a>

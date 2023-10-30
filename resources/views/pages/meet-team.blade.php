@@ -61,10 +61,7 @@
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-normal font-patua mb-3">Emmanuel HAKUZIMANA</p>
-                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder and Managing Director</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                                Vincent Van Gogh’s most popular painting, The Starry Night.
-                            </p>
+                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder & CEO</p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -85,10 +82,7 @@
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Eric NIYONGIRA</p>
-                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder && Strategic Business Development</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                            Amet I love liquorice jujubes pudding croissant I love pudding.
-                            </p>
+                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder & Business Strategy Development</p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -110,9 +104,6 @@
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Steven SHIMIRWA</p>
                             <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder && Head of Clinical Medicine</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                            Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing elit.
-                            </p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -134,9 +125,6 @@
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Stacy Charlene USANASE</p>
                             <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Head of Finance</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                            Bacon ipsum dolor sit amet salami jowl corned beef, andouille flank.
-                            </p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -157,10 +145,7 @@
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Gisele IREBE</p>
-                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Head of Communication && Public Relations</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                            Bacon ipsum dolor sit amet salami jowl corned beef, andouille flank.
-                            </p>
+                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Head of Public Relations</p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -181,10 +166,7 @@
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold">Patience H. MANIRABONA</p>
-                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Software Engineer && Head of Product Development</p>
-                            <p class="mb-4 text-sm tracking-wide text-gray-800">
-                                Thousand Hills-born Software Engineer, better known as a FullStack Developer,
-                            </p>
+                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Software Engineer & Product Development</p>
                             <div class="flex items-center space-x-3">
                                 <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
