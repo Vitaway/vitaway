@@ -10,6 +10,7 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="canonical" href="{{ route('get.download') }}">
     <style>
         @media (max-width: 720px) {
             .section-title-content {

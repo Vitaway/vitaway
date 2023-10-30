@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="/css/pages/single-page.css">
     <link rel="stylesheet" href="/css/pages/bash.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="canonical" href="{{ env('APP_URL').'/blogs/'.$blog->id }}">
 @stop
 
 @section('content')

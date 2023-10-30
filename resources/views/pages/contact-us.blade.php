@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="/css/navigation-bar.css">
         <link rel="stylesheet" href="/css/pages/contact.css">
         <link rel="stylesheet" href="/css/footer.css">
+        <link rel="canonical" href="{{ route('contact') }}">
         <style>
             .overlay {
                 background-image: linear-gradient(to right, rgba(45, 126, 131, 0.9), rgba(45, 126, 131, 0.9));

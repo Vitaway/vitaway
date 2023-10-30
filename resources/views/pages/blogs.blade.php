@@ -10,6 +10,7 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="canonical" href="{{ route('blogs') }}">
 @stop
 
 @section('content')
