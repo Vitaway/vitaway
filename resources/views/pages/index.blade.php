@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/index_page.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="canonical" href="{{ env('APP_URL') }}">
 @stop
 
 @section('content')
