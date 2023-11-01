@@ -3,6 +3,7 @@
 @section('title') Life Stages | Childhood @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="">
     <meta name="keywords" content="">
 @stop

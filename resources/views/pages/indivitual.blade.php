@@ -1,10 +1,11 @@
 @extends('layouts.guest')
 
-    @section('title') For Indivitual @stop
+    @section('title') Power of a Positive Perspective for Better Health | For Indivitual @stop
 
     @section('metas')
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="Vitaway, mindset, health, well-being, positive perspective, journey, healthier you, For indivituals">
+        <meta name="description" content="Discover how changing your mindset can be the key to improving your overall health and well-being. Explore the power of a positive perspective in this journey toward a healthier you. Vitaway is your guide to a healthier life.">
     @stop
 
     @section('styles')

@@ -3,6 +3,7 @@
 @section('title') Frequent Asked Questions @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Explore Vitaway's Frequently Asked Questions (FAQ) to find answers to common queries about our healthcare products, services, and team to Learn more about how we're dedicated to enhancing your well-being.">
     <meta name="keywords" content="Vitaway, FAQ, Frequently Asked Questions, healthcare, products, services, team, well-being, answers">
 @stop

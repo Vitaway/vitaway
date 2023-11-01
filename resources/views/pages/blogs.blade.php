@@ -1,10 +1,11 @@
 @extends('layouts.guest')
 
-@section('title') blogs @stop
+@section('title') Insightful & Informative Healthcare Blogs @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Explore insightful and informative healthcare blogs by Vitaway. Stay updated with the latest trends, tips, and news in the world of health and wellness.">
-    <meta name="keywords" content="Vitaway, blogs, healthcare blogs, health and wellness, latest trends, healthcare news, wellness tips">
+    <meta name="keywords" content="Vitaway, blogs, healthcare blogs, health and wellness, latest trends, healthcare news, wellness tips, vitaway blogs">
 @stop
 
 @section('styles')

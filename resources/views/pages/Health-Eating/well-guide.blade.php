@@ -3,6 +3,7 @@
 @section('title') Health Eating Well Guide @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="">
     <meta name="keywords" content="">
 @stop

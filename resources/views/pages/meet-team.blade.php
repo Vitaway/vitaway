@@ -1,8 +1,9 @@
 @extends('layouts.guest')
 
-@section('title') Meet Our Team @stop
+@section('title') Passionate & Dedicated Individuals | Meet Our Team @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Discover the passionate and dedicated individuals who make Vitaway a leader in healthcare innovation and tick. Get to know our team of experts committed to enhancing your well-being." />
     <meta name="keywords" content="Vitaway, Meet Our Team, Healthcare Experts, Dedicated Team, Healthcare Innovation, Wellness, Health Professionals" />
 @stop

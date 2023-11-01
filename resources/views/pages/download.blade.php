@@ -3,6 +3,7 @@
 @section('title') Download @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Download the latest healthcare resources, guides, and products from Vitaway. Access valuable information to support your well-being and stay informed about our innovative healthcare solutions.">
     <meta name="keywords" content="Vitaway Downloads, Well-being Support, Downloadable Content, Healthcare Solutions, Medical Information, Healthcare Resources,vitaway, vitaway.org, e-clinic, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education, download vitaway, vitaway download">
 @stop

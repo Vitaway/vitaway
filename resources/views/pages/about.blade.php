@@ -1,10 +1,11 @@
 @extends('layouts.guest')
 
-    @section('title') About @stop
+    @section('title') About Us @stop
 
     @section('metas')
+        <meta name="robots" content="index, follow">
         <meta name="description" content="Discover Vitaway - a leading healthcare startup on a mission to transform the healthcare industry. Learn about our dedicated team, innovative solutions, and commitment to improving lives.">
-        <meta name="keywords" content="Vitaway, About Us, Healthcare Startup, Mission, Team, Innovations">
+        <meta name="keywords" content="vitaway, About Us, Healthcare Startup, Mission, Team, Innovations, about vitaway">
     @stop
 
     @section('styles')

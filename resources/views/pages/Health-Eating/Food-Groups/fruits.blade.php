@@ -5,6 +5,7 @@
 @section('metas')
     <meta name="description" content="Explore the health benefits and variety of vegetables in different food groups with Vitaway. Learn about the nutritional value of vegetables for a balanced diet.">
     <meta name="keywords" content="vegetables, food groups, nutrition, health benefits, balanced diet, Vitaway">
+    <meta name="robots" content="index, follow">
 @stop
 
 @section('styles')
