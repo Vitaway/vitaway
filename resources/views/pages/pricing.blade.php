@@ -4,7 +4,8 @@
 
 @section('metas')
     <meta name="description" content="Transparent and competitive pricing for our healthcare products and services. Explore our pricing plans and find the perfect solution to fit your wellness needs. we're committed to making high-quality healthcare accessible to everyone.">
-    <meta name="keywords" content="Vitaway, pricing, healthcare pricing, transparent pricing, competitive pricing, wellness plans, healthcare products, affordable healthcare, accessibility, wellness solutions" />
+    <meta name="keywords" content="Vitaway, pricing, healthcare pricing, transparent pricing, competitive pricing, wellness plans, healthcare products, affordable healthcare, accessibility, wellness solutions, vitaway pricing" />
+    <meta name="robots" content="index, follow">
 @stop
 
 @section('styles')

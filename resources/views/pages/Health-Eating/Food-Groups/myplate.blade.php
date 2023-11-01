@@ -3,6 +3,7 @@
 @section('title') Food Groups | My Plate @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="keywords" content="food groups, My Plate, nutrition, healthy eating, balanced diet, Vitaway">
     <meta name="description" content="There is strong evidence that for each serve of vegetables eaten each day the risk of coronary heart disease is reduced even further!  Also, by eating vegetables, especially colourful vegetables, there is a reduced risk of stroke and weight gain.">
 @stop

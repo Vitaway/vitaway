@@ -8,6 +8,7 @@
     <meta name="title" content="{{ $blog->title }}">
     <meta name="description" content="{{ $blog->caption }}">
     <meta name="keywords" content="VITAWAY, BLOGS, E-CLINIC">
+    <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">

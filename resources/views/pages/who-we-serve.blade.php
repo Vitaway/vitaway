@@ -1,10 +1,11 @@
 @extends('layouts.guest')
 
-@section('title') resource - diabetes @stop
+@section('title') Personalized Health Programs @stop
 
 @section('metas')
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="keywords" content="Vitaway, personalized health programs, wellness plans, better health outcomes, tailored wellness, unique needs">
+    <meta name="description" content="Discover Vitaway's personalized programs designed to inspire better health outcomes. We believe in tailoring wellness plans to your unique needs for a healthier you.">
+    <meta name="robots" content="index, follow">
 @stop
 
 @section('styles')

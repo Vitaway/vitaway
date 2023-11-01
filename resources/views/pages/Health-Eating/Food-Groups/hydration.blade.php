@@ -3,8 +3,9 @@
 @section('title') Food Groups | Hydration @stop
 
 @section('metas')
-<meta name="description" content="The body constantly loses fluid through breathing, sweating or going to the toilet and therefore this needs to be replaced. Aim to drink 6-8 glasses of fluid each day to help keep the body hydrated.">
-<meta name="keywords" content="food groups, hydration, Vitaway, healthy eating, nutrition, staying hydrated">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="The body constantly loses fluid through breathing, sweating or going to the toilet and therefore this needs to be replaced. Aim to drink 6-8 glasses of fluid each day to help keep the body hydrated.">
+    <meta name="keywords" content="food groups, hydration, Vitaway, healthy eating, nutrition, staying hydrated">
 @stop
 
 @section('styles')

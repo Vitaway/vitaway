@@ -3,6 +3,7 @@
 @section('title') Food Groups | Grains Starch food @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Explore the grains and starch food group on Vitaway. Learn about the importance of grains in a balanced diet. Discover our nutritious products.">
     <meta name="keywords" content="food groups, grains, starch food, balanced diet, nutritious products, Vitaway">
 @stop

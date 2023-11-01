@@ -1,10 +1,26 @@
 @extends('layouts.guest')
 
-@section('title') Home @stop
+@section('title') Healthcare Solutions From all walks of Life @stop
 
 @section('metas')
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
-    <meta name="keywords" content="vitaway, vitaway.org, e-clinic, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
+    <meta name="keywords" content="vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
+
+    {{-- Open Graph Meta Tags (for social media): --}}
+    <meta property="og:title" content="Healthcare Solutions From all walks of Life">
+    <meta property="og:description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
+    <meta property="og:image" content="{{ env('APP_URL')."/images/icon.png" }}">
+    <meta property="og:url" content="{{ env('APP_URL') }}">
+
+    {{-- Twitter Card Meta Tags (for Twitter): --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Healthcare Solutions From all walks of Life">
+    <meta name="twitter:description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
+    <meta name="twitter:image" content="{{ env('APP_URL')."/images/icon.png" }}">
+
+    {{-- prevent duplicate content issues by specifying the preferred URL  --}}
+    <link rel="canonical" href="{{ env('APP_URL') }}">
 @stop
 
 @section('styles')

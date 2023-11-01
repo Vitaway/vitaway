@@ -3,6 +3,7 @@
     @section('title') Contact Us | Reach Our Team @stop
 
     @section('metas')
+        <meta name="robots" content="index, follow">
         <meta name="description" content="Contact Vitaway for all your healthcare needs. Reach our dedicated team for product information, support, or partnership inquiries. Your message matters to us. Let's connect for a healthier tomorrow.">
         <meta name="keywords" content="contact Vitaway, healthcare team, product information, support, partnership inquiries, healthcare needs">
     @stop
