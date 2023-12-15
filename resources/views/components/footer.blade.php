@@ -13,11 +13,11 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="d-inline-block text-uppercase border-bottom border-5 border-secondary mb-4 font-patua text-gray-100">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('home') }}"><i class="fa fa-angle-right me-2"></i>Home</a>
-                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('about') }}"><i class="fa fa-angle-right me-2"></i>About Us</a>
-                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('get.team') }}"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
-                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('blogs') }}"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
-                    <a class="text-light font-patua font-normal" href="{{ route('contact') }}"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('home') }}"><i class="fa fa-angle-right me-2"></i>{{ __('lang.home') }}</a>
+                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('about') }}"><i class="fa fa-angle-right me-2"></i>{{ __('lang.about-us') }}</a>
+                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('get.team') }}"><i class="fa fa-angle-right me-2"></i>{{ __('lang.our-team') }}</a>
+                    <a class="text-light mb-2 font-patua font-normal" href="{{ route('blogs') }}"><i class="fa fa-angle-right me-2"></i>{{ __('lang.blogs') }}</a>
+                    <a class="text-light font-patua font-normal" href="{{ route('contact') }}"><i class="fa fa-angle-right me-2"></i>{{ __('lang.contact') }}</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

@@ -2,11 +2,12 @@
 
     use App\Http\Controllers\AdminController;
     use App\Http\Controllers\BlogController;
-use App\Http\Controllers\HealthEatingController;
-use App\Http\Controllers\LoginController;
+    use App\Http\Controllers\HealthEatingController;
+    use App\Http\Controllers\LoginController;
     use App\Http\Controllers\ProfileController;
-    use Illuminate\Support\Facades\Auth;
+    use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Route;
+    use Illuminate\Support\Facades\Session;
 
     /*
     |--------------------------------------------------------------------------
@@ -20,6 +21,17 @@ use App\Http\Controllers\LoginController;
     */
 
     Route::get('/', fn () => view('pages.index'))->name('home');
+
+    Route::post('/locale', function (Request $request) {
+        if ($request->locale) {
+            Session::put('locale', "kin");
+        } else {
+            Session::put('locale', "en");
+        }
+
+        return redirect()->back();
+    })->name('locale');
+
     Route::get('/indivitual', fn () => view('pages.indivitual'))->name('indivitual');
     Route::get('/about', fn () => view('pages.about'))->name('about');
     Route::get('/faqs', fn () => view('pages.faqs'))->name('faqs');
@@ -65,12 +77,12 @@ use App\Http\Controllers\LoginController;
         Route::get('/logout', [LoginController::class, 'logout'])->name('adminLogout');
     });
 
-    Route::prefix('/condition')->group(function() {
-        Route::get('/diabetes', [ConditionController::class, 'diabetes'])->name('condition.diabetes');
-        Route::get('/pre-diabetes', [ConditionController::class, 'preDiabetes'])->name('condition.pre-diabetes');
-        Route::get('/hypertension', [ConditionController::class, 'hypertension'])->name('condition.hypertension');
-        Route::get('/mental-health', [ConditionController::class, 'mentalHealth'])->name('condition.mental-health');
-    });
+    // Route::prefix('/condition')->group(function() {
+    //     Route::get('/diabetes', [ConditionController::class, 'diabetes'])->name('condition.diabetes');
+    //     Route::get('/pre-diabetes', [ConditionController::class, 'preDiabetes'])->name('condition.pre-diabetes');
+    //     Route::get('/hypertension', [ConditionController::class, 'hypertension'])->name('condition.hypertension');
+    //     Route::get('/mental-health', [ConditionController::class, 'mentalHealth'])->name('condition.mental-health');
+    // });
 
     Route::prefix('/health-eating')->group(function() {
         Route::get('/well-guide', [HealthEatingController::class, 'guides'])->name('well-guide');
