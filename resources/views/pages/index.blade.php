@@ -43,14 +43,14 @@
                   <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="row">
                         <div class="col-lg-12 hero-title font-patua font-normal">
-                            <h2 class="wow fadeIn">Universal Access <br> To Virtual Health <br> Services for Enhanced Well-being</h2>
-                            <p class="wow fadeIn">Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.</p>
+                            <h2 class="wow fadeIn">{{ __('pages/home.hero-title') }}</h2>
+                            <p class="wow fadeIn">{{ __('pages/home.hero-desc') }}</p>
                         </div>
 
                         <div class="col-lg-12 more-detail-buttons ">
                             <a href="{{ route('get.pricing') }}">
                                 <button type="button" class="text-white animate__animated animate__fadeInUp animate__delay-1s animate__slow font-patua font-normal bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
-                                    Get Started
+                                    {{ __('pages/home.her-get-started') }}
                                 </button>
                             </a>
                             <a href="{{ route('get.download') }}">
@@ -58,14 +58,14 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                     </svg>
-                                    Download The app
+                                    {{ __('pages/home.hero-download') }}
                                 </button>
                             </a>
                         </div>
 
                         <div class="clients pt-16">
                             <h6 class="mb-2 flex items-center text-xs font-patua font-normal text-body-color">
-                                Some Of Our Paterners
+                                {{ __('pages/home.hero-paterners') }}
                             <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
                             </h6>
                             <div class="flex items-center">
@@ -176,13 +176,12 @@
                         </defs>
                         <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
                         </svg>
-                        <span class="relative font-patua font-normal">Accessible</span>
+                        <span class="relative font-patua font-normal"></span>
                     </span>
-                    Remote Doctor Consultation
+                    {{ __('pages/home.consultation-title') }}
                 </h2>
                 <p class="text-base text-gray-700 md:text-lg font-merri font-normal">
-                    Connect with qualified medical professionals from the comfort of your home,
-                    ensuring convenient, safe, and efficient healthcare access whenever you need it.
+                    {{ __('pages/home.consultation-desc') }}
                 </p>
             </div>
             <div class="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -191,9 +190,9 @@
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                            <img src="https://cdn-icons-png.flaticon.com/512/4349/4349215.png" alt="Diabetes">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Diabetes</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">{{ __('pages/home.consultation-diabete-title') }}</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                            Comprehensive guide explores the various types of diabetes, their causes, symptoms, and management
+                            {{ __('pages/home.consultation-diabete-desc') }}
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -203,10 +202,9 @@
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                             <img src="https://cdn-icons-png.flaticon.com/512/4799/4799067.png" alt="Hypertension">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Hypertension</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">{{ __('pages/home.consultation-hypertension-title') }}</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                            Learn how to measure your blood pressure, spot the warning signs, and discover practical steps
-                            to manage and prevent this silent but deadly health threat
+                            {{ __('pages/home.consultation-hypertension-desc') }}
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -216,10 +214,9 @@
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                             <img src="https://cdn-icons-png.flaticon.com/512/847/847345.png" alt="Weight Management">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Weight Management</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">{{ __('pages/home.consultation-weight-title') }}</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                            Comprehensive guide offers expert insights, practical tips, and personalized plans
-                            to help you achieve and maintain a weight that promotes your well-being
+                            {{ __('pages/home.consultation-weight-desc') }}
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -229,11 +226,9 @@
                         <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
                             <img src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="Mental health">
                         </div>
-                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">Mental health</h4>
+                        <h4 class="mb-3 font-patua font-normal leading-5 text-xl">{{ __('pages/home.consultation-mental-health-title') }}</h4>
                         <p class="mb-3 text-sm text-gray-900">
-                            Your mental health is as important to us as your physical health,
-                            and we believe that taking care of your mind
-                            is a crucial part of overall wellness
+                            {{ __('pages/home.consultation-mental-health-desc') }}
                         </p>
                     </div>
                     <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
@@ -251,11 +246,10 @@
         <div class="wellness-container grid grid-cols-2 gap-3 z-10">
             <div class="welness-item animate__animated animate__fadeInUp animate__slow" style="z-index: 6 !important">
                 <div class="welness-description">
-                    <h2 class="font-patua font-medium tracking-wide">Nutrition Consultation</h2>
-                    <p class="text-gray-600 font-merri font-semibold leading-8 text-md">Everyone’s nutritional goals are different, whether it’s losing weight,
-                        building fitness or just eating better. That’s why we take a comprehensive,
-                        multidisciplinary approach to your care, working with you to overcome your
-                        challenges and live a healthier, more active life.</p>
+                    <h2 class="font-patua font-medium tracking-wide">{{ __('pages/home.consultation-nutrition-cons-title') }}</h2>
+                    <p class="text-gray-600 font-merri font-semibold leading-8 text-md">
+                        {{ __('pages/home.consultation-nutrition-cons-desc') }}
+                    </p>
                     <div class="mt-5">
                         <a href="{{ route('contact') }}" class="get-in-touch font-patua font-medium tracking-wide">Get in Touch</a>
                     </div>
@@ -266,14 +260,10 @@
             </div>
             <div class="welness-item animate__animated animate__fadeInUp animate__slow" style="z-index: 6 !important">
                 <div class="welness-description">
-                    <h2 class="font-patua font-medium tracking-wide">Get Personalized wellness Plan</h2>
-                    <p class="text-gray-600 font-merri font-semibold leading-8 text-md">Our nutrition services team includes doctors,
-                        wellness practitioners and nutritionists.
-                        These specialists work together with you
-                        to help you create a realistic, achievable
-                        plan for changing old habits in order to
-                        accomplish your nutrition goals.</p>
-
+                    <h2 class="font-patua font-medium tracking-wide">{{ __('pages/home.consultation-wellness-plan-title') }}</h2>
+                    <p class="text-gray-600 font-merri font-semibold leading-8 text-md">
+                        {{ __('pages/home.consultation-wellness-plan-desc') }}
+                    </p>
                     <div class="mt-5">
                         <a href="{{ route('contact') }}" class="get-in-touch">Get in Touch</a>
                     </div>
@@ -304,35 +294,31 @@
                         <div class="flex flex-col justify-center">
                             <div class="max-w-xl">
                                 <h2 style="line-height: 2.6rem" class="max-w-lg mb-6 font-patua font-normal leading-10 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                    Virtual-first care <br class="hidden md:block" />
-                                    to address expensive chronic conditions found
+                                    {{ __('pages/home.virtual-title') }}
                                     <span class="relative px-1">
                                         <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
-                                        <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700">across your population</span>
+                                        {{-- <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700">across your population</span> --}}
                                     </span>
                                 </h2>
                                 <p class="text-base text-gray-700 md:text-lg">
-                                    We leverage our expertise and tech-savvy skills to drive your digital transformation,
-                                    unlocking competitive advantages through cutting-edge technologies, data solutions,
-                                    and digital healthcare services. Our experience guarantees improved patient care,
-                                    smarter decision-making, and enhanced healthcare management.
+                                    {{ __('pages/home.virtual-desc') }}
                                 </p>
                             </div>
                             <div class="grid gap-3 row-gap-2 sm:grid-cols-2 mt-5">
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Vitaway for Diabetes
+                                        {{ __('pages/home.vitaway-for-diabetes-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        A specially formulated supplement designed to complement your health journey
+                                        {{ __('pages/home.vitaway-for-diabetes-desc') }}
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Vitaway for Prevention
+                                        {{ __('pages/home.vitaway-for-prevention-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        The power of Vitaway, a comprehensive solution for proactive health and prevention
+                                        {{ __('pages/home.vitaway-for-prevention-desc') }}
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
@@ -345,10 +331,10 @@
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        For also Mental Wellness
+                                        {{ __('pages/home.vitaway-for-mental-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Encouraging and optimize mental wellness alongside professional care
+                                        {{ __('pages/home.vitaway-for-mental-desc') }}
                                     </p>
                                 </div>
                             </div>
@@ -415,10 +401,10 @@
             <div class="col-lg-7 ">
                 <div class="section-heading">
                     <h2 style="line-height: 2.6rem" class="mb-3 text-3xl text-dark sm:text-4xl md:text-[40px] font-patua font-medium leading-9">
-                        How Vitaway's diabetes program works <span class="relative inline-block text-deep-purple-accent-400 font-patua font-normal text-indigo-700"> for members </span>
+                        {{ __('pages/home.programs-title') }}
                     </h2>
                     <p class="mb-5 text-xl font-merri font-normal leading-10 text-gray-600">
-                        Our program empowers individuals to manage their diabetes and improve their overall health
+                        {{ __('pages/home.programs-desc') }}
                     </p>
 
                     <div class="-mx-4 flex flex-wrap">
@@ -431,11 +417,10 @@
                                         </svg>
                                     </div>
                                     <h4 class="text-md font-patua font-medium text-gray-600">
-                                        Eat Well Guide
+                                        {{ __('pages/home.programs-eat-well-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Whether you're looking to improve your dietary habits, explore sustainable eating options,
-                                        or simply find healthy food establishments near you.
+                                        {{ __('pages/home.programs-eat-well-desc') }}
                                     </p>
                                 </div>
                             </div>
@@ -450,10 +435,10 @@
                                         </svg>
                                     </div>
                                     <h4 class="mb-2 text-md font-patua font-medium text-gray-600">
-                                        The Food goup
+                                        {{ __('pages/home.programs-food-groups-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                                        {{ __('pages/home.programs-food-groups-desc') }}
                                     </p>
                                 </div>
                             </div>
@@ -486,10 +471,10 @@
                                         </svg>
                                     </div>
                                     <h4 class="mb-2 text-md font-patua font-medium text-gray-600">
-                                        Health & Well being
+                                        {{ __('pages/home.programs-well-being-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        The proportions of food groups been updated to take into account the new dietary recommendations for more fiber and less sugar.
+                                        {{ __('pages/home.programs-well-being-desc') }}
                                     </p>
                                 </div>
                             </div>

@@ -82,6 +82,11 @@ return [
 
     'locale' => 'en',
 
+    'available_locales' => [
+        'English' => 'en',
+        'Kinyarwanda' => 'kin',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
