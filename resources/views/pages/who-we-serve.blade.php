@@ -31,12 +31,10 @@
                     <div class="flex flex-col items-center justify-between xl:flex-row">
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                             <h2 style="line-height: 2.9rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
-                                Your Well-being with Vitaway's <br class="hidden md:block" />
-                                Health Plan
+                                {{ __('pages/who-we-serve.hero-title') }}
                             </h2>
                             <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                                Our personalized programs are designed to inspire better health outcomes.
-                                We believe in tailoring wellness plans to your unique needs.
+                                {{ __('pages/who-we-serve.hero-desc') }}
                             </p>
                         </div>
                         <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
@@ -53,11 +51,8 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading text-left">
-                        <h4 class="font-normal font-patua tracking-wider">Programs</h4>
-                        <p class="leading-6">
-                            Virtual care is the first integrated solution. To achieve long-lasting health changes on their
-                            terms, Vitaway supports members in changing their thinking.
-                        </p>
+                        <h4 class="font-normal font-patua tracking-wider">{{ __('pages/who-we-serve.program-title') }}</h4>
+                        <p class="leading-6">{{ __('pages/who-we-serve.program-desc') }}</p>
                     </div>
                 </div>
             </div>
@@ -73,10 +68,10 @@
                             </svg>
                         </div>
                         <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Diabetes
+                            {{ __('pages/who-we-serve.program-diabete-title') }}
                         </h4>
                         <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Simply Diabetes management with quick checks and a Proper...
+                            {{ __('pages/who-we-serve.program-diabete-desc') }}
                         </p>
                     </div>
                 </div>
@@ -89,10 +84,10 @@
                             </svg>
                         </div>
                         <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Hypertension
+                            {{ __('pages/who-we-serve.program-hypertension-title') }}
                         </h4>
                         <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Track Your health trends to work toward reaching your health...
+                            {{ __('pages/who-we-serve.program-hypertension-desc') }}
                         </p>
                     </div>
                 </div>
@@ -104,10 +99,10 @@
                             </svg>
                         </div>
                         <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Weight Management
+                            {{ __('pages/who-we-serve.program-weight-title') }}
                         </h4>
                         <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                            Find tools and strategies to help healthy weight...
+                            {{ __('pages/who-we-serve.program-weight-desc') }}
                         </p>
                     </div>
                 </div>
@@ -119,9 +114,9 @@
                             </svg>
                         </div>
                         <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                            Mental Health
+                            {{ __('pages/who-we-serve.program-mental-title') }}
                         </h4>
-                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">we care about your mental health.</p>
+                        <p class="text-gray-600 font-merri font-semibold leading-6 text-md">{{ __('pages/who-we-serve.program-mental-desc') }}</p>
                     </div>
                 </div>
             </div>

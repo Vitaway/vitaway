@@ -77,13 +77,6 @@
         Route::get('/logout', [LoginController::class, 'logout'])->name('adminLogout');
     });
 
-    // Route::prefix('/condition')->group(function() {
-    //     Route::get('/diabetes', [ConditionController::class, 'diabetes'])->name('condition.diabetes');
-    //     Route::get('/pre-diabetes', [ConditionController::class, 'preDiabetes'])->name('condition.pre-diabetes');
-    //     Route::get('/hypertension', [ConditionController::class, 'hypertension'])->name('condition.hypertension');
-    //     Route::get('/mental-health', [ConditionController::class, 'mentalHealth'])->name('condition.mental-health');
-    // });
-
     Route::prefix('/health-eating')->group(function() {
         Route::get('/well-guide', [HealthEatingController::class, 'guides'])->name('well-guide');
         Route::get('/food-group', [HealthEatingController::class, 'foodGroup'])->name('food-group');
