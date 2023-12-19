@@ -107,7 +107,7 @@
         padding: 7px 10px;
         border-radius: 10px !important;
         font-family: 'Patua One', cursive;
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: 400;
         line-height: 1;
         display: inline-block;
