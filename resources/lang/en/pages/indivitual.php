@@ -13,14 +13,10 @@
         |
         */
 
-        'about-us' => "Abo turibo",
-        'our-team' => "Ikipe Yose",
-        'faqs' => "FAQs",
-        'home' => "Ahabanza",
-        'who-we-serve' => "Abo dukorera",
-        'for-indivitual' => "Ku Bwawe",
-        'download' => "Dawunilodiga",
-        'pricing' => "Ibiciro",
-        'contact' => "Tuvugishe",
-        'blogs' => "Amakuru",
+        'hero-title' => "Universal Access To Virtual Health Services for Enhanced Well-being",
+        'hero-desc' => "Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.",
+        'her-get-started' => "Get Started",
+        'hero-download' => "Download the App",
+        'hero-paterners' => "Some Of Our Paterners",
+
     ];
