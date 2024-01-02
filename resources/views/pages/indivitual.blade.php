@@ -32,11 +32,10 @@
                         <div class="flex flex-col items-center justify-between xl:flex-row">
                             <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 mt-4">
                                 <h2 style="line-height: 2.9rem" class="max-w-lg mb-6 font-normal font-patua text-3xl tracking-tight text-white sm:text-4xl sm:leading-none">
-                                    Transform your Life and Mindset shift for Optimal Health
+                                    {{ __('pages/indivitual.hero-title') }}
                                 </h2>
                                 <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                                    Discover how changing your mindset can be the key to improving your overall health and well-being.
-                                    Explore the power of a positive perspective in this journey toward a healthier you
+                                    {{ __('pages/indivitual.hero-desc') }}
                                 </p>
                             </div>
                             <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
@@ -54,8 +53,7 @@
                 <div class="flex flex-col lg:flex-row">
                   <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
                     <h2 style="line-height: 2.5rem" class="font-patua font-normal text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                        It takes only one minutes to see if <br class="hidden md:block" /> Vitaway is right for you and at no cost.
-                      <span class="inline-block text-indigo-600 font-patua font-normal">a lazy dog</span>
+                        {{ __('pages/indivitual.her-get-started') }}
                     </h2>
                   </div>
                   <div class="lg:w-1/2">
@@ -108,10 +106,11 @@
                                     <img src="https://cdn-icons-png.flaticon.com/512/4436/4436450.png" alt="" class="w-[100px]">
                                 </div>
                                 <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
-                                    Small steps, long-term change
+                                    {{ __('pages/indivitual.categories-changes-title') }}
                                 </h3>
-                                <p class="card-text text-black font-medium">Vitaway helps you create healthy routines
-                                    that last for years, not just weeks at a time</p>
+                                <p class="card-text text-black font-medium">
+                                    {{ __('pages/indivitual.categories-changes-desc') }}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -122,12 +121,10 @@
                                     <img src="https://cdn-icons-png.flaticon.com/512/4288/4288923.png" alt="Find your Joy" class="w-[100px]">
                                 </div>
                                 <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
-                                    Find your Joy
+                                    {{ __('pages/indivitual.categories-joy-title') }}
                                 </h3>
                                 <p class="card-text text-black font-medium">
-                                    Try new things you’ll actually enjoy,
-                                    rather than avaiding foods you “can’t eat”
-                                    or things you “ shouldn’t do”.
+                                    {{ __('pages/indivitual.categories-joy-desc') }}
                                 </p>
                             </div>
                         </div>
@@ -139,12 +136,10 @@
                                     <img src="https://cdn-icons-png.flaticon.com/512/1685/1685803.png" alt="Virtual Care, uniquely yours" class="w-[100px]">
                                 </div>
                                 <h3 class="card-title mb-3 mt-5 text-xl font-normal font-patua">
-                                    Virtual Care, uniquely yours
+                                    {{ __('pages/indivitual.categories-care-title') }}
                                 </h3>
                                 <p class="card-text text-black font-medium">
-                                    When life happens. Vitaway helps you stay
-                                    on  track with a plan that constantly
-                                    adapts to meet your needs.
+                                    {{ __('pages/indivitual.categories-care-desc') }}
                                 </p>
                             </div>
                         </div>

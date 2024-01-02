@@ -195,7 +195,7 @@
                             {{ __('pages/home.consultation-diabete-desc') }}
                         </p>
                     </div>
-                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">{{ __('pages/home.learn-more') }}</a>
                 </div>
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
@@ -207,7 +207,7 @@
                             {{ __('pages/home.consultation-hypertension-desc') }}
                         </p>
                     </div>
-                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">{{ __('pages/home.learn-more') }}</a>
                 </div>
                 <div style="z-index: 6 !important" class="flex animate__animated animate__fadeInUp animate__slow flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
@@ -219,7 +219,7 @@
                             {{ __('pages/home.consultation-weight-desc') }}
                         </p>
                     </div>
-                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">{{ __('pages/home.learn-more') }}</a>
                 </div>
                 <div style="z-index: 30 !important" class="flex animate__animated animate__fadeInUp animate__slow bg-white flex-col justify-between p-5 border rounded-[20px] shadow-sm">
                     <div>
@@ -231,7 +231,7 @@
                             {{ __('pages/home.consultation-mental-health-desc') }}
                         </p>
                     </div>
-                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+                    <a href="/" aria-label="" class="inline-flex items-center font-patua font-normal transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">{{ __('pages/home.learn-more') }}</a>
                 </div>
             </div>
         </div>
@@ -251,7 +251,7 @@
                         {{ __('pages/home.consultation-nutrition-cons-desc') }}
                     </p>
                     <div class="mt-5">
-                        <a href="{{ route('contact') }}" class="get-in-touch font-patua font-medium tracking-wide">Get in Touch</a>
+                        <a href="{{ route('contact') }}" class="get-in-touch font-patua font-medium tracking-wide">{{ __('pages/home.in-touch') }}</a>
                     </div>
                 </div>
                 <div class="welness-img">
@@ -265,7 +265,7 @@
                         {{ __('pages/home.consultation-wellness-plan-desc') }}
                     </p>
                     <div class="mt-5">
-                        <a href="{{ route('contact') }}" class="get-in-touch">Get in Touch</a>
+                        <a href="{{ route('contact') }}" class="get-in-touch">{{ __('pages/home.in-touch') }}</a>
                     </div>
                 </div>
                 <div class="welness-img">
@@ -323,10 +323,10 @@
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
                                     <h4 class="mb-3 text-xl font-patua font-medium text-dark">
-                                        Vitaway for Hypertension
+                                        {{ __('pages/home.vitaway-for-hypertension-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Improve heart health, and lead a more balanced life without relying solely on medication
+                                        {{ __('pages/home.vitaway-for-hypertension-desc') }}
                                     </p>
                                 </div>
                                 <div class="mb-2 animate__animated animate__fadeInUp animate__slow rounded-[20px] bg-white p-3 shadow-sm hover:shadow-lg md:px-4 xl:px-5" style="border: 1px solid #e7dfd7">
@@ -453,10 +453,10 @@
                                         </svg>
                                     </div>
                                     <h4 class="mb-2 text-md font-patua font-medium text-gray-600">
-                                        Health & life Stage
+                                        {{ __('pages/home.programs-life-stage-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.
+                                        {{ __('pages/home.programs-life-stage-desc') }}
                                     </p>
                                 </div>
                             </div>

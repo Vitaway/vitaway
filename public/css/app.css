@@ -15122,10 +15122,6 @@ input:checked + .toggle-bg {
     margin-bottom: 2rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
   }

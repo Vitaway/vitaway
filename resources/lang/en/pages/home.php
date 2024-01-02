@@ -19,6 +19,9 @@
         'hero-download' => "Download the App",
         'hero-paterners' => "Some Of Our Paterners",
 
+        'learn-more' => "Learn More",
+        'in-touch' => "Get In touch",
+
         'consultation-title' => "Accessible Remote Doctor Consultation",
         'consultation-desc' => "Connect with qualified medical professionals from the comfort of your home, ensuring convenient, safe, and efficient healthcare access whenever you need it",
 
@@ -52,6 +55,9 @@
         'vitaway-for-mental-title' => "For also Mental Wellness",
         'vitaway-for-mental-desc' => "Encouraging and optimize mental wellness alongside professional care",
 
+        'vitaway-for-hypertension-title' => "Vitaway for Hypertension",
+        'vitaway-for-hypertension-desc' => "Improve heart health, and lead a more balanced life without relying solely on medication",
+
         'programs-title' => "How Vitaway's diabetes program works for members",
         'programs-desc' => "Our program empowers individuals to manage their diabetes and improve their overall health",
 
@@ -63,4 +69,7 @@
 
         'programs-well-being-title' => "Health & Well-Being",
         'programs-well-being-desc' => "The proportions of food groups been updated to take into account the new dietary recommendations for more fiber and less sugar.",
+
+        'programs-well-being-title' => "Health & Life Stage",
+        'programs-well-being-desc' => "Our advice covers everything from getting the right amount of healthy food and cutting down on fat, salt and sugar to hydration and staying active.",
     ];

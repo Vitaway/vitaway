@@ -19,6 +19,9 @@
         'hero-download' => "Danilodinga apurikasiyo",
         'hero-paterners' => "abafatanyabikorwa bacu",
 
+        'learn-more' => "Wige byinshi",
+        'in-touch' => "Tuvugishe",
+
         'consultation-title' => "Uburyo bwo kuvugana na muganga mutari kumwe bwakwegerejwe",
         'consultation-desc' => "Hura n’ abaganga b’inzobere utavuye mu rugo, uburyo buguha umutuzo n’umtekano kandi ukabona ubuvuzi bwo ku rwego rwo hejuru igihe cyose ubukeneye.",
 
@@ -52,6 +55,9 @@
         'vitaway-for-mental-title' => "kubw' ubuzima bwiza bwo mu mutwe",
         'vitaway-for-mental-desc' => "Guteza imbere ubuzima bwo mu mutwe hamwe n' inzobere.",
 
+        'vitaway-for-hypertension-title' => "Kubw' Umuvuduko Ukabije w'amaraso",
+        'vitaway-for-hypertension-desc' => "Gutezimbere ubuzima bwumutima, kandi ubeho ubuzima buringaniye udashingiye kumiti gusa",
+
         'programs-title' => "Ni gute gahunda y' igisukari ikora ku ba kiriya bacu?",
         'programs-desc' => "Gahunda yacu ifasha abantu kwita kubuzima bwabo bivura igisukari.",
 
@@ -61,6 +67,9 @@
         'programs-food-groups-title' => "Itsinda ry'imirire",
         'programs-food-groups-desc' => "Inama zacu zikora kuri byose uhereye ku ngano y' amafunguro ukeneye, yaba ibinure, imyunyu, amasukari ndetse n'amazi ndetse no kugumana imbaraga.",
 
-        'programs-well-being-title' => "Health & Well-Being",
-        'programs-well-being-desc' => "The proportions of food groups been updated to take into account the new dietary recommendations for more fiber and less sugar.",
+        'programs-well-being-title' => "Ubuzima & Kubaho neza",
+        'programs-well-being-desc' => "Umubare wamatsinda yibiribwa yaravuguruwe kugirango uzirikane ibyifuzo bishya byimirire ya fibre nyinshi hamwe nisukari nke.",
+
+        'programs-life-stage-title' => "Ubuzima & Icyiciro cyubuzima",
+        'programs-life-stage-desc' => "Inama zacu zirimo ibintu byose uhereye kubona ibiryo bikwiye byokurya byiza no kugabanya ibinure, umunyu nisukari kugeza hydrated no gukomeza gukora.",
     ];

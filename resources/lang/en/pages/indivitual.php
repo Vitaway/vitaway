@@ -13,10 +13,19 @@
         |
         */
 
-        'hero-title' => "Universal Access To Virtual Health Services for Enhanced Well-being",
-        'hero-desc' => "Virtual healthcare solutions to empower individuals from all walks of life, promoting overall well-being and health equity.",
-        'her-get-started' => "Get Started",
-        'hero-download' => "Download the App",
-        'hero-paterners' => "Some Of Our Paterners",
+        'hero-title' => "Transform  your life and Mindset shift for Optimal health",
+        'hero-desc' => "Discover how changing your mindset can be the key to improving your overall health and well-being. Explore the power of a positive perspective in this journey toward a healthier you.",
+        'her-get-started' => "It takes only one minute to see if Vitaway is right for you and at no cost. ",
 
+        'categories-changes-title' => "Small steps, long-term change",
+        'categories-changes-desc' => "Vitaway Helps you create healthy routines that last for years, not just weeks at a time.",
+
+        'categories-joy-title' => "Find your Joy",
+        'categories-joy-desc' => "Try new things you’ll actually enjoy, rather that avoiding foods you” Can’t eat” or things you “ shouldn’t do “",
+
+        'categories-care-title' => "Virtual Care, Uniquely yours",
+        'categories-changes-desc' => "When life happens, Vitaway helps you stay on track with a plan that constantly adapts to meet your needs.",
+
+        'condition-hero-title' => "With condition Virtual care programs, Vitaway provides everything you need to experience better health",
+        'condition-hero-desc' => "We’ve got everything you need to improve your health, from expert guidance to personalized solutions. Experience a healthier you, today.",
     ];
