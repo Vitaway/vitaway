@@ -87,8 +87,20 @@
                 <a href="{{ route('contact') }}" class="rounded-lg bg-[#3268b9] py-2.5 px-7 text-base text-white hover:bg-opacity-90 font-patua font-normal" style="z-index: 999">{{ __('lang.contact') }}</a>
             </div>
 
-           <div><mobile-navbar /></div>
-
+           <div>
+                <mobile-navbar
+                    home="{{ __('lang.home') }}"
+                    about_us="{{ __('lang.about-us') }}"
+                    our_team="{{ __('lang.our-team') }}"
+                    faqs="{{ __('lang.faqs') }}"
+                    who_we_serve="{{ __('lang.who-we-serve') }}"
+                    for_indivitual="{{ __('lang.for-indivitual') }}"
+                    download="{{ __('lang.download') }}"
+                    pricing="{{ __('lang.pricing') }}"
+                    contact="{{ __('lang.contact') }}"
+                    blogs="{{ __('lang.blogs') }}"
+                />
+            </div>
             <!-- ***** Menu End ***** -->
           </nav>
         </div>

@@ -19,7 +19,7 @@
         'home' => "Ahabanza",
         'who-we-serve' => "Abo dukorera",
         'for-indivitual' => "Ku Bwawe",
-        'download' => "Dawunilodiga",
+        'download' => "Dawunilodinga",
         'pricing' => "Ibiciro",
         'contact' => "Tuvugishe",
         'blogs' => "Amakuru",

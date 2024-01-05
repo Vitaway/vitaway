@@ -44,7 +44,7 @@
         'consultation-wellness-plan-desc' => "Our nutrition services team includes doctors, wellness practitioners and nutritionists. These specialists work together with you to help you create a realistic, achievable plan for changing old habits in order to accomplish your nutrition goals",
 
         'virtual-title' => 'Virtual-first care to address expensive chronic conditions found across your population',
-        'virtual-desc' => "Dukoresha ubumenyi n'ikoronabuhanga tukazana impinduka, tuba nkoreneza bandebereho binyuze mu ikiranabuhanga rigezweho, ikusanyamakuru, na serivisi z'ubuvuzi zigezweho.",
+        'virtual-desc' => "Using science and technology to bring about change, we improve patient care through the latest technology, data collection, and advanced medical services.",
 
         'vitaway-for-diabetes-title' => "Vitaway for Diabetes",
         'vitaway-for-diabetes-desc' => "A specially formulated supplement designed to complement your health journey",

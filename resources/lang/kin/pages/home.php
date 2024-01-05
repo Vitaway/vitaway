@@ -16,7 +16,7 @@
         'hero-title' => "Uburyo bw’iyakure bukwegereza serivisi z’ubuzima kugira ngo ugere ku mibereho myiza.",
         'hero-desc' => "uburyo bw’iyakure buguha ibisubizo muri serivisi z’ubuzima aho waba uva hose, bugamije guteza imbere ubuzima bwawe nkuko bigukwiriye.",
         'her-get-started' => "tangira urugendo",
-        'hero-download' => "Danilodinga apurikasiyo",
+        'hero-download' => "Dawunilodinga apurikasiyo",
         'hero-paterners' => "abafatanyabikorwa bacu",
 
         'learn-more' => "Wige byinshi",
@@ -44,7 +44,7 @@
         'consultation-wellness-plan-desc' => "Itsinda rishinzwe serivici zacu z'imirire rigizwe n'abaganga binzobere, abanyamirire n'ab'ubugororangingo. Izi nararibonye zikorana nawe zikagufasha gukora gahunda ishoboka yo guhindura imikorere n'imyifatire  kugira ngo ugere nkuntego zawe.",
 
         'virtual-title' => "Ubufasha bw'iyakure bufasha mu ndwara zidakira",
-        'virtual-desc' => "dukoresha ubumenyi n'ikoronabuhanga tukazana impinduka, tuba nkoreneza bandebereho binyuze mu ikiranabuhanga rigezweho, ikusanyamakuru, na serivisi z'ubuvuzi zigezweho.",
+        'virtual-desc' => "Dukoresha ubumenyi n'ikoronabuhanga tukazana impinduka, tuba nkoreneza bandebereho binyuze mu ikiranabuhanga rigezweho, ikusanyamakuru, na serivisi z'ubuvuzi zigezweho.",
 
         'vitaway-for-diabetes-title' => "Vitaway ku Gisukari",
         'vitaway-for-diabetes-desc' => "uburyo buteguwe  neza bukongerera imbaraga mu rugendo rw' ubuzima.",
