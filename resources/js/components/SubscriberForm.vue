@@ -23,16 +23,22 @@
             async subscribe() {
                 this.isLoading = true;
 
-                axios.post('/api/suscribe', { email: this.payload.email })
-                    .then((response) => {
-                        this.responseMessage = response.data.message;
-                        this.responseType = "text-green-500";
-                        this.isLoading = false;
-                    }).catch((error) => {
-                        this.responseMessage = "Unable to save the email, pls try again (use another email)";
-                        this.responseType = "text-red-500";
-                        this.isLoading = false;
-                    });
+                if(this.payload.email == "") {
+                    this.responseMessage = "Email field is required";
+                    this.responseType = "text-red-500";
+                    this.isLoading = false;
+                } else {
+                    axios.post('/api/suscribe', { email: this.payload.email })
+                        .then((response) => {
+                            this.responseMessage = response.data.message;
+                            this.responseType = "text-green-500";
+                            this.isLoading = false;
+                        }).catch((error) => {
+                            this.responseMessage = "Unable to save the email, pls try again (use another email)";
+                            this.responseType = "text-red-500";
+                            this.isLoading = false;
+                        });
+                }
             }
         }
     }

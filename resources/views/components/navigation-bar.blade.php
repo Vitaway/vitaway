@@ -108,3 +108,7 @@
     </div>
 </header>
 <!-- ***** Header Area End ***** -->
+
+<div>
+    <newsletter-model />
+</div>

@@ -3,9 +3,12 @@
     namespace App\Http\Controllers;
 
     use App\Http\Requests\ContactRequest;
+    use App\Mail\NewSubscriber;
+    use App\Mail\NotifyNewSubscriber;
     use App\Models\Contact;
     use App\Models\Subscriber;
     use Illuminate\Http\Request;
+    use Illuminate\Support\Facades\Mail;
 
     class ContactController extends Controller {
         public function store(ContactRequest $request) {
@@ -16,11 +19,23 @@
             ], 201);
         }
 
+        /**
+         * Store newly subscriber and send Email notification
+         *
+         * @param Request $request
+         * @return Response
+         */
         public function suscribe(Request $request) {
-            Subscriber::create(['email' => $request->email]);
+            return tryCatch(function() use ($request) {
+                Subscriber::create(['email' => $request->email]);
+                Mail::to(env('MAIL_FROM_ADDRESS'))->send(new NotifyNewSubscriber());
+                Mail::to($request->email)->send(new NewSubscriber());
 
-            return response()->json([
-                'message' => "Welcome to the Vitaway Community"
-            ], 201);
+                return response()->json([
+                    'message' => "Welcome to the Vitaway Community"
+                ], 201);
+            }, fn() => response()->json([
+                'message' => "Welcome to Vitaway - Your Gateway to Health and Wellness!"
+            ], 201));
         }
     }

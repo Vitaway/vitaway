@@ -78,6 +78,12 @@ return [
                 'log',
             ],
         ],
+
+        'mailersend' => [
+            'transport' => 'mailersend',
+        ],
+        
+        'from' => ['address' => 'info@vitaway.org', 'name' => 'Vitaway']
     ],
 
     /*
