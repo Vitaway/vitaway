@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/healthy-eating.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="canonical" href="{{ route('food-groups.dairy') }}">
 @stop
 
 @section('content')

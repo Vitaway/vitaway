@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\User;
+    use App\Models\User;
 
     if(!function_exists('tryCatch')){
         /**
@@ -32,5 +32,15 @@ use App\Models\User;
          */
         function socialMedias($userId) {
             return User::where('id', $userId)->first()->socialMedia;
+        }
+    }
+
+    if (! function_exists('canonical_url')) {
+        function canonical_url() {
+            if (\Illuminate\Support\Str::startsWith($current = url()->current(), 'https://www')) {
+                return str_replace('https://www.', 'https://', $current);
+            }
+
+            return str_replace('https://', 'https://www.', $current);
         }
     }

@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="/css/navigation-bar.css">
         <link rel="stylesheet" href="/css/pages/about.css">
         <link rel="stylesheet" href="/css/footer.css">
-        <link rel="canonical" href="{{ route('about') }}">
     @stop
 
     @section('content')

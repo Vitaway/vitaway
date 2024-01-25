@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/who_we_serve.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="canonical" href="{{ route('who-we-serve') }}">
 @stop
 
 @section('content')

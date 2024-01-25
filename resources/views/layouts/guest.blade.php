@@ -27,6 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    {{-- prevent duplicate content issues by specifying the preferred URL  --}}
+    <link rel="canonical" href="{{ canonical_url() }}">
+    
     @yield('styles')
 
     @yield('header-scripts')

@@ -18,16 +18,12 @@
     <meta name="twitter:title" content="Healthcare Solutions From all walks of Life">
     <meta name="twitter:description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
     <meta name="twitter:image" content="{{ env('APP_URL')."/images/icon.png" }}">
-
-    {{-- prevent duplicate content issues by specifying the preferred URL  --}}
-    <link rel="canonical" href="{{ env('APP_URL') }}">
 @stop
 
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/index_page.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="canonical" href="{{ route('home') }}">
 @stop
 
 @section('content')

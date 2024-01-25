@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/healthy-eating.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="canonical" href="{{ route('food-groups.vegetables') }}">
 @stop
 
 @section('content')
@@ -130,7 +129,7 @@
                     </p>
                     <h3 class="mt-4 font-patua font-normal text-lg leading-6 mb-2">Go for whole grains – ¼ of your plate</h3>
                     <p class="text-gray-800 leading-6 text-justify">
-                        Whole and intact grains—whole wheat, barley, wheat berries, 
+                        Whole and intact grains—whole wheat, barley, wheat berries,
                         quinoa, oats, brown rice, and foods made with them, such as
                         whole wheat pasta—have a milder effect on blood sugar and
                         insulin than white bread, white rice, and other refined grains.
