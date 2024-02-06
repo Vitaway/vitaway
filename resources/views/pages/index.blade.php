@@ -5,7 +5,7 @@
 @section('metas')
     <meta name="robots" content="index, follow">
     <meta name="description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
-    <meta name="keywords" content="vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
+    <meta name="keywords" content="vitaway, Vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
 
     {{-- Open Graph Meta Tags (for social media): --}}
     <meta property="og:title" content="Healthcare Solutions From all walks of Life">
