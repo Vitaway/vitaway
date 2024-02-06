@@ -108,7 +108,7 @@
                     <div class="col-lg-6 mb-lg-0 mb-4">
                         <div class="copyright text-center text-sm text-muted text-lg-start">
                             © 2023, made with <i class="fa fa-heart"></i> by
-                            <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Manirabona Patience</a>
+                            <a href="https://www.creative-tim.com" class="font-weight-bold" rel="noopener" target="_blank">Manirabona Patience</a>
                             for a better web.
                         </div>
                     </div>

@@ -100,3 +100,5 @@
             Route::get('/pregnancy', [HealthEatingController::class, 'pregnancy'])->name('life-stages.pregnancy');
         });
     });
+
+    Route::fallback(fn() => view('pages.404') );

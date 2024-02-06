@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <a href="https://wa.me/250787279560" target="__blank" class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 279 560</a>
+                    <a href="https://wa.me/250787279560" rel="noopener" target="__blank" class="text-decoration-none text-body pe-3 font-patua font-normal" href=""><i class="bi bi-telephone me-2"></i>+250 787 279 560</a>
                     <span class="text-body">|</span>
-                    <a class="text-decoration-none text-body px-3 font-patua font-normal" target="__blank" href="mailto:info@vitaway.org"><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
+                    <a class="text-decoration-none text-body px-3 font-patua font-normal" rel="noopener" target="__blank" href="mailto:info@vitaway.org"><i class="bi bi-envelope me-2"></i>info@vitaway.org</a>
 
                     <span class="text-body top-header-about-links">|</span>
                     <a href="{{ route('about') }}" class="text-decoration-none top-header-about-links text-body px-3 font-patua font-normal" href=""><i class="bi bi-envelope me-2"></i>{{ __('lang.about-us') }}</a>
@@ -18,19 +18,19 @@
             </div>
             <div class="col-md-6 text-center text-lg-end top-header-social-links">
                 <div class="d-inline-flex align-items-center">
-                    <a class="text-body px-2" target="__blank" href="https://www.facebook.com/VitawayEClinic/">
+                    <a class="text-body px-2" rel="noopener" target="__blank" href="https://www.facebook.com/VitawayEClinic/">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a class="text-body px-2" target="__blank" href="https://twitter.com/VitawayCare">
+                    <a class="text-body px-2" rel="noopener" target="__blank" href="https://twitter.com/VitawayCare">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a class="text-body px-2" target="__blank" href="https://www.linkedin.com/in/emmanuel-hakuzimana-123309188/?originalSubdomain=rw">
+                    <a class="text-body px-2" rel="noopener" target="__blank" href="https://www.linkedin.com/in/emmanuel-hakuzimana-123309188/?originalSubdomain=rw">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a class="text-body px-2" target="__blank" href="https://www.instagram.com/">
+                    <a class="text-body px-2" rel="noopener" target="__blank" href="https://www.instagram.com/">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="text-body ps-2 mr-3" target="__blank" href="https://www.youtube.com/@vitawaye-clinic6903">
+                    <a class="text-body ps-2 mr-3" rel="noopener" target="__blank" href="https://www.youtube.com/@vitawaye-clinic6903">
                         <i class="fab fa-youtube"></i>
                     </a>
                     <span class="text-body top-header-about-links">|</span>

@@ -11,13 +11,7 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <style>
-        @media (max-width: 720px) {
-            .section-title-content {
-                width: 88vw;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/pages/download.css">
 @stop
 
 @section('content')

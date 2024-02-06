@@ -11,13 +11,7 @@
 @section('styles')
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <style>
-        @media (max-width: 720px) {
-            .team-section {
-                padding: 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/pages/meet-team.css">
 @stop
 
 @section('content')

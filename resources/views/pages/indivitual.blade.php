@@ -69,32 +69,7 @@
               </div>
             </div>
         </div>
-
-        <!--Boxs section -->
-        <style>
-            .card-body .icon {
-                margin-left: 0px;
-                margin-bottom: 30px;
-                background-repeat: no-repeat;
-                width: 100px;
-                height: 100px;
-                transition: all 0.3s;
-                border-radius: 50%;
-                background-color: #f5f5f5;
-                display: inline-block;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .card-body .icon img{
-                width: 70px;
-                height: 70px;
-                object-fit: fill;
-                transition: all 0.3s;
-            }
-        </style>
-
+        
         <section class="p-5">
             <div class="container">
                 <div class="row text-center g-4">

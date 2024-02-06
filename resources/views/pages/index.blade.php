@@ -4,8 +4,8 @@
 
 @section('metas')
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
-    <meta name="keywords" content="vitaway, Vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
+    <meta name="description" content="Empowering Rwandans and worldwide, particularly youth, with holistic healthcare via digital solutions. Focused on promoting nutrition awareness and combating NCDs.">
+    <meta name="keywords" content="rwanda, diabetes, life, vitaway, Vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
 
     {{-- Open Graph Meta Tags (for social media): --}}
     <meta property="og:title" content="Healthcare Solutions From all walks of Life">
@@ -39,7 +39,7 @@
                   <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="row">
                         <div class="col-lg-12 hero-title font-patua font-normal">
-                            <h2 class="wow fadeIn">{{ __('pages/home.hero-title') }}</h2>
+                            <h1 class="wow fadeIn">{{ __('pages/home.hero-title') }}</h1>
                             <p class="wow fadeIn">{{ __('pages/home.hero-desc') }}</p>
                         </div>
 
@@ -65,17 +65,17 @@
                             <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
                             </h6>
                             <div class="flex items-center">
-                                <a href="https://www.minict.gov.rw/" target="__blank" class="mr-4 w-80 py-3">
+                                <a href="https://www.minict.gov.rw/" rel="noopener" target="__blank" class="mr-4 w-80 py-3">
                                     <div>
                                         <img src="https://amarebe.com/wp-content/uploads/2022/11/MINICT-1.png" alt="MINICT" />
                                     </div>
                                 </a>
-                                <a href="https://www.undp.org/rwanda" target="__blank" class="mr-4 w-40 py-3">
+                                <a href="https://www.undp.org/rwanda" rel="noopener" target="__blank" class="mr-4 w-40 py-3">
                                     <div>
                                         <img src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-blue.svg" alt="UNDP" />
                                     </div>
                                 </a>
-                                <a href="https://tefconnect.net" target="__blank" class="mr-4 w-full py-3">
+                                <a href="https://tefconnect.net" rel="noopener" target="__blank" class="mr-4 w-full py-3">
                                     <div>
                                         <img src="https://tefconnect.net/static/media/logo_new.4eee159d.webp" alt="tefconnect" />
                                     </div>
