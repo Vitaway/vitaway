@@ -7,7 +7,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-CP4GQJC3BZ');
     </script>
 
@@ -42,7 +41,6 @@
     <link rel="canonical" href="{{ canonical_url() }}">
 
     @yield('styles')
-
     @yield('header-scripts')
 </head>
 <body>
