@@ -4,6 +4,8 @@
 
     use App\Http\Requests\ContactRequest;
     use App\Mail\NewSubscriber;
+    use App\Mail\NotifyNewContact;
+    use App\Mail\NotifyNewContactToApp;
     use App\Mail\NotifyNewSubscriber;
     use App\Models\Contact;
     use App\Models\Subscriber;
@@ -13,6 +15,9 @@
     class ContactController extends Controller {
         public function store(ContactRequest $request) {
             Contact::create($request->validated());
+
+            Mail::to(env('MAIL_FROM_ADDRESS'))->send(new NotifyNewContactToApp($request->validated()));
+            Mail::to($request->email)->send(new NotifyNewContact());
 
             return response()->json([
                 'message' => "Thanks, We Appreciate Your Connection"
@@ -28,6 +33,7 @@
         public function suscribe(Request $request) {
             return tryCatch(function() use ($request) {
                 Subscriber::create(['email' => $request->email]);
+
                 Mail::to(env('MAIL_FROM_ADDRESS'))->send(new NotifyNewSubscriber());
                 Mail::to($request->email)->send(new NewSubscriber());
 
