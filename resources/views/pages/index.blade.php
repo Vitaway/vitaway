@@ -4,20 +4,20 @@
 
 @section('metas')
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Empowering Rwandans and worldwide, particularly youth, with holistic healthcare via digital solutions. Focused on promoting nutrition awareness and combating NCDs.">
-    <meta name="keywords" content="rwanda, diabetes, life, vitaway, Vitaway, vitaway.org, vitaway e-clinic, e-clinic, vitaway rwanda, digital healthcare, platform, multi-disciplinary, health practices, equipping, young, NCDs, nutritional, education">
+    <meta name="description" content="Empowering Rwandans and youth globally with holistic healthcare via digital solutions. Focused on nutrition awareness and combating NCDs.">
+    <meta name="keywords" content="Rwanda, healthcare, digital health, nutrition, NCDs, youth health, Vitaway, e-clinic, health education, healthy lifestyle">
 
     {{-- Open Graph Meta Tags (for social media): --}}
-    <meta property="og:title" content="Healthcare Solutions From all walks of Life">
-    <meta property="og:description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
-    <meta property="og:image" content="{{ env('APP_URL')."/images/icon.png" }}">
+    <meta property="og:title" content="Holistic Healthcare Solutions">
+    <meta property="og:description" content="Rwandan digital healthcare platform promoting nutrition awareness and combating NCDs through multi-disciplinary health practices.">
+    <meta property="og:image" content="{{ env('APP_URL').'/images/icon.png' }}">
     <meta property="og:url" content="{{ env('APP_URL') }}">
 
     {{-- Twitter Card Meta Tags (for Twitter): --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Healthcare Solutions From all walks of Life">
-    <meta name="twitter:description" content="Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young ones, with the knowledge and skills on healthy nutrition to improve awareness in food choice and healthy lifestyle, and to use digital technology in raising NCDs awareness and nutritional education.">
-    <meta name="twitter:image" content="{{ env('APP_URL')."/images/icon.png" }}">
+    <meta name="twitter:title" content="Holistic Healthcare Solutions">
+    <meta name="twitter:description" content="Rwandan digital healthcare platform promoting nutrition awareness and combating NCDs through multi-disciplinary health practices.">
+    <meta name="twitter:image" content="{{ env('APP_URL').'/images/icon.png' }}">
 @stop
 
 @section('styles')
