@@ -24,6 +24,46 @@
     <link rel="stylesheet" href="/css/navigation-bar.css">
     <link rel="stylesheet" href="/css/pages/index_page.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        @media (min-width: 300px) {
+            .hero-title-text {
+                font-size: 2.2rem !important;
+                line-height: 40px !important;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hero-title-text {
+                font-size: 2.7rem !important;
+                line-height: 50px !important;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .hero-title-text {
+                font-size: 36px !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .hero-title-text {
+                font-size: 3.5rem !important;
+                line-height: 70px !important;
+            }
+        }
+
+        /* Partnership */
+        .partner-logo {
+            @apply flex justify-center items-center m-2 text-center transition-transform duration-300 ease-in-out;
+            height: 150px; /* Set a fixed height for all logos */
+            background-color: yellow;
+        }
+
+        .partner-logo img {
+            max-height: 100%; /* Ensure the image fits within the fixed height */
+            max-width: 100%;
+        }
+    </style>
 @stop
 
 @section('content')
@@ -39,8 +79,8 @@
                   <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="row">
                         <div class="col-lg-12 hero-title font-patua font-normal">
-                            <h1 class="wow fadeIn">{{ __('pages/home.hero-title') }}</h1>
-                            <p class="wow fadeIn">{{ __('pages/home.hero-desc') }}</p>
+                            <h1 class="wow fadeIn hero-title-text text-white">{{ __('pages/home.hero-title') }}</h1>
+                            <p class="wow fadeIn text-white">{{ __('pages/home.hero-desc') }}</p>
                         </div>
 
                         <div class="col-lg-12 more-detail-buttons ">
@@ -57,30 +97,6 @@
                                     {{ __('pages/home.hero-download') }}
                                 </button>
                             </a>
-                        </div>
-
-                        <div class="clients pt-16">
-                            <h6 class="mb-2 flex items-center text-xs font-patua font-normal text-body-color">
-                                {{ __('pages/home.hero-paterners') }}
-                            <span class="ml-2 inline-block h-[1px] w-8 bg-body-color"></span>
-                            </h6>
-                            <div class="flex items-center">
-                                <a href="https://www.minict.gov.rw/" rel="noopener" target="__blank" class="mr-4 w-80 py-3">
-                                    <div>
-                                        <img src="https://amarebe.com/wp-content/uploads/2022/11/MINICT-1.png" alt="MINICT" />
-                                    </div>
-                                </a>
-                                <a href="https://www.undp.org/rwanda" rel="noopener" target="__blank" class="mr-4 w-40 py-3">
-                                    <div>
-                                        <img src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-blue.svg" alt="UNDP" />
-                                    </div>
-                                </a>
-                                <a href="https://tefconnect.net" rel="noopener" target="__blank" class="mr-4 w-full py-3">
-                                    <div>
-                                        <img src="https://tefconnect.net/static/media/logo_new.4eee159d.webp" alt="tefconnect" />
-                                    </div>
-                                </a>
-                            </div>
                         </div>
                     </div>
                   </div>
@@ -452,7 +468,7 @@
                                         {{ __('pages/home.programs-life-stage-title') }}
                                     </h4>
                                     <p class="text-gray-600 font-merri font-semibold leading-6 text-md">
-                                        {{ __('pages/home.programs-life-stage-desc') }}
+                                        {{ __('pages/home.programs-well-being-desc') }}
                                     </p>
                                 </div>
                             </div>
@@ -482,7 +498,26 @@
         </div>
     </div>
 
+    {{-- Partnership section --}}
+    <section class="bg-white">
+        <div class="py-8 lg:py-16 mx-auto max-w-screen-xl">
+            <h2 style="line-height: 2.6rem; margin-bottom: 20px !important" class="mb-3 text-3xl text-dark sm:text-4xl md:text-[40px] font-patua font-medium leading-9">
+                Some of our partners
+            </h2>
+
+            <div class="grid items-center justify-center grid-cols-2 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                <a style="width: 50px !important; background: yellow" class="flex justify-center items-center" href="https://www.undp.org/rwanda" rel="noopener" target="__blank" class="partner-logo">
+                    <img src="https://www.undp.org/sites/g/files/zskgke326/files/2022-04/undp-logo-blue.svg" alt="UNDP" class="img-fluid !w-30">
+                </a>
+                <a class="flex justify-center items-center" href="https://www.minict.gov.rw/" rel="noopener" target="__blank" class="partner-logo">
+                    <img src="https://amarebe.com/wp-content/uploads/2022/11/MINICT-1.png" alt="MINICT" class="img-fluid">
+                </a>
+                <a class="flex justify-center items-center" href="https://tefconnect.net" rel="noopener" target="__blank" class="partner-logo">
+                    <img src="https://tefconnect.net/static/media/logo_new.4eee159d.webp" alt="tefconnect" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </section>
+
     <x-footer />
 @stop
-
-@section('scripts') @stop

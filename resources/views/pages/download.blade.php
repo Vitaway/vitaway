@@ -48,10 +48,10 @@
                                 </p>
                                 <hr class="my-8 border-gray-600" />
                                 <div class="flex items-center mb-3 sm:justify-left">
-                                    <a href="https://www.apple.com/app-store/" class="mr-3 transition duration-300 hover:shadow-lg">
+                                    <a href="https://play.google.com/store/search?q=vitaway&c=apps" class="mr-3 transition duration-300 hover:shadow-lg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1000px-Download_on_the_App_Store_Badge.svg.png" class="object-cover object-top w-32 mx-auto" alt="Download Vitaway From App Store" />
                                     </a>
-                                    <a href="https://play.google.com/store/games?hl=en&gl=US" class="transition duration-300 hover:shadow-lg">
+                                    <a href="https://play.google.com/store/search?q=vitaway&c=apps" class="transition duration-300 hover:shadow-lg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1000px-Google_Play_Store_badge_EN.svg.png" class="object-cover object-top w-32 mx-auto" alt="Download Vitaway From Google Play Store" />
                                     </a>
                                 </div>
