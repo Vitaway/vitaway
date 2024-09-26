@@ -69,12 +69,6 @@
                             <span class="font-patua font-medium">Kiny</span>
                         </div>
                     </form>
-                    <script>
-                        function changeLocale(obj) {
-                            const localeForm = document.getElementById('localeForm');
-                            localeForm.submit();
-                        }
-                    </script>
                 </div>
             </div>
         </div>

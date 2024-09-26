@@ -42,6 +42,13 @@
 
     @yield('styles')
     @yield('header-scripts')
+
+    <script>
+        function changeLocale(obj) {
+            const localeForm = document.getElementById('localeForm');
+            localeForm.submit();
+        }
+    </script>
 </head>
 <body>
     <main id="app">
