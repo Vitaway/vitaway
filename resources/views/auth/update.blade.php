@@ -48,7 +48,7 @@
                         current_caption="{{ $blog->caption }}"
                         current_category="{{ $blog->blogCategory->name }}"
                         current_content="{{ $blog->blogContent->contents }}"
-                        blog_id="{{ $blog->id }}"
+                        blog_id="{{ $blog->slug }}"
                     />
                 </div>
             </div>

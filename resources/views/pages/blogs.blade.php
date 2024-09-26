@@ -50,24 +50,23 @@
                     <div class="col-lg-4">
                         <div class="post-entry d-block small-post-entry-v">
                             <div class="thumbnail">
-                                <div class="h-[250px] rounded-lg" href="{{ route('single.blog', ['blog' => $blog->id]) }}">
+                                <div class="h-[250px] rounded-lg" href="{{ route('single.blog', ['blog' => $blog->slug]) }}">
                                     <img src="{{ $blog->blogMedia->graphic }}" alt="{{ $blog->title }}" alt="{{ $blog->title }}" class="w-full h-full rounded-lg">
                                 </div>
                             </div>
                             <div class="post-content mt-4">
                                 <div class="post-meta mb-1">
-                                    <a href="{{ route('single.blog', ['blog' => $blog->id]) }}" class="category capitalize font-patua font-normal">{{ $blog->blogCategory->name }}</a> —
+                                    <a href="{{ route('single.blog', ['blog' => $blog->slug]) }}" class="category capitalize font-patua font-normal">{{ $blog->blogCategory->name }}</a> —
                                     <span class="date">{{ $blog->created_at->diffForHumans() }}</span>
                                 </div>
                                 <h2 class="heading mb-3">
-                                    <a class="font-patua font-normal text-2xl" href="{{ route('single.blog', ['blog' => $blog->id]) }}">{{ $blog->title }}</a>
+                                    <a class="font-patua font-normal text-2xl" href="{{ route('single.blog', ['blog' => $blog->slug]) }}">{{ $blog->title }}</a>
                                 </h2>
                                 <p class="trancate block line-clamp-3 font-merri font-normal leading-7 text-gray-600" style="display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">{{ $blog->caption }}</p>
                             </div>
                         </div>
                     </div>
                 @endforeach
-
             </div>
         </div>
     </div>

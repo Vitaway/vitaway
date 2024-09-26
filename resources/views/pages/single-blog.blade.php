@@ -12,14 +12,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ env('APP_URL').'/blogs/'.$blog->id }}">
+    <meta property="og:url" content="{{ env('APP_URL').'/blogs/'.$blog->slug }}">
     <meta property="og:title" content="{{ $blog->title }}">
     <meta property="og:description" content="{{ $blog->caption }}">
     <meta property="og:image" content="{{ $blog->blogMedia->graphic }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ env('APP_URL').'/blogs/'.$blog->id }}">
+    <meta property="twitter:url" content="{{ env('APP_URL').'/blogs/'.$blog->slug }}">
     <meta property="twitter:title" content="{{ $blog->title }}">
     <meta property="twitter:description" content="{{ $blog->caption }}">
     <meta property="twitter:image" content="{{ $blog->blogMedia->graphic }}">

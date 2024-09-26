@@ -14,7 +14,8 @@
         protected $fillable = [
             'blog_category_id',
             'title',
-            'caption'
+            'caption',
+            'slug',
         ];
 
         /**

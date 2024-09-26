@@ -1,6 +1,7 @@
 <?php
 
     use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
     if(!function_exists('tryCatch')){
         /**
@@ -42,5 +43,11 @@
             }
 
             return str_replace('https://', 'https://www.', $current);
+        }
+    }
+
+    if (! function_exists('authUser')) {
+        function authUser() {
+            return Auth::user();
         }
     }

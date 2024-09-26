@@ -11,6 +11,7 @@
     use Illuminate\Support\Facades\Session;
     use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
     use Illuminate\Support\Facades\Auth;
+    use Illuminate\Support\Str;
 
     class BlogController extends Controller {
         public function index() {
@@ -28,7 +29,13 @@
          * @return \Illuminate\Http\Response
          */
         public function store(StoreBlogRequest $request) {
-            $blog = Auth::user()->blogs()->create($request->validated());
+            $blog = authUser()->blogs()->create([
+                'blog_category_id' => $request->blog_category_id,
+                'title' => $request->title,
+                'caption' => $request->caption,
+                'contents' => $request->contents,
+                'slug' => Str::slug(Str::random(10).'-'.$request->title),
+            ]);
 
             $uploadedFileUrl = Cloudinary::uploadFile(
                 $request->file('image')->getRealPath(),

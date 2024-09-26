@@ -41,7 +41,7 @@
     Route::get('/download', fn() => view('pages.download'))->name('get.download');
 
     Route::get('/blogs', [BlogController::class, 'homepage'])->name('blogs');
-    Route::get('/blogs/{blog}', [BlogController::class, 'show'])->name('single.blog');
+    Route::get('/blogs/{blog:slug}', [BlogController::class, 'show'])->name('single.blog');
     Route::get('/contact-us', fn () => view('pages.contact-us'))->name('contact');
     Route::post('/contacts', [ProfileController::class, 'storeContact'])->name('post.contact');
 
