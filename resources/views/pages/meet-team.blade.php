@@ -57,10 +57,9 @@
                 </div>
 
                 <div class="grid gap-5 mx-auto lg:grid-cols-2 lg:max-w-screen-xl mt-5">
-
                     <div class="grid sm:grid-cols-6">
                         <div class="relative w-full h-48 max-h-full rounded sm:h-auto sm:col-span-3 border-gray-200 border">
-                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-1.jpeg"
+                            <img class="absolute object-cover w-full h-full rounded" src="/images/Team/member-1.jpg"
                                 alt="Emmanuel HAKUZIMANA" />
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
@@ -224,7 +223,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

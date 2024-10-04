@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
+                    <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center cursor-pointer">
                         <x-application-logo />
                     </a>
 
