@@ -4,20 +4,23 @@
 
     use App\Http\Requests\ContactRequest;
     use App\Mail\NewSubscriber;
-    use App\Mail\NotifyNewContact;
-    use App\Mail\NotifyNewContactToApp;
     use App\Mail\NotifyNewSubscriber;
     use App\Models\Contact;
     use App\Models\Subscriber;
-    use Illuminate\Http\Request;
+    use App\Notifications\SendNewContact;
+    use App\Notifications\SendNewContactToAdmin;
+use App\Notifications\SendWelcomeToSubscriber;
+use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Mail;
+    use Illuminate\Support\Facades\Notification;
 
     class ContactController extends Controller {
         public function store(ContactRequest $request) {
-            Contact::create($request->validated());
+            $contact = Contact::create($request->validated());
 
-            Mail::to(env('MAIL_FROM_ADDRESS'))->send(new NotifyNewContactToApp($request->validated()));
-            Mail::to($request->email)->send(new NotifyNewContact());
+            $customEmail = env('MAIL_FROM_ADDRESS');
+            Notification::route('mail', $customEmail)->notify(new SendNewContactToAdmin($contact));
+            Notification::route('mail', $contact->email)->notify(new SendNewContact());
 
             return response()->json([
                 'message' => "Thanks, We Appreciate Your Connection"
@@ -32,10 +35,9 @@
          */
         public function suscribe(Request $request) {
             return tryCatch(function() use ($request) {
-                Subscriber::create(['email' => $request->email]);
+                $subscriber = Subscriber::create(['email' => $request->email]);
 
-                Mail::to(env('MAIL_FROM_ADDRESS'))->send(new NotifyNewSubscriber());
-                Mail::to($request->email)->send(new NewSubscriber());
+                Notification::route('mail', $subscriber->email)->notify(new SendWelcomeToSubscriber());
 
                 return response()->json([
                     'message' => "Welcome to the Vitaway Community"

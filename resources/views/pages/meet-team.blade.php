@@ -147,7 +147,7 @@
                         </div>
                         <div class="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-3">
                             <p class="text-lg font-bold text-gray-900">Steven SHIMIRWA</p>
-                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder && Head
+                            <p class="mb-4 text-md leading-5 text-gray-600 mt-2 font-patua font-normal">Co-founder & Head
                                 of Clinical Medicine</p>
                             <p class="text-gray-700 leading-6">
                                 Passion, dedication and innovation powered by collaboration and critical thinking enhances
